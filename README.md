@@ -1,5 +1,7 @@
 <img src="https://github.com/ElizaLo/Data-Science/blob/master/img/Banner_Data_Science.png" width="900" height="100">
 
+## Bayesian Modeling
+
 ## Main skills required by the data scientists vacancies
 
 > The [research](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/data-scientists-skills-2020-1/) made by **Faculty of Applied Sciences at UCU**. Link on main [article](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/).
