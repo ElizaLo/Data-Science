@@ -96,6 +96,7 @@
   
 **Bayesian modeling and related books**:
 
+- [ ] [The Elements of Statistical Learning: Data Mining, Inference, and Prediction.](https://web.stanford.edu/~hastie/ElemStatLearn/)
 - [ ] C.P. Robert: The Bayesian choice (advanced)
 - [ ] Gelman, Carlin, Stern, Rubin: Bayesian data analysis (nice easy older book)
 - [ ] Congdon: Applied Bayesian modelling; Bayesian statistical modelling (relatively nice books for references)
@@ -129,6 +130,20 @@
 - [Fast Greedy Equivalence Search (FGES) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Fast_Greedy_Equivalence_Search_(FGES)_Algorithm_for_Continuous_Variables)
 - [Greedy Fast Causal Inference (GFCI) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Greedy_Fast_Causal_Inference_(GFCI)_Algorithm_for_Continuous_Variables)
 - [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms)
+
+## Graph Neural Networks
+
+**Resources:**
+- [ ] [DGL library](https://www.dgl.ai/)
+  - [DGL notebook](https://docs.dgl.ai/tutorials/basics/1_first.html)
+  - [DGL tutorial from TheWebConf-20 (WWW)](https://www.dgl.ai/news/2020/05/24/webconf.html)
+- [ ] [Survey paper: D Bacciua et all (June 2020) A Gentle Introduction to Deep Learning for Graphs](https://arxiv.org/abs/1912.12693)
+- [ ] Survey paper: Z Wu et all (Dec 2019) A Comprehensive Survey on Graph Neural Networks 
+- [ ] [Series of posts](https://towardsdatascience.com/@michael.bronstein https://arxiv.org/abs/1901.00596)
+- [ ] "Introduction to Graph Neural Networks" Zhiyuan Liu, Jie Zhou
+- [ ] **Lectures:**
+  - Follow related workshops, they release keynote videos, e.g.: https://www.aminer.cn/dl4g_www2020
+  - Follow individual researchers, e.g.  Jure Leskovec,  Petar Veličković - a few lectures around "graph neural networks" online
 
 ## Certifications
 
