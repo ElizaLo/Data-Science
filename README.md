@@ -107,6 +107,8 @@
 - [ ] [Mathematical Statistics](https://books.google.cz/books/about/Mathematical_Statistics.html?id=_bEPBwAAQBAJ&source=kp_cover&redir_esc=y)
 - [ ] [Think Stats 2e](https://greenteapress.com/wp/think-stats-2e/)
 
+- [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
+
 ## Causal Inference
 
 **More online lectures, papers, books, etc. on Causality:**
@@ -144,6 +146,18 @@
 - [ ] **Lectures:**
   - Follow related workshops, they release keynote videos, e.g.: https://www.aminer.cn/dl4g_www2020
   - Follow individual researchers, e.g.  Jure Leskovec,  Petar Veličković - a few lectures around "graph neural networks" online
+  
+## Educational Platforms
+
+- [OpenEDU](https://openedu.ru)
+  
+## Interview Preparation
+
+- [Interview Strategies To Land A Data Science Job](https://analyticsindiamag.com/interview-strategies-to-land-a-data-science-job/)
+
+Ukrainian:
+
+- [Що має знати Data Scientist. Аналіз вакансій в Україні та Каліфорнії](https://dou.ua/lenta/articles/knowledge-for-data-scientist/?from=tg)
 
 ## Certifications
 
@@ -166,8 +180,18 @@
 ## Online Conferences, Meetups, Data Summer Schools
 
 - [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
+- [Webinars 2020, Computer Science UCU](https://www.youtube.com/playlist?list=PLr1w0qwTp9lDX4ZaS1iRvdWLJEzpBKjWz)
 
 ## Podcasts
 
 - [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
 - [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
+
+## Articles
+
+- [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
+
+## Telegram Chanels
+
+- [DataScience Digest](https://t.me/DataScienceDigest)
+  - Collection of the top articles, videos, events, books and jobs on Machine Learning, Deep Learning, NLP, Computer Vision and other aspects of Data Science.
