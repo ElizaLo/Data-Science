@@ -111,6 +111,8 @@
 
 ## Causal Inference
 
+> Correlation does not imply causation
+
 **More online lectures, papers, books, etc. on Causality:**
 
 - 4 lectures on causality by J.Peters (8 h), [MIT Statistics and Data Science Center, 2017](https://stat.mit.edu/news/four-lectures-causality/)
