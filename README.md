@@ -183,6 +183,9 @@ Ukrainian:
 
 - [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
 - [Webinars 2020, Computer Science UCU](https://www.youtube.com/playlist?list=PLr1w0qwTp9lDX4ZaS1iRvdWLJEzpBKjWz)
+- [Eastern European Machine Learning Summer School, 2020 (Deep Learning and Reinforcement Learning](https://www.eeml.eu/home)
+  - [Program](https://www.eeml.eu/program)
+  - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
 
 ## Podcasts
 
