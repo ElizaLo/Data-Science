@@ -163,3 +163,11 @@
 - [ ] [SAS Certified Big Data Professional](https://www.sas.com/en_us/certification/credentials/data-management/big-data-professional.html)
 - [ ] [SAS Certified Data Scientist](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/data-scientist.html)
 
+## Online Conferences, Meetups, Data Summer Schools
+
+- [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
+
+## Podcasts
+
+- [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
+- [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
