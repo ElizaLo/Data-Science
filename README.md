@@ -117,7 +117,8 @@
 
 - **Coursera:**
   - [A Crash Course in Causality: Inferring Causal Effects from Observational Data](https://www.coursera.org/learn/crash-course-in-causality)
-
+  
+- [Powerful Concepts in Social Science](https://www.youtube.com/c/ModUPowerfulConceptsinSocialScience/playlists?view=50&sort=dd&shelf_id=6) playlists, Duke
 - 4 lectures on causality by J.Peters (8 h), [MIT Statistics and Data Science Center, 2017](https://stat.mit.edu/news/four-lectures-causality/)
 - Causality tutorial by D.Janzing and S.Weichwald (4 h), [Conference on Cognitive Computational Neuroscience 2019](https://sweichwald.de/slides.html#ccn2019)
 - Course on causality by S.Bauer and B.Schölkopf (3 h), [Machine Learning Summer School 2020](https://www.youtube.com/watch?v=btmJtThWmhA)
@@ -137,6 +138,20 @@
 - [Fast Greedy Equivalence Search (FGES) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Fast_Greedy_Equivalence_Search_(FGES)_Algorithm_for_Continuous_Variables)
 - [Greedy Fast Causal Inference (GFCI) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Greedy_Fast_Causal_Inference_(GFCI)_Algorithm_for_Continuous_Variables)
 - [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms)
+
+**Casual Machine Learning (Papers):**
+- [Causal Decision Trees](https://arxiv.org/pdf/1508.03812.pdf), Jiuyong Li, Saisai Ma, Thuc Duy Le, Lin Liu and Jixue Liu, 2015
+- [Discovery of Causal Rules Using Partial Association](https://ieeexplore.ieee.org/document/6413892), 2012
+- [Causal Inference in Data Science From Prediction to Causation](https://www.datacouncil.ai/talks/causal-inference-in-data-science-from-prediction-to-causation), 2016
+
+**Experimental designs for casual learning:**
+- Matching
+- Incident user design
+- Active comparator
+- Instrumental variables estimation
+- Difference-in-differences
+- Regression discontinuity design
+- Modeling
 
 ## Graph Neural Networks
 
