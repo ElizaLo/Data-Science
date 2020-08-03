@@ -113,7 +113,10 @@
 
 > Correlation does not imply causation
 
-**More online lectures, papers, books, etc. on Causality:**
+**More online lectures, courses, papers, books, etc. on Causality:**
+
+- **Coursera:**
+  - [A Crash Course in Causality: Inferring Causal Effects from Observational Data](https://www.coursera.org/learn/crash-course-in-causality)
 
 - 4 lectures on causality by J.Peters (8 h), [MIT Statistics and Data Science Center, 2017](https://stat.mit.edu/news/four-lectures-causality/)
 - Causality tutorial by D.Janzing and S.Weichwald (4 h), [Conference on Cognitive Computational Neuroscience 2019](https://sweichwald.de/slides.html#ccn2019)
