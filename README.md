@@ -1,5 +1,7 @@
 <img src="https://github.com/ElizaLo/Data-Science/blob/master/img/Banner_Data_Science.png" width="900" height="100">
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElizaLo%2FData-Science&count_bg=%23090268&title_bg=%23B5B5BC&icon=datacamp.svg&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 ## Main skills required by the data scientists vacancies
 
