@@ -2,6 +2,9 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElizaLo%2FData-Science&count_bg=%23090268&title_bg=%23B5B5BC&icon=datacamp.svg&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
+## Table of Contents
+
+- 
 
 ## Main skills required by the data scientists vacancies
 
@@ -94,6 +97,43 @@
 5. Deepnets, hyperparameter optimization, visualization, interpretation.
 6. Machine learning models.
 
+## The Data Science Interview Preparation 
+
+### Typical interview construction
+
+1. Software Engineering (for more visit [Interview Preparation](https://github.com/ElizaLo/Interview-Preparation) Repository)
+2. Applied Statistics
+3. Machine Learning
+4. Data Wrangling, Manipulation and Visualisation
+
+### 2. Applied Statistics
+
+- **Descriptive statistics** (What distribution does my data follow, what are the modes of the distribution, the expectation, the variance)
+- **Probability theory** (Given my data follows a Binomial distribution, what is the probability of observing 5 paying customers in 10 click-through events)
+- **Hypothesis testing** (forming the basis of any question on A/B testing, T-tests, anova, chi-squared tests, etc).
+- **Regression** (Is the relationship between my variables linear, what are potential sources of bias, what are the assumptions behind the ordinary least squares solution)
+- **Bayesian Inference** (What are some advantages/disadvantages vs frequentist methods)
+
+1. [Introduction to Probability and Statistics](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/), an open course on everything listed above including questions and an exam to help you test your knowledge.
+2. [Machine Learning: A Bayesian and Optimization Perspective](https://www.amazon.co.uk/Machine-Learning-Optimization-Perspective-Developers/dp/0128015225) by Sergios Theodoridis. This is more a machine learning text than a specific primer on applied statistics, but the linear algebra approaches outlined here really help drive home the key statistical concepts on regression.
+
+- [Sample Quant Exam](https://www.gresearch.co.uk/wp-content/uploads/2019/12/Sample-Quant-Exa.pdf)
+
+## Interview Preparation (Useful Articles)
+
+### English
+
+- [Interview Strategies To Land A Data Science Job](https://analyticsindiamag.com/interview-strategies-to-land-a-data-science-job/)
+- [The Data Science Interview Blueprint](https://towardsdatascience.com/the-data-science-interview-blueprint-75d69c92516c)
+
+### Russian
+
+- [Собеседование по Data Science: что нужно знать и где это изучить](https://tproger.ru/translations/preparing-for-data-science-interview/)
+
+### Ukrainian:
+
+- [Що має знати Data Scientist. Аналіз вакансій в Україні та Каліфорнії](https://dou.ua/lenta/articles/knowledge-for-data-scientist/?from=tg)
+
 ## Bayesian Statistics
   
 **Bayesian modeling and related books**:
@@ -172,14 +212,6 @@
 ## Educational Platforms
 
 - [OpenEDU](https://openedu.ru)
-  
-## Interview Preparation
-
-- [Interview Strategies To Land A Data Science Job](https://analyticsindiamag.com/interview-strategies-to-land-a-data-science-job/)
-
-Ukrainian:
-
-- [Що має знати Data Scientist. Аналіз вакансій в Україні та Каліфорнії](https://dou.ua/lenta/articles/knowledge-for-data-scientist/?from=tg)
 
 ## Certifications
 
