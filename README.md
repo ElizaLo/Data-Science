@@ -2,6 +2,8 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElizaLo%2FData-Science&count_bg=%23090268&title_bg=%23B5B5BC&icon=datacamp.svg&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
+This repository continues to be constantly updated.
+
 ## Table of Contents
 
 - 
