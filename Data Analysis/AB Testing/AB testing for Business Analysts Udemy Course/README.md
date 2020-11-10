@@ -29,4 +29,6 @@ You can read more here:
 - [Unequal Variance](http://www.real-statistics.com/students-t-distribution/two-sample-t-test-uequal-variances/)
 - [Equal Variance](http://www.real-statistics.com/students-t-distribution/two-sample-t-test-equal-variances/)
 
+## Matched Pair Design Tests
+
 For a refresher on how to find and deal with outliers, go to the course: [Creating an Analytical Dataset](https://classroom.udacity.com/courses/ud977/lessons/56630bff-890b-4f55-ab05-26c65eafc4f0/concepts/a252a8ec-5e9c-4b55-8285-e0743d64e1b5#)
