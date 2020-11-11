@@ -32,3 +32,9 @@ You can read more here:
 ## Matched Pair Design Tests
 
 For a refresher on how to find and deal with outliers, go to the course: [Creating an Analytical Dataset](https://classroom.udacity.com/courses/ud977/lessons/56630bff-890b-4f55-ab05-26c65eafc4f0/concepts/a252a8ec-5e9c-4b55-8285-e0743d64e1b5#)
+
+### Pricing Elasticity
+
+"Price elasticity of demand is a measure of the relationship between a change in the quantity demanded of a particular good and a change in its price. Price elasticity of demand is a term in economics often used when discussing price sensitivity." Investopedia.
+
+If you'd like to read more about pricing elasticity, Investopedia has a good breakdown of the concept. Use this [link](https://www.investopedia.com/terms/p/priceelasticity.asp#ixzz4KDgCH9a0) - it's about a 3-4 minute read.
