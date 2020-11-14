@@ -55,9 +55,9 @@ Here is an overview of our plan:
 
 Use these two raw data files to create 3 files. These files are:
 
-    - Weekly store traffic data for A/B Trend Tool -> Produces our seasonality and trend indices to help us match our treatment and control stores
-    - Store list data for A/B Controls tool -> Produces which control stores to match with our treatment stores along with results from the A/B Trend Tool
-    - Sales data for A/B Analysis tool -> Produces the final results
+   - Weekly store traffic data for A/B Trend Tool -> Produces our seasonality and trend indices to help us match our treatment and control stores
+   - Store list data for A/B Controls tool -> Produces which control stores to match with our treatment stores along with results from the A/B Trend Tool
+   - Sales data for A/B Analysis tool -> Produces the final results
   
 3. Use the three data files to match our treatment and control stores to calculate the sales lift.
 
