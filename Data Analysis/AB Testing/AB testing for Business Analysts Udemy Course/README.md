@@ -38,3 +38,28 @@ For a refresher on how to find and deal with outliers, go to the course: [Creati
 "Price elasticity of demand is a measure of the relationship between a change in the quantity demanded of a particular good and a change in its price. Price elasticity of demand is a term in economics often used when discussing price sensitivity." Investopedia.
 
 If you'd like to read more about pricing elasticity, Investopedia has a good breakdown of the concept. Use this [link](https://www.investopedia.com/terms/p/priceelasticity.asp#ixzz4KDgCH9a0) - it's about a 3-4 minute read.
+
+> **Note:** It does say in the video 1 year plus a minimum of 6 periods, but if you look at the AB Trends tool documentation it indicates the rule of thumb is actually 12 periods (in addition to the year) if you are measuring weekly. Keep this in mind as we move forwards.
+
+[AB Trends Tool Documentation](https://help.alteryx.com/2018.3/AB_Trend.htm)
+
+### Overview
+
+Here is an overview of our plan:
+
+1. Prepare Data from two raw data files (found at the bottom of the page)
+    - Point of Sales Transaction file
+    - Treatment Stores file containing price levels and store identifiers
+
+2. Create three data files:
+
+Use these two raw data files to create 3 files. These files are:
+
+    - Weekly store traffic data for A/B Trend Tool -> Produces our seasonality and trend indices to help us match our treatment and control stores
+    - Store list data for A/B Controls tool -> Produces which control stores to match with our treatment stores along with results from the A/B Trend Tool
+    - Sales data for A/B Analysis tool -> Produces the final results
+  
+3. Use the three data files to match our treatment and control stores to calculate the sales lift.
+
+Below is a rough workflow of how to take the raw data files to create the necessary data in order to use the A/B Analysis tool. This is not a complete Alteryx workflow, but just a diagram to help you understand what we'll be doing for the rest of this lesson.
+
