@@ -1,5 +1,5 @@
 # A/B testing for Business Analysts 
-> [Udemy Course](https://www.udacity.com/course/ab-testing--ud979)
+> [Udacity Course](https://www.udacity.com/course/ab-testing--ud979)
 
 Alteryx is a data analytics software. You can find out more about [Alteryx here](https://www.alteryx.com/).
 
