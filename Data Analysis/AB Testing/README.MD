@@ -14,10 +14,19 @@
 - **Standard Deviation (Std-Dev).** A measure of variability, typically denoted by 𝜎.
 - **Standard Error (Std-Err).** For a statistic, it is the standard deviation of the sampling distribution of the sample statistic. For a mean of 𝑛 independent observations, it is 𝜎/ 𝑛 where 𝜎 is the estimated standard deviation.
 
+### What is important is to review the factors that impact the test:
+
 1. **Confidence level.** Commonly set to 95%, this level implies that 5% of the time we will incorrectly conclude that there is a difference when there is none (Type I error). All else being equal, increasing this level reduces our power (below).
   > Обычно установленный на 95%, этот уровень означает, что в 5% случаев мы ошибочно придем к выводу, что есть разница, когда ее нет (ошибка типа I). При прочих равных, повышение этого уровня снижает нашу силу.
 2. **Power.** Commonly desired to be around 80-95%, although not directly controlled. If the Null Hypothesis is false, i.e., there is a difference in the OECs, the power is the probability of determining that the difference is statistically significant. (A Type II error is one where we retain the Null Hypothesis when it is false.)
   > **Сила.** Обычно желательно около 80-95%, хотя напрямую не контролируется. Если нулевая гипотеза неверна, т. Е. Существует различие в OEC, мощность - это вероятность определения того, что разница статистически значима. (Ошибка типа II - это ошибка, при которой мы сохраняем нулевую гипотезу, когда она ложна.)
+3.  **Standard Error.** The smaller the Std-Err, the more powerful the test. There are three useful ways to reduce the Std-Err:
+
+    - The estimated OEC is typically a mean of large samples. As shown in Section, the Std-Err of a mean decreases proportionally to the square root of the sample size, so increasing the sample size, which usually implies running the experiment longer, reduces the Std-Err and hence increases the power.
+    - Use OEC components that have inherently lower variability, i.e., the Std-Dev, 𝜎, is smaller. For example, conversion probability (0-100%) typically has lower Std-Dev than number of purchase units (typically small integers), which in turn has a lower Std-Dev than revenue (real-valued).
+    - Lower the variability of the OEC by filtering out users who were not exposed to the variants, yet were still included in the OEC. For example, if you make a change to the checkout page, analyze only users who got to the page, as everyone else adds noise, increasing the variability.
+    
+4. The effect, or the difference in OECs for the variants. Larger differences are easier to detect, so great ideas will unlikely be missed. Conversely, if Type I or Type II errors are made, they are more likely when the effects are small.
 
 ## Courses
 
