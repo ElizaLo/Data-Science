@@ -1,6 +1,6 @@
 # Cloud Computing Basics (Cloud 101)
 
-> [Cloud Computing Basics (Cloud 101]()
+> [Cloud Computing Basics (Cloud 101)](https://www.coursera.org/learn/cloud-computing-basics)
 
 - ## Week 1
 
