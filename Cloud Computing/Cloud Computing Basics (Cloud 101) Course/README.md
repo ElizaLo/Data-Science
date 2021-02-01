@@ -1,6 +1,6 @@
 # Cloud Computing Basics (Cloud 101)
 
-> [Cloud Computing Basics (Cloud 101)](https://www.coursera.org/learn/cloud-computing-basics)
+> [Cloud Computing Basics (Cloud 101)](https://www.coursera.org/learn/cloud-computing-basics) on Coursera
 
 - ## Week 1
 
@@ -57,3 +57,34 @@ The public component of the Hybrid Cloud typically adds infrastructure as a serv
 [High Performance Computing (HPC)](https://en.wikipedia.org/wiki/Cloud_computing#HPC_cloud) is a computing strategy involving parallel processing. The parallel processing is enabled by a cluster. A cluster is a group of computers acting as one computer. The processing is shared by all the computers in the cluster. This strategy allows more calculations per second.
 
 [Big Data](https://en.wikipedia.org/wiki/Cloud_computing#Big_Data_cloud) is the concept of analyzing complex data sets. The data sets are so complex, that only powerful computing resources can identify trends and further analyze the data. Big data also require large amounts of storage for the complex data sets. Cloud computing can deliver the computing resources to storage and process Big Data's complex data sets.
+
+
+- ## Week 3
+
+## AWS and GCP
+
+Take a few minutes to read the following overview of AWS and look through the many services offered by Amazon Web Services:
+
+- [Overview of AWS](https://www.sumologic.com/insight/aws/)
+
+- [AWS Services Offered](https://aws.amazon.com/)
+
+To learn more about Google Cloud Platform, check out their YouTube Channel. Select and watch a few of the videos to delve a little deeper into GCP:
+
+- [Google Cloud Platform YouTube Channel](https://www.youtube.com/googlecloudplatform)
+
+For a list of what services GCP offers, read the following:
+
+- [Google Cloud Computing](https://cloud.google.com/gcp/?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-p-dr-1008076&utm_content=text-ad-lpsitelinkCCexp2-any-DEV_c-CRE_113120493247-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+%7C+US+%7C+en+%7C+Multi+~+Cloud+Platform-KWID_43700011014879364-kwd-10876442192&utm_term=KW_cloud%20platform-ST_cloud+platform&gclid=CjwKCAiAmNbwBRBOEiwAqcwwpdAp7_blpea3QRVc0nb-G_AmstutdPoPUxvTjxzxeLLnCL4HyKFrcxoCbeoQAvD_BwE)
+
+## What is Serverless Computing
+
+Take a few minutes to read the following article about serverless computing:
+
+[What is Serverless Computing?](https://www.cloudflare.com/learning/serverless/what-is-serverless/)
+
+## Distributed vs Decentralized
+
+Read the following article for more about the differences between Distributed Apps and Decentralized Apps (DApps):
+
+- [](https://medium.com/nakamo-to/whats-the-difference-between-decentralized-and-distributed-1b8de5e7f5a4)
