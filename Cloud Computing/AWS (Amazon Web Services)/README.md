@@ -6,4 +6,8 @@
 - [Создание, обучение и развертывание моделей машинного обучения с помощью Amazon SageMaker](https://aws.amazon.com/ru/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/?trk=el_a134p000003yWILAA2&trkCampaign=DS_SageMaker_Tutorial&sc_channel=el&sc_campaign=Data_Scientist_Hands-on_Tutorial&sc_outcome=Product_Marketing&sc_geo=mult)
 - [Hands-on Tutorials](https://aws.amazon.com/ru/getting-started/hands-on/?awsf.getting-started-category=category%23machine-learning&awsf.getting-started-content-type=content-type%23hands-on&trk=el_a134p000003yWJxAAM&trkCampaign=HandsOn_Tutorials_DS&sc_channel=el&sc_campaign=Hands-On_Tutorials&sc_outcome=Product_Marketing&sc_geo=mult) - Explore more tutorials from integrating intelligence to your apps to optimizing your models
   > Ознакомьтесь с практическими учебными пособиями и обучающими видеоматериалами по работе с сервисом AWS Начните работу и запустите первую рабочую нагрузку с помощью простых пошаговых учебных пособий 
+- Coursera
+  - [Getting Started with AWS Machine Learning](https://www.coursera.org/learn/aws-machine-learning)
+- Edx
+  - [AWS, Free online courses from Amazon Web Services](https://www.edx.org/school/aws)
 - []()
