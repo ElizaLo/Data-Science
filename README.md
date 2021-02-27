@@ -131,6 +131,8 @@ This repository continues to be constantly updated.
 ### Russian
 
 - [Собеседование по Data Science: что нужно знать и где это изучить](https://tproger.ru/translations/preparing-for-data-science-interview/)
+- [Советы сеньоров: как прокачать знания junior Data Scientist](https://dou.ua/lenta/articles/senior-data-science-tips/)
+- [Карьера в IT: должность Data Scientist / Machine Learning Engineer](https://dou.ua/lenta/articles/it-position-ds-ml/)
 
 ### Ukrainian:
 
@@ -250,6 +252,10 @@ This repository continues to be constantly updated.
 
 - [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
 - [Data Science и Machine Learning: с чего начать и где учиться](https://dou.ua/lenta/columns/study-data-science-and-ml/?from=recent)
+
+## Communities 
+
+- Coursera Comminity [Data Science](https://coursera.community/data-science-8?utm_medium=email&utm_source=community&utm_campaign=Hw2psJDeEeqxW2EAYUwV1Q)
 
 ## Telegram Chanels
 
