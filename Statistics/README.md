@@ -8,7 +8,8 @@
 
 ## YouTube
 
-- [Statistics Playlist 1](Statistics Playlist 1) by Professor Leonard
+- [Statistics Playlist 1](https://www.youtube.com/playlist?list=PL5901C68C96DFCAD1) by Professor Leonard
+- [Statistics](https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV) by The Organic Chemistry
 
 ## Terminology and Methods
 
