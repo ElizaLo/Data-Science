@@ -249,6 +249,7 @@ This repository continues to be constantly updated.
 ## Articles
 
 - [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
+- [Data Science и Machine Learning: с чего начать и где учиться](https://dou.ua/lenta/columns/study-data-science-and-ml/?from=recent)
 
 ## Telegram Chanels
 
