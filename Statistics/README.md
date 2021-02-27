@@ -2,9 +2,13 @@
 
 ## Courses
 
-Udacity's courses:
+- **Udacity**:
   - [Intro to Descriptive Statistics](https://www.udacity.com/course/ud827) (Mathematics for Understanding Data) by Kaggle
   - [Intro to Inferential Statistics](https://www.udacity.com/course/ud201) (Making Predictions from Data) by Facebook Blueprint
+
+## YouTube
+
+- [Statistics Playlist 1](Statistics Playlist 1) by Professor Leonard
 
 ## Terminology and Methods
 
