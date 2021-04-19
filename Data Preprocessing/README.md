@@ -137,4 +137,5 @@
     df[df.duplicated(keep = False)]
     ```
   - [pandas.DataFrame.drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html)
+- [Dropping Rows And Columns In pandas Dataframe](https://chrisalbon.com/python/data_wrangling/pandas_dropping_column_and_rows/)
 - 
