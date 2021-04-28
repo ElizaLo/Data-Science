@@ -4,10 +4,6 @@
 
 ### Constantly updated. Subscribe not to miss anything.
 
-## Table of Contents
-
-- 
-
 ## Main skills required by the data scientists vacancies
 
 > The [research](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/data-scientists-skills-2020-1/) made by **Faculty of Applied Sciences at UCU**. Link on main [article](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/).
@@ -217,6 +213,10 @@
 
 - [OpenEDU](https://openedu.ru)
 
+## Courses
+
+- [ ] [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
+
 ## Certifications
 
 - [ ] [Certified Analytics Professional (CAP)](https://www.certifiedanalytics.org/)
@@ -237,11 +237,18 @@
 
 ## Online Conferences, Meetups, Data Summer Schools
 
+- Live Webinars & On-demand Recordings by [ODSC COMMUNITY](https://app.aiplus.training/bundles/odsc-webinars)
 - [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
 - [Webinars 2020, Computer Science UCU](https://www.youtube.com/playlist?list=PLr1w0qwTp9lDX4ZaS1iRvdWLJEzpBKjWz)
 - [Eastern European Machine Learning Summer School, 2020 (Deep Learning and Reinforcement Learning](https://www.eeml.eu/home)
   - [Program](https://www.eeml.eu/program)
   - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
+
+## Twitter
+
+- [Christopher Manning](https://twitter.com/chrmanning)
+- [Sebastian Ruder](https://twitter.com/seb_ruder)
+- [Prof. Sam Bowman](https://twitter.com/sleepinyourhat)
 
 ## Podcasts
 
