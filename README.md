@@ -255,6 +255,10 @@
 - [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
 - [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
 
+## Blogs
+
+- [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
+
 ## Articles
 
 - [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
