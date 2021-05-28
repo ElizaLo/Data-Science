@@ -18,3 +18,18 @@
 - Edx
   - [AWS, Free online courses from Amazon Web Services](https://www.edx.org/school/aws)
 - []()
+
+
+
+## AWS Lambda
+
+- **Building Scikit-Learn For AWS Lambda**
+  - Error: `No module named 'sklearn.__check_build._check_build'`
+  - Search: 
+    - Using Scikit-Learn In AWS Lambda
+    - Error with scikit-learn module in AWS Lambda
+  - [Building Scikit-Learn For AWS Lambda](https://serverlesscode.com/post/scikitlearn-with-amazon-linux-container/)
+  - [sklearn and pandas in AWS Lambda](https://datascience.stackexchange.com/questions/47955/sklearn-and-pandas-in-aws-lambda)
+  - [Установка sklearn на AWS deeplearning AMI](https://coderoad.ru/49868348/Установка-sklearn-на-AWS-deeplearning-AMI)
+  - [sklearn not working in aws lambda function. Deployment package issue](https://stackoverflow.com/questions/43872989/sklearn-not-working-in-aws-lambda-function-deployment-package-issue)
+- 
