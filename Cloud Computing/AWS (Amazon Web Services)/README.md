@@ -33,3 +33,18 @@
   - [Установка sklearn на AWS deeplearning AMI](https://coderoad.ru/49868348/Установка-sklearn-на-AWS-deeplearning-AMI)
   - [sklearn not working in aws lambda function. Deployment package issue](https://stackoverflow.com/questions/43872989/sklearn-not-working-in-aws-lambda-function-deployment-package-issue)
 - 
+
+### Articles
+
+- [Возможности AWS Lambda](https://aws.amazon.com/ru/lambda/features/)
+- [**AWS Machine Learning Blog**](https://aws.amazon.com/ru/blogs/machine-learning/)
+  - [Deploying machine learning models as serverless APIs](https://aws.amazon.com/ru/blogs/machine-learning/deploying-machine-learning-models-as-serverless-apis/)
+  - [How to Deploy Deep Learning Models with AWS Lambda and Tensorflow](https://aws.amazon.com/ru/blogs/machine-learning/how-to-deploy-deep-learning-models-with-aws-lambda-and-tensorflow/)
+  - [Code-free machine learning: AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://aws.amazon.com/ru/blogs/machine-learning/code-free-machine-learning-automl-with-autogluon-amazon-sagemaker-and-aws-lambda/)
+- [AWS Documentation](https://docs.aws.amazon.com/index.html)
+  - [Create a Lambda Function and Deploy a Custom Trained Model to AWS DeepLens](https://docs.aws.amazon.com/deeplens/latest/dg/deeplens-getting-started-create-lambda.html)
+- Towards Data Science / Medium
+  - [How to deploy a Machine Learning model on AWS Lambda](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20)
+  - [Deploy Machine Learning Models On AWS Lambda](https://medium.com/analytics-vidhya/deploy-machine-learning-models-on-aws-lambda-5969b11616bf)
+  - [Serverless Machine Learning Engineering Project On AWS Lambda](https://medium.com/swlh/how-to-deploy-your-scikit-learn-model-to-aws-44aabb0efcb4)
+- 
