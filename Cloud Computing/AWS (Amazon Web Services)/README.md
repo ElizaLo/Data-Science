@@ -24,7 +24,7 @@
 ## AWS Lambda
 
 - **Building Scikit-Learn For AWS Lambda**
-  - Error: `No module named 'sklearn.__check_build._check_build'`
+  - **Error:** `No module named 'sklearn.__check_build._check_build'`
   - Search: 
     - Using Scikit-Learn In AWS Lambda
     - Error with scikit-learn module in AWS Lambda
