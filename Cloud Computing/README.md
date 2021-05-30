@@ -7,3 +7,7 @@
 -----------
 
 - [What Is the Cloud? | Cloud Definition](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/), Cloudflare
+
+----------------------
+
+- [How to Deploy a Machine Learning Model for Free – 7 ML Model Deployment Cloud Platforms](https://www.freecodecamp.org/news/deploy-your-machine-learning-models-for-free/)
