@@ -9,6 +9,8 @@
   - [Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/index.html):
     - [Creating a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)
     - [Bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
+    - [create-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
+    - [Using high-level (s3) commands with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)
   - [AWS Elastic Beanstalk](https://aws.amazon.com/ru/elasticbeanstalk/)
 - [Создание, обучение и развертывание моделей машинного обучения с помощью Amazon SageMaker](https://aws.amazon.com/ru/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/?trk=el_a134p000003yWILAA2&trkCampaign=DS_SageMaker_Tutorial&sc_channel=el&sc_campaign=Data_Scientist_Hands-on_Tutorial&sc_outcome=Product_Marketing&sc_geo=mult)
 - [Hands-on Tutorials](https://aws.amazon.com/ru/getting-started/hands-on/?awsf.getting-started-category=category%23machine-learning&awsf.getting-started-content-type=content-type%23hands-on&trk=el_a134p000003yWJxAAM&trkCampaign=HandsOn_Tutorials_DS&sc_channel=el&sc_campaign=Hands-On_Tutorials&sc_outcome=Product_Marketing&sc_geo=mult) - Explore more tutorials from integrating intelligence to your apps to optimizing your models
@@ -43,10 +45,12 @@
   - [Code-free machine learning: AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda](https://aws.amazon.com/ru/blogs/machine-learning/code-free-machine-learning-automl-with-autogluon-amazon-sagemaker-and-aws-lambda/)
 - [AWS Documentation](https://docs.aws.amazon.com/index.html)
   - [Create a Lambda Function and Deploy a Custom Trained Model to AWS DeepLens](https://docs.aws.amazon.com/deeplens/latest/dg/deeplens-getting-started-create-lambda.html)
+  - [Using container images to run TensorFlow models in AWS Lambda](https://aws.amazon.com/ru/blogs/machine-learning/using-container-images-to-run-tensorflow-models-in-aws-lambda/)
 - Towards Data Science / Medium
   - [How to deploy a Machine Learning model on AWS Lambda](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20)
   - [Deploy Machine Learning Models On AWS Lambda](https://medium.com/analytics-vidhya/deploy-machine-learning-models-on-aws-lambda-5969b11616bf)
   - [Serverless Machine Learning Engineering Project On AWS Lambda](https://medium.com/swlh/how-to-deploy-your-scikit-learn-model-to-aws-44aabb0efcb4)
   - [Deploying Machine Learning Model to AWS Lambda using Serverless](https://blog.francium.tech/deploying-machine-learning-model-to-aws-lambda-with-serverless-a121a8253901)
-  - [Deploying Scipy & Numpy With Docker](https://medium.com/google-cloud/deploying-scipy-numpy-with-docker-205e9afac3b0)
+  - [Containerized ML deployment with AWS Lambda](https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4)
+  - [How to Deploy ML models with AWS Lambda](https://blog.verta.ai/blog/how-to-deploy-ml-models-with-aws-lambda)
 - 
