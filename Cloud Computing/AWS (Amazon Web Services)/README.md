@@ -14,16 +14,15 @@
     - [Bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
     - [create-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
     - [Using high-level (s3) commands with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)
-  - S3:
     - [Uploading objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html)
-  - [Amazon Elastic File System](https://aws.amazon.com/ru/efs/):
-    - [Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)
-  - [Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc):
-    - 
   - [AWS Elastic Beanstalk](https://aws.amazon.com/ru/elasticbeanstalk/)
     - [Complete Machine Learning solution(Part 3|3): Deploy Flask application on AWS Elastic Beanstalk](https://towardsdatascience.com/complete-machine-learning-solution-part-3-3-deploy-flask-application-on-aws-elastic-beanstalk-a86f127cef0a)
     - [Deploy Machine learning Flask app using ElasticBeanStalk service on AWS](https://medium.com/@skumarr53/deploy-machine-learning-app-using-elasticbeanstalk-service-on-aws-849c89745111)
     - [Deploy a machine learning model with AWS Elastic Beanstalk](https://medium.com/swlh/deploy-a-machine-learning-model-with-aws-elasticbeanstalk-dfcc47b6043e)
+  - [Amazon Elastic File System](https://aws.amazon.com/ru/efs/):
+    - [Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)
+  - [Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc):
+    - []()
 - [Создание, обучение и развертывание моделей машинного обучения с помощью Amazon SageMaker](https://aws.amazon.com/ru/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/?trk=el_a134p000003yWILAA2&trkCampaign=DS_SageMaker_Tutorial&sc_channel=el&sc_campaign=Data_Scientist_Hands-on_Tutorial&sc_outcome=Product_Marketing&sc_geo=mult)
 - [Hands-on Tutorials](https://aws.amazon.com/ru/getting-started/hands-on/?awsf.getting-started-category=category%23machine-learning&awsf.getting-started-content-type=content-type%23hands-on&trk=el_a134p000003yWJxAAM&trkCampaign=HandsOn_Tutorials_DS&sc_channel=el&sc_campaign=Hands-On_Tutorials&sc_outcome=Product_Marketing&sc_geo=mult) - Explore more tutorials from integrating intelligence to your apps to optimizing your models
   > Ознакомьтесь с практическими учебными пособиями и обучающими видеоматериалами по работе с сервисом AWS Начните работу и запустите первую рабочую нагрузку с помощью простых пошаговых учебных пособий 
