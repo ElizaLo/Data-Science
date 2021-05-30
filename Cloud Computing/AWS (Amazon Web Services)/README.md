@@ -4,13 +4,22 @@
 - [Изучите возможности для Python на AWS](https://aws.amazon.com/ru/developer/language/python/)
 - [AWS Documentation](https://docs.aws.amazon.com/index.html) - Find user guides, developer guides, API references, tutorials, and more
   - [Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/index.html) - Documentation
+    - [How Genworth built a serverless ML pipeline on AWS using Amazon SageMaker and AWS Glue](https://aws.amazon.com/ru/blogs/machine-learning/how-genworth-built-a-serverless-ml-pipeline-on-aws-using-amazon-sagemaker-and-aws-glue/)
+    - [Creating a machine learning-powered REST API with Amazon API Gateway mapping templates and Amazon SageMaker](https://aws.amazon.com/ru/blogs/machine-learning/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/)
   - AWS Lambda:
     - [Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
+    - [Deploy Python Lambda functions with .zip file archives](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html)
   - [Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/index.html):
     - [Creating a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)
     - [Bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
     - [create-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
     - [Using high-level (s3) commands with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)
+  - S3:
+    - [Uploading objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html)
+  - [Amazon Elastic File System](https://aws.amazon.com/ru/efs/):
+    - [Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)
+  - [Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc):
+    - 
   - [AWS Elastic Beanstalk](https://aws.amazon.com/ru/elasticbeanstalk/)
     - [Complete Machine Learning solution(Part 3|3): Deploy Flask application on AWS Elastic Beanstalk](https://towardsdatascience.com/complete-machine-learning-solution-part-3-3-deploy-flask-application-on-aws-elastic-beanstalk-a86f127cef0a)
     - [Deploy Machine learning Flask app using ElasticBeanStalk service on AWS](https://medium.com/@skumarr53/deploy-machine-learning-app-using-elasticbeanstalk-service-on-aws-849c89745111)
@@ -49,6 +58,7 @@
 - [AWS Documentation](https://docs.aws.amazon.com/index.html)
   - [Create a Lambda Function and Deploy a Custom Trained Model to AWS DeepLens](https://docs.aws.amazon.com/deeplens/latest/dg/deeplens-getting-started-create-lambda.html)
   - [Using container images to run TensorFlow models in AWS Lambda](https://aws.amazon.com/ru/blogs/machine-learning/using-container-images-to-run-tensorflow-models-in-aws-lambda/)
+  - [Tutorial: Configuring a Lambda function to access Amazon RDS in an Amazon VPC](https://docs.aws.amazon.com/lambda/latest/dg/services-rds-tutorial.html)
 - Towards Data Science / Medium
   - [How to deploy a Machine Learning model on AWS Lambda](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20)
   - [Deploy Machine Learning Models On AWS Lambda](https://medium.com/analytics-vidhya/deploy-machine-learning-models-on-aws-lambda-5969b11616bf)
@@ -56,4 +66,10 @@
   - [Deploying Machine Learning Model to AWS Lambda using Serverless](https://blog.francium.tech/deploying-machine-learning-model-to-aws-lambda-with-serverless-a121a8253901)
   - [Containerized ML deployment with AWS Lambda](https://sejalv.medium.com/containerized-ml-deployment-with-aws-lambda-680540fb92f4)
   - [How to Deploy ML models with AWS Lambda](https://blog.verta.ai/blog/how-to-deploy-ml-models-with-aws-lambda)
+  - [How to Build an AWS Lambda for Data Science](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - 
+
+## AWS
+
+- [SERVERLESS DATA PROCESSING ON AWS](https://data-processing.serverlessworkshops.io)
+- [Deploy your Machine Learning model as a REST API on AWS](https://levelup.gitconnected.com/deploy-your-machine-learning-model-as-a-rest-api-on-aws-english-dcb1a0db3110)
