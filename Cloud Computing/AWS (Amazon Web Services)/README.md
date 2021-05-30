@@ -47,4 +47,6 @@
   - [How to deploy a Machine Learning model on AWS Lambda](https://towardsdatascience.com/how-to-deploy-a-machine-learning-model-on-aws-lambda-24c36dcaed20)
   - [Deploy Machine Learning Models On AWS Lambda](https://medium.com/analytics-vidhya/deploy-machine-learning-models-on-aws-lambda-5969b11616bf)
   - [Serverless Machine Learning Engineering Project On AWS Lambda](https://medium.com/swlh/how-to-deploy-your-scikit-learn-model-to-aws-44aabb0efcb4)
+  - [Deploying Machine Learning Model to AWS Lambda using Serverless](https://blog.francium.tech/deploying-machine-learning-model-to-aws-lambda-with-serverless-a121a8253901)
+  - [Deploying Scipy & Numpy With Docker](https://medium.com/google-cloud/deploying-scipy-numpy-with-docker-205e9afac3b0)
 - 
