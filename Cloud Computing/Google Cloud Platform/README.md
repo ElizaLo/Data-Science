@@ -1,5 +1,7 @@
 # Google Cloud Platform (GCP)
 
+- [Google Cloud - Curated articles for developers](https://medium.com/google-cloud)
+
 ## Cloud Run
 
 [Cloud Run](https://cloud.google.com/run)
