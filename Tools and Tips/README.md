@@ -3,11 +3,11 @@
 - Install specific version of module in current folder:
 
 		pip install -t . scikit-learn==0.22
-- Uninstall module
+- Uninstall module:
 		
 		pip uninstall -y numpy
 
-- Way to `homebrew`
+- Way to `homebrew`:
 
 		export PATH="/opt/homebrew/bin:$PATH"
 
