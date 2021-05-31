@@ -38,3 +38,8 @@
 - [FileZilla Forums](https://forum.filezilla-project.org)
 - [Support](https://filezilla-project.org/support.php?version=3.53.1&product=#bugs)
 - [Wiki](https://wiki.filezilla-project.org/Main_Page)
+
+
+## Hosts
+
+- [How To Quickly Edit Mac’s Hosts File](https://setapp.com/how-to/edit-mac-hosts-file)
