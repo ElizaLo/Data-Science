@@ -11,3 +11,10 @@ In signal processing, **oversampling** is the process of sampling a signal at a 
 ## Downsampling
 
 In signal processing, **downsampling** is the process of reducing the sampling rate of a signal. This is usually done to reduce the data rate or the size of the data. The downsampling factor is usually an integer or a rational fraction greater than unity.
+
+## Tools
+
+- **imbalanced-learn**
+  - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)
+  - [imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
+- 
