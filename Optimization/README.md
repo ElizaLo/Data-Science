@@ -15,3 +15,4 @@ The mapping function, also called the basis function can have any form you like,
 ### Articles 
 
 - [Curve Fitting With Python](https://machinelearningmastery.com/curve-fitting-with-python/)
+- [How to do exponential and logarithmic curve fitting in Python? I found only polynomial fitting](https://stackoverflow.com/questions/3433486/how-to-do-exponential-and-logarithmic-curve-fitting-in-python-i-found-only-poly)
