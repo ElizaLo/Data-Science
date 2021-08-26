@@ -43,3 +43,11 @@
 ## Hosts
 
 - [How To Quickly Edit Mac’s Hosts File](https://setapp.com/how-to/edit-mac-hosts-file)
+
+## Libraries
+
+### SQL 
+
+| Title | Description |
+| :---:         |          :--- |
+|[SQLModel](https://github.com/tiangolo/sqlmodel)|<ul><p>SQLModel is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.</p><p>**SQLModel** is based on Python type annotations, and powered by [Pydantic](https://pydantic-docs.helpmanual.io/) and [SQLAlchemy](https://sqlalchemy.org/).</p></ul> |
