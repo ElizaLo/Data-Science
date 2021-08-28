@@ -1,4 +1,4 @@
-# Statistics
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/img/Statistics.png" width="900" height="150">
 
 ## Courses
 
