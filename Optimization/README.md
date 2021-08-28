@@ -1,4 +1,4 @@
-# Optimization
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Optimization.png" width="900" height="150">
 
 ### Methods of optimization:
 
