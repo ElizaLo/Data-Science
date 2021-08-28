@@ -11,6 +11,10 @@
 - [Statistics Playlist 1](https://www.youtube.com/playlist?list=PL5901C68C96DFCAD1) by Professor Leonard
 - [Statistics](https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV) by The Organic Chemistry
 
+## Web Sites
+
+- [Statistics By Jim](https://statisticsbyjim.com)
+
 ## Terminology and Methods
 
 ### Sampling
