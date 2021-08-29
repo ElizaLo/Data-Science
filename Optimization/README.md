@@ -4,6 +4,14 @@
 
 - Curve Fitting
 
+---
+### Implementations
+
+- [Optimization and root finding](https://docs.scipy.org/doc/scipy/reference/optimize.html) (`scipy.optimize`)
+- [Non-Linear Least-Squares Minimization and Curve-Fitting for Python](https://lmfit.github.io/lmfit-py/index.html) Module
+  - [LMfit-py](https://github.com/lmfit/lmfit-py/) on GitHub :octocat:
+- 
+
 ## Curve Fitting
 
 **Curve fitting** is a type of optimization that finds an optimal set of parameters for a defined function that best fits a given set of observations.
