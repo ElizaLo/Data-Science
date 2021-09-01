@@ -33,7 +33,31 @@
   - [AWS, Free online courses from Amazon Web Services](https://www.edx.org/school/aws)
 - []()
 
+## SageMaker Studio
 
+### Write `.csv` file into S3 bucket
+
+### Using AWS Data Wrangler
+
+> _Pandas on AWS_
+
+- [AWS Data Wrangler](https://aws-data-wrangler.readthedocs.io/en/stable/index.html) Documentation
+- [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) on :octocat: GitHub
+
+```python
+!pip install awswrangler
+```
+
+> ❗**Note** : to make it work, the `awswrangler` has to be imported first
+
+```python
+import awswrangler as wr
+
+wr.s3.to_csv(
+    df=df_new,
+    path='s3://'
+)
+```
 
 ## AWS Lambda
 
