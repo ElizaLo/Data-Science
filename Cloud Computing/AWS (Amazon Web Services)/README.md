@@ -47,7 +47,7 @@
 ```python
 !pip install awswrangler
 ```
-
+> [awswrangler.s3.to_csv](https://aws-data-wrangler.readthedocs.io/en/stable/stubs/awswrangler.s3.to_csv.html)
 > ❗**Note** : to make it work, the `awswrangler` has to be imported first
 
 ```python
