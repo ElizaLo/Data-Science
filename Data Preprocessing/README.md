@@ -92,7 +92,7 @@
   The trade-off between **performance** and **overfitting** is the key point of the binning process. In my opinion, for numerical columns, except for some obvious overfitting cases, binning might be redundant for some kind of algorithms, due to its effect on model performance.
   However, for categorical columns, the labels with low frequencies probably affect the robustness of statistical models negatively. Thus, assigning a general category to these less frequent values helps to keep the robustness of the model. For example, if your data size is **100,000** rows, it might be a good option to unite the labels with a count less than **100** to a new category like **“Other”**.
   ```@python
-  #Numerical Binning Example
+  # Numerical Binning Example
   
   data['bin'] = pd.cut(data['value'], bins=[0,30,70,100], labels=["Low", "Mid", "High"])
      value   bin
@@ -103,7 +103,7 @@
   4     28   Low
   
   
-  #Categorical Binning Example
+  # Categorical Binning Example
        Country
   0      Spain
   1      Chile
@@ -139,3 +139,11 @@
   - [pandas.DataFrame.drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html)
 - [Dropping Rows And Columns In pandas Dataframe](https://chrisalbon.com/python/data_wrangling/pandas_dropping_column_and_rows/)
 - 
+
+------------------------------------
+
+##  Select a Subset of a DataFrame
+
+- [How do I select a subset of a DataFrame?](https://pandas.pydata.org/pandas-docs/version/1.0.2/getting_started/intro_tutorials/03_subset_data.html), Pandas documentation
+- [Indexing, Slicing and Subsetting DataFrames in Python](https://datacarpentry.org/python-ecology-lesson/03-index-slice-subset/)
+- [23 Efficient Ways of Subsetting a Pandas DataFrame](https://towardsdatascience.com/23-efficient-ways-of-subsetting-a-pandas-dataframe-6264b8000a77)
