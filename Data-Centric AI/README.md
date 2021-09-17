@@ -1,4 +1,4 @@
-# Data-Centric AI
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Centric_AI.png" width="1050" height="150">
 
 ## Resources
 
