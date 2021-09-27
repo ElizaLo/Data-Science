@@ -1,5 +1,9 @@
 # AWS (Amazon Web Services)
 
+- [Типы инстансов Amazon EC2](https://aws.amazon.com/ru/ec2/instance-types/)
+
+-------------------
+
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
 - [Изучите возможности для Python на AWS](https://aws.amazon.com/ru/developer/language/python/)
 - [AWS Documentation](https://docs.aws.amazon.com/index.html) - Find user guides, developer guides, API references, tutorials, and more
