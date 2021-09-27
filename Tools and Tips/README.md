@@ -10,6 +10,12 @@
 - Way to `homebrew`:
 
 		export PATH="/opt/homebrew/bin:$PATH"
+		
+- [Cheat sheet](https://kapeli.com/cheat_sheets/screen.docset/Contents/Resources/Documents/index) for `Screen` commands
+- 
+		screen -r <session_id>
+		
+		screen -X -S [session # you want to kill] quit
 
 ## SSH 
 
