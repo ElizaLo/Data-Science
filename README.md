@@ -2,7 +2,39 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FElizaLo%2FData-Science&count_bg=%23090268&title_bg=%23B5B5BC&icon=datacamp.svg&icon_color=%23E7E7E7&title=Repository+Views&edge_flat=false)](https://hits.seeyoufarm.com)
 
-### Constantly updated. Subscribe not to miss anything.
+### 🔄 Constantly updated. Subscribe not to miss anything.
+
+> - [ ] For **Natural Language Processing** (NLU = NLP + NLG) please check [Natural Language Processing](https://github.com/ElizaLo/NLP-Natural-Language-Processing) repository.
+
+> - [ ] For **Machine Learning**  algorithms please check [Machine Learning](https://github.com/ElizaLo/Machine-Learning) repository.
+
+> - [ ] For **Deep Learning** algorithms please check [Deep Learning](https://github.com/ElizaLo/Deep-Learning) repository.
+
+> - [ ] For **Computer Vision** please check [Computer Vision](https://github.com/ElizaLo/Computer-Vision) repository.
+
+## Data Science Tasks 
+
+> Folders with all materials for specific task/domain
+
+- [AR VR](https://github.com/ElizaLo/Data-Science/tree/master/AR%20VR)
+- [Class Imbalance Problem](https://github.com/ElizaLo/Data-Science/tree/master/Class%20Imbalance%20Problem)
+- [Cloud Computing](https://github.com/ElizaLo/Data-Science/tree/master/Cloud%20Computing)
+  - [AWS (Amazon Web Services)](https://github.com/ElizaLo/Data-Science/tree/master/Cloud%20Computing/AWS%20(Amazon%20Web%20Services)) 
+- [Data Analysis](https://github.com/ElizaLo/Data-Science/tree/master/Data%20Analysis)
+- [Data Analytics](https://github.com/ElizaLo/Data-Science/tree/master/Data%20Analytics)
+- [Data Engineering](https://github.com/ElizaLo/Data-Science/tree/master/Data%20Engineering)
+- [Data Preprocessing](https://github.com/ElizaLo/Data-Science/tree/master/Data%20Preprocessing)
+- [Data Warehouse](https://github.com/ElizaLo/Data-Science/tree/master/Data%20Warehouse)
+- [Data-Centric AI](https://github.com/ElizaLo/Data-Science/tree/master/Data-Centric%20AI)
+- [Data](https://github.com/ElizaLo/Data-Science/tree/master/Data)
+- [Deployment](https://github.com/ElizaLo/Data-Science/tree/master/Deployment)
+- [Graph Neural Networks](https://github.com/ElizaLo/Data-Science/tree/master/Graph%20Neural%20Networks)
+- [Optimization](https://github.com/ElizaLo/Data-Science/tree/master/Optimization)
+- [Overfitting](https://github.com/ElizaLo/Data-Science/tree/master/Overfitting)
+- [Pipelines](https://github.com/ElizaLo/Data-Science/tree/master/Pipelines)
+- [SQL](https://github.com/ElizaLo/Data-Science/tree/master/SQL)
+- [Statistics](https://github.com/ElizaLo/Data-Science/tree/master/Statistics)
+- [Tools and Tips](https://github.com/ElizaLo/Data-Science/tree/master/Tools%20and%20Tips)
 
 ## Main skills required by the data scientists vacancies
 
