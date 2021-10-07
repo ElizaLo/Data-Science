@@ -3,6 +3,12 @@
 - **vertex** = вершина
 - **edge** = ребро
 
+## Models
+
+| Title | Description |
+| :---:         |          :--- |
+|[Kernel Graph Attention Network (KGAT)](https://github.com/thunlp/KernelGAT)|The source codes for Fine-grained Fact Verification with Kernel Graph Attention Network.|
+
 ## Aticles
 
 | Title | Description |
