@@ -37,6 +37,14 @@
   - [AWS, Free online courses from Amazon Web Services](https://www.edx.org/school/aws)
 - []()
 
+## Examples
+
+### GitHub :octocat:
+
+| Title | Description |
+| :---         |          :--- |
+|[Amazon SageMaker Script Mode Examples](https://github.com/aws-samples/amazon-sagemaker-script-mode)|Amazon SageMaker examples for prebuilt framework mode containers, a.k.a. Script Mode, and more (BYO containers and models etc.)|
+
 ## SageMaker Studio
 
 ### Write `.csv` file into S3 bucket
