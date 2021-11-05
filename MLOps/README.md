@@ -19,3 +19,14 @@
 | :---: | :--- |
 |[Amazon Sagemaker MLops (with classic CI/CD tools) Workshop](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)| Machine Learning Ops Workshop with SageMaker: lab guides and materials.|
 |[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)|This repo contains example code for a (very basic) ML platform.|
+
+## Docker
+
+- [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
+- [Docker Documentation](https://docs.docker.com)
+
+
+### Articles 
+
+- [Hardening Docker containers, images, and host - security toolkit](https://cloud.redhat.com/blog/hardening-docker-containers-images-and-host-security-toolkit) by Red Hat
+- 
