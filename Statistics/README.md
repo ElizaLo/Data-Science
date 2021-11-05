@@ -28,7 +28,7 @@
 | Title | Description, Information |
 | :---:         |          :--- |
 |[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)|<ul><li>The standard deviation (SD) is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set,. In contrast, a high standard deviation indicates that the values are spread out over a broader range. The SD of predicted values helps in understanding the dispersion of values in different models.</li></ul>|
-|[Coefficient of determination, R squared](https://en.wikipedia.org/wiki/Coefficient_of_determination) -> **R<sup>2</sup>**|<ul><li>[R-squared Is Not Valid for Nonlinear Regression](https://statisticsbyjim.com/regression/r-squared-invalid-nonlinear-regression/)</li><li>R-squared provides the relative measure of the percentage of the dependent variable variance that the model explains. R-squared can range from 0 to 100%. Higher R-squared values indicate that the data points are closer to the fitted values. While higher R-squared values are good, they don’t tell you how far the data points are from the regression line.</li></ul>|
+|[Coefficient of determination, R squared](https://en.wikipedia.org/wiki/Coefficient_of_determination) -> **R<sup>2</sup>**|<ul><li>[R-squared Is Not Valid for Nonlinear Regression](https://statisticsbyjim.com/regression/r-squared-invalid-nonlinear-regression/)</li><li>R-squared provides the relative measure of the percentage of the dependent variable variance that the model explains. R-squared can range from 0 to 100%. Higher R-squared values indicate that the data points are closer to the fitted values. While higher R-squared values are good, they don’t tell you how far the data points are from the regression line.</li><li>[How To Interpret R-squared in Regression Analysis](https://statisticsbyjim.com/regression/interpret-r-squared-regression/)</li></ul>|
 |[Standard Error](https://en.wikipedia.org/wiki/Standard_error)|<ul><li>The standard error of the regression provides the absolute measure of the typical distance that the data points fall from the regression line. S is in the units of the dependent variable.</li><li>It tells you straight up how precise the model’s predictions are using the units of the dependent variable. You want lower values of S because it signifies that the distances between the data points and the fitted values are smaller.</li><li>[How to Calculate the Standard Error of the Mean in Python](https://www.statology.org/standard-error-of-mean-python/)</li></ul>|
 |[Mean Absolute Error](https://en.wikipedia.org/wiki/Mean_absolute_error), MAE|<ul><li>Measure of errors between paired observations expressing the same phenomenon. Examples of Y versus X include comparisons of predicted versus observed, subsequent time versus initial time, and one technique of measurement versus an alternative technique of measurement</li><li>[How to Calculate Mean Absolute Error in Python](https://www.statology.org/mean-absolute-error-python/)</li></ul>|
 |[Mean Squared Error](https://en.wikipedia.org/wiki/Mean_squared_error) (MSE) or Mean Squared Deviation (MSD)|<ul><li>An **estimator** (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value. MSE is a risk function, corresponding to the expected value of the squared error loss. The fact that MSE is almost always strictly positive (and not zero) is because of randomness or because the estimator does not account for information that could produce a more accurate estimate.</li><li>[How to Calculate Mean Squared Error (MSE) in Python](https://www.statology.org/mean-squared-error-python/)</li></ul>|
@@ -46,12 +46,16 @@
 |[Forecast Error (or Residual Forecast Error)](https://en.wikipedia.org/wiki/Forecast_error)|The forecast error is calculated as the expected value minus the predicted value. This is called the **residual error of the prediction**.|
 |Mean Forecast Error (or Forecast Bias) |Mean forecast error is calculated as the average of the forecast error values.|
 
+#### 📄 Articles
 
-#### GitHub :octocat:
+- [Ways to Evaluate Regression Models](https://towardsdatascience.com/ways-to-evaluate-regression-models-77a3ff45ba70)
+
+
+#### :octocat: GitHub
 
 - [Regression Metrics Python](https://github.com/mtortora-ai/Regression-Metrics-Python)
 
-#### Papers
+#### 📃 Papers
 
 - [Another look at measures of forecast accuracy](https://robjhyndman.com/papers/mase.pdf) by Rob J Hyndman
 
