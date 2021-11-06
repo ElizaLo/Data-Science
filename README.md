@@ -227,7 +227,7 @@
 ## Communities 
 
 | Title | Description |
-| :---         |          :--- |
+| :---:         |          :--- |
 |Coursera Comminity [Data Science](https://coursera.community/data-science-8?utm_medium=email&utm_source=community&utm_campaign=Hw2psJDeEeqxW2EAYUwV1Q)| |
 |[Locally Optimistic](https://locallyoptimistic.com)|A community for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.|
 
