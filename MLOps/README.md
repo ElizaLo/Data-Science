@@ -1,4 +1,4 @@
-# Machine Learning Ops (MLOps)
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/MLOps.png" width="1050" height="150">
 
 ## Articles, Blogs
 
@@ -16,6 +16,12 @@
 |[Aporia](https://www.aporia.com)|<ul></p>The Monitoring Platform for Machine Learning<p><li>[Aporia GitHub](https://github.com/aporia-ai)</li><li>[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)</li></ul>|
 |[Comet.ml](https://www.comet.ml/site/data-scientists/)|<ul><p>Comet is doing for ML what Github did for code.</p><p>Track your datasets, code changes, experimentation history, and models. Comet provides insights and data to build better models, faster while improving productivity, collaboration and explainability.</p></ul>|
 |[DVC](https://dvc.org)|<ul><p>Data Version Control, or DVC, is a data and ML experiment management tool that takes advantage of the existing engineering toolset that you're already familiar with (Git, CI/CD, etc.).</p></ul>|
+
+## :octocat: GitHub Repositories
+
+| Title | Description|
+| :---: | :--- |
+|[awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)|A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.|
 
 
 ## AWS 
