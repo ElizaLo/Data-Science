@@ -7,28 +7,7 @@
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
 - [Изучите возможности для Python на AWS](https://aws.amazon.com/ru/developer/language/python/)
 - [AWS Documentation](https://docs.aws.amazon.com/index.html) - Find user guides, developer guides, API references, tutorials, and more
-  - [Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/index.html) - Documentation
-    - [How Genworth built a serverless ML pipeline on AWS using Amazon SageMaker and AWS Glue](https://aws.amazon.com/ru/blogs/machine-learning/how-genworth-built-a-serverless-ml-pipeline-on-aws-using-amazon-sagemaker-and-aws-glue/)
-    - [Creating a machine learning-powered REST API with Amazon API Gateway mapping templates and Amazon SageMaker](https://aws.amazon.com/ru/blogs/machine-learning/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/)
-  - **AWS Lambda:**
-    - [Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)
-    - [Deploy Python Lambda functions with .zip file archives](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html)
-    - [AWS Lambda — теория](https://habr.com/ru/post/457100/)
-  - [Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/index.html):
-    - [Creating a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)
-    - [Bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)
-    - [create-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)
-    - [Using high-level (s3) commands with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)
-    - [Uploading objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html)
-  - [AWS Elastic Beanstalk](https://aws.amazon.com/ru/elasticbeanstalk/)
-    - [Complete Machine Learning solution(Part 3|3): Deploy Flask application on AWS Elastic Beanstalk](https://towardsdatascience.com/complete-machine-learning-solution-part-3-3-deploy-flask-application-on-aws-elastic-beanstalk-a86f127cef0a)
-    - [Deploy Machine learning Flask app using ElasticBeanStalk service on AWS](https://medium.com/@skumarr53/deploy-machine-learning-app-using-elasticbeanstalk-service-on-aws-849c89745111)
-    - [Deploy a machine learning model with AWS Elastic Beanstalk](https://medium.com/swlh/deploy-a-machine-learning-model-with-aws-elasticbeanstalk-dfcc47b6043e)
-  - [Amazon Elastic File System](https://aws.amazon.com/ru/efs/):
-    - [Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)
-  - [Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc):
-    - []()
-- [Создание, обучение и развертывание моделей машинного обучения с помощью Amazon SageMaker](https://aws.amazon.com/ru/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/?trk=el_a134p000003yWILAA2&trkCampaign=DS_SageMaker_Tutorial&sc_channel=el&sc_campaign=Data_Scientist_Hands-on_Tutorial&sc_outcome=Product_Marketing&sc_geo=mult)
+- - [Создание, обучение и развертывание моделей машинного обучения с помощью Amazon SageMaker](https://aws.amazon.com/ru/getting-started/hands-on/build-train-deploy-machine-learning-model-sagemaker/?trk=el_a134p000003yWILAA2&trkCampaign=DS_SageMaker_Tutorial&sc_channel=el&sc_campaign=Data_Scientist_Hands-on_Tutorial&sc_outcome=Product_Marketing&sc_geo=mult)
 - [Hands-on Tutorials](https://aws.amazon.com/ru/getting-started/hands-on/?awsf.getting-started-category=category%23machine-learning&awsf.getting-started-content-type=content-type%23hands-on&trk=el_a134p000003yWJxAAM&trkCampaign=HandsOn_Tutorials_DS&sc_channel=el&sc_campaign=Hands-On_Tutorials&sc_outcome=Product_Marketing&sc_geo=mult) - Explore more tutorials from integrating intelligence to your apps to optimizing your models
   > Ознакомьтесь с практическими учебными пособиями и обучающими видеоматериалами по работе с сервисом AWS Начните работу и запустите первую рабочую нагрузку с помощью простых пошаговых учебных пособий 
 - Coursera
@@ -37,6 +16,16 @@
   - [AWS, Free online courses from Amazon Web Services](https://www.edx.org/school/aws)
 - []()
 
+| Title | Description |
+| :---:         |          :--- |
+|**[Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/index.html)**|<ul><li>[Amazon SageMaker Documentation](https://docs.aws.amazon.com/sagemaker/index.html)</li><li>[Amazon SageMaker Pipelines](https://aws.amazon.com/ru/sagemaker/pipelines/) - First purpose-built CI/CD service for machine learning</li><li>[How Genworth built a serverless ML pipeline on AWS using Amazon SageMaker and AWS Glue](https://aws.amazon.com/ru/blogs/machine-learning/how-genworth-built-a-serverless-ml-pipeline-on-aws-using-amazon-sagemaker-and-aws-glue/)</li><li>[Creating a machine learning-powered REST API with Amazon API Gateway mapping templates and Amazon SageMaker](https://aws.amazon.com/ru/blogs/machine-learning/creating-a-machine-learning-powered-rest-api-with-amazon-api-gateway-mapping-templates-and-amazon-sagemaker/)</li><li>[]()</li></ul>|
+|**AWS Lambda**|<ul><li>[Lambda quotas](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-limits.html)</li><li>[Deploy Python Lambda functions with .zip file archives](https://docs.aws.amazon.com/lambda/latest/dg/python-package.html)</li><li>[AWS Lambda — теория](https://habr.com/ru/post/457100/)</li></ul>|
+|**[Amazon Simple Storage Service Documentation](https://docs.aws.amazon.com/s3/index.html)**|<ul><li>[Creating a bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html)</li><li>[Bucket naming rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)</li><li>[create-bucket](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html)</li><li>[Using high-level (s3) commands with the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html)</li><li>[Uploading objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html)</li></ul>|
+|**[AWS Elastic Beanstalk](https://aws.amazon.com/ru/elasticbeanstalk/)**|<ul><li>[Complete Machine Learning solution(Part 3/3): Deploy Flask application on AWS Elastic Beanstalk](https://towardsdatascience.com/complete-machine-learning-solution-part-3-3-deploy-flask-application-on-aws-elastic-beanstalk-a86f127cef0a)</li><li>[Deploy Machine learning Flask app using ElasticBeanStalk service on AWS](https://medium.com/@skumarr53/deploy-machine-learning-app-using-elasticbeanstalk-service-on-aws-849c89745111)</li><li>[Deploy a machine learning model with AWS Elastic Beanstalk](https://medium.com/swlh/deploy-a-machine-learning-model-with-aws-elasticbeanstalk-dfcc47b6043e)</li></ul>|
+|**[Amazon Elastic File System](https://aws.amazon.com/ru/efs/)**|<ul><li>[Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)</li></ul>|
+|**[Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc)**|<ul><li>[]()</li></ul>|
+
+
 ## Examples
 
 ### GitHub :octocat:
@@ -44,6 +33,7 @@
 | Title | Description |
 | :---         |          :--- |
 |[Amazon SageMaker Script Mode Examples](https://github.com/aws-samples/amazon-sagemaker-script-mode)|Amazon SageMaker examples for prebuilt framework mode containers, a.k.a. Script Mode, and more (BYO containers and models etc.)|
+|[amazon-sagemaker-immersion-day](https://github.com/aws-samples/amazon-sagemaker-immersion-day)|Amazon SageMaker Immersion Day help customers and partners to provide end to end understanding of building ML use cases from feature engineering to understanding various in-built algorithm and Train , Tune and Deploy the ML model in production like scenario. It guides you to bring your own model and perform on-premise ML workload Lift-and-Shift to Amazon SageMaker platform. It further demonstrate advance concept like Model Debugging , Model Monitoring and AutoML and guide to evaluate your machine leaning workload through AWS ML Well-architect lens.|
 
 ## SageMaker Studio
 
