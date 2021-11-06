@@ -70,3 +70,65 @@
 | :---: | :--- |
 |[Least squares (Метод найменших квадратів, МНК)](https://en.wikipedia.org/wiki/Least_squares)|<ul><p>The method of **least squares** is a standard approach in regression analysis to approximate the solution of overdetermined systems (sets of equations in which there are more equations than unknowns) by minimizing the sum of the squares of the residuals made in the results of every single equation.</p><p></p>The most important application is in **data fitting (curve fitting)**. The best fit in the least-squares sense minimizes the sum of squared residuals (a residual being: the difference between an observed value, and the fitted value provided by a model). When the problem has substantial uncertainties in the independent variable (the x variable), then simple regression and least-squares methods have problems; in such cases, the methodology required for fitting errors-in-variables models may be considered instead of that for least squares.</p><p> Least-squares problems fall into two categories: **linear or ordinary least squares** and **nonlinear least squares**, depending on whether or not the residuals are linear in all unknowns. The **linear least-squares** problem occurs in statistical regression analysis; it has a closed-form solution. The **nonlinear** problem is usually solved by iterative refinement; at each iteration the system is approximated by a linear one, and thus the core calculation is similar in both cases.</p></ul>|
 |[Least Absolute Deviations (LAD)](https://en.wikipedia.org/wiki/Least_absolute_deviations)|<ul><p>**Least absolute deviations (LAD)**, also known as **least absolute errors (LAE), least absolute value (LAV), least absolute residual (LAR), sum of absolute deviations,** or the **L1 norm** condition, is a statistical optimality criterion and the statistical optimization technique that relies on it. Similar to the least squares technique, it attempts to find a function which closely approximates a set of data.</p></ul>|
+
+# Bayesian Statistics
+  
+## **Bayesian modeling and related books**:
+
+- [The Elements of Statistical Learning: Data Mining, Inference, and Prediction.](https://web.stanford.edu/~hastie/ElemStatLearn/)
+- C.P. Robert: The Bayesian choice (advanced)
+- Gelman, Carlin, Stern, Rubin: Bayesian data analysis (nice easy older book)
+- Congdon: Applied Bayesian modelling; Bayesian statistical modelling (relatively nice books for references)
+- Casella, Robert: Introducing Monte Carlo methods with R (nice book about MCMC)
+- Robert, Casella: Monte Carlo Statistical Methods
+- some parts of Bishop: Pattern recognition and machine learning (very nice book for engineers)
+- Puppy book from Kruschke
+- [Mathematical Statistics](https://books.google.cz/books/about/Mathematical_Statistics.html?id=_bEPBwAAQBAJ&source=kp_cover&redir_esc=y)
+- [Think Stats 2e](https://greenteapress.com/wp/think-stats-2e/)
+
+
+# Causal Inference
+
+> Correlation does not imply causation
+
+## More online lectures, courses, papers, books, etc. on Causality:
+
+- **Coursera:**
+  - [A Crash Course in Causality: Inferring Causal Effects from Observational Data](https://www.coursera.org/learn/crash-course-in-causality)
+  
+- [Powerful Concepts in Social Science](https://www.youtube.com/c/ModUPowerfulConceptsinSocialScience/playlists?view=50&sort=dd&shelf_id=6) playlists, Duke
+- 4 lectures on causality by J.Peters (8 h), [MIT Statistics and Data Science Center, 2017](https://stat.mit.edu/news/four-lectures-causality/)
+- Causality tutorial by D.Janzing and S.Weichwald (4 h), [Conference on Cognitive Computational Neuroscience 2019](https://sweichwald.de/slides.html#ccn2019)
+- Course on causality by S.Bauer and B.Schölkopf (3 h), [Machine Learning Summer School 2020](https://www.youtube.com/watch?v=btmJtThWmhA)
+- Course on causality by D.Janzing and B.Schölkopf (3 h), [Machine Learning Summer School 2013](http://mlss.tuebingen.mpg.de/2013/speakers.html)
+- [Causal Inference 3: Counterfactuals](https://www.inference.vc/causal-inference-3-counterfactuals/)
+- [Causality for Machine Learning, Bernhard Schölkopf, 2019](https://arxiv.org/abs/1911.10500)
+- [Elements of Causal Inference](https://www.dropbox.com/s/dl/gkmsow492w3oolt/11283.pdf)
+- [Causal Structure Learning,Christina Heinze-Deml, Marloes H. Maathuis, Nicolai Meinshausen, 2017](https://arxiv.org/abs/1706.09141)
+- [Causal inference in statistics: An overview, 2009](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf)
+- [JUDEA PEARL, MADELYN GLYMOUR, NICHOLAS P. JEWELL CAUSAL INFERENCE IN STATISTICS: A PRIMER](http://bayes.cs.ucla.edu/PRIMER/)
+- [JUDEA PEARL - CAUSALITY, 2nd Edition, 2009](http://bayes.cs.ucla.edu/BOOK-2K/)
+- [Causation, Prediction, and Search, Second Edition](https://mitpress.mit.edu/books/causation-prediction-and-search-second-edition)
+- [Learning DAGs with Continuous Optimization](https://blog.ml.cmu.edu/2020/04/10/learning-dags-with-continuous-optimization/)
+- [Causality in cognitive neuroscience: concepts, challenges, and distributional robustness](https://arxiv.org/abs/2002.06060)
+- [Active Invariant Causal Prediction: Experiment Selection through Stability, Juan L Gamella, Christina Heinze-Deml, 2020](https://arxiv.org/abs/2006.05690)
+- [Investigating Causal Relations by Econometric Models and Cross-spectral Methods, 1969](https://www.jstor.org/stable/1912791?seq=1)
+- [Fast Greedy Equivalence Search (FGES) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Fast_Greedy_Equivalence_Search_(FGES)_Algorithm_for_Continuous_Variables)
+- [Greedy Fast Causal Inference (GFCI) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Greedy_Fast_Causal_Inference_(GFCI)_Algorithm_for_Continuous_Variables)
+- [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms)
+
+## Casual Machine Learning (Papers)
+
+- [Causal Decision Trees](https://arxiv.org/pdf/1508.03812.pdf), Jiuyong Li, Saisai Ma, Thuc Duy Le, Lin Liu and Jixue Liu, 2015
+- [Discovery of Causal Rules Using Partial Association](https://ieeexplore.ieee.org/document/6413892), 2012
+- [Causal Inference in Data Science From Prediction to Causation](https://www.datacouncil.ai/talks/causal-inference-in-data-science-from-prediction-to-causation), 2016
+
+## Experimental designs for casual learning:
+
+- Matching
+- Incident user design
+- Active comparator
+- Instrumental variables estimation
+- Difference-in-differences
+- Regression discontinuity design
+- Modeling
