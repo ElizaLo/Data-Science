@@ -1,4 +1,4 @@
-# Cloud Computing
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Cloud_Computing.png" width="1050" height="150">
 
 ## Microsoft Azure
 
