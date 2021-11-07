@@ -17,6 +17,17 @@
 - [Statistics By Jim](https://statisticsbyjim.com)
 - [Statistics How To](https://www.statisticshowto.com)
 
+## Frameworks
+
+| Title | Description |
+| :---:         |          :--- |
+|[TensorFlow Probability](https://www.tensorflow.org/probability)|TensorFlow Probability (TFP) is a Python library built on TensorFlow that makes it easy to combine probabilistic models and deep learning on modern hardware (TPU, GPU). It's for data scientists, statisticians, ML researchers, and practitioners who want to encode domain knowledge to understand data and make predictions.|
+|[Pyro](https://pyro.ai)|Deep Universal Probabilistic Programming|
+|[ArviZ: Exploratory analysis of Bayesian models](https://arviz-devs.github.io/arviz/#)|ArviZ is a Python package for exploratory analysis of Bayesian models. Includes functions for posterior analysis, data storage, sample diagnostics, model checking, and comparison.|
+|[PyStan](https://pystan.readthedocs.io/en/latest/)|PyStan is a Python interface to Stan, a package for Bayesian inference.|
+
+
+
 ## Terminology and Methods
 
 ### Sampling
