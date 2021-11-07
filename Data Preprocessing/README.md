@@ -142,6 +142,12 @@
 
 ------------------------------------
 
+## Libraries
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[static-frame](https://github.com/InvestmentSystems/static-frame)|Immutable and grow-only Pandas-like DataFrames with a more explicit and consistent interface.|
+
 ##  Select a Subset of a DataFrame
 
 - [How do I select a subset of a DataFrame?](https://pandas.pydata.org/pandas-docs/version/1.0.2/getting_started/intro_tutorials/03_subset_data.html), Pandas documentation
