@@ -57,10 +57,28 @@
 ## Online courses
 
 - [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
+- [Machine Learning Foundations](https://github.com/jonkrohn/ML-foundations)
+  > Machine Learning Foundations: Linear Algebra, Calculus, Statistics & Computer Science
+- 
 
 ## Books
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
+  - [Machine Learning Notebooks](https://github.com/ageron/handson-ml)
+    - > A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.
+- 
+
+## GitHub Repositories :octocat:
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
+
+### Courses
+| Title | Description, Information |
+| :---:         |          :--- |
+|[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
 
 ## Certifications
 
@@ -103,7 +121,17 @@
 
 ## Blogs
 
+### Companies Blogs
+
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
+- [The Netflix Tech Blog](https://netflixtechblog.com)
+
+### Other Blogs
+
+- [Towards AI](https://towardsai.net/p/category/editorial)
+  - [Tutorials](https://github.com/towardsai/tutorials) 
+    - > AI-related tutorials.
+- 
 
 ## Articles
 
