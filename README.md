@@ -38,6 +38,90 @@
 - [Statistics](https://github.com/ElizaLo/Data-Science/tree/master/Statistics)
 - [Tools and Tips](https://github.com/ElizaLo/Data-Science/tree/master/Tools%20and%20Tips)
 
+## Educational Platforms
+
+- [OpenEDU](https://openedu.ru)
+
+## University courses 👩‍🎓
+
+| Title | Description |
+| :---:         |          :--- |
+|[MIT OpenCourseWare](https://ocw.mit.edu)|<ul><li>[MIT OpenCourseWare](https://www.youtube.com/c/mitocw) on YouTube</li></ul>|
+
+### Time Series
+
+| Title | Description |
+| :---:         |          :--- |
+|[MIT 18.S096 Topics in Mathematics w Applications in Finance](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)|<ul><p>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</p><li>[Video lectures](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)</li></ul>|
+
+## Online courses
+
+- [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
+
+## Books
+
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+## Certifications
+
+- [ ] [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate?hl=en)
+- [ ] [Certified Analytics Professional (CAP)](https://www.certifiedanalytics.org/)
+- [ ] [Cloudera Certified Associate: Data Analyst](https//www.cloudera.com/about/training/certification/cca-data-analyst.html)
+- [ ] [Cloudera Certified Professional: CCP Data Engineer](https://www.cloudera.com/about/training/certification/ccp-data-engineer.html)
+- [ ] [Data Science Council of America (DASCA) Senior Data Scientist (SDS)](https://www.dasca.org/data-science-certifications/senior-data-scientist)
+- [ ] [Data Science Council of America (DASCA) Principal Data Scientist (PDS)](https://www.dasca.org/data-science-certifications/principal-data-scientist)
+- [ ] [Dell EMC Data Science Track](https://education.dellemc.com/content/emc/en-us/home/certification-overview/find-exam/data-science-associate.html)
+- [ ] [Google Certified Professional Data Engineer](https://cloud.google.com/certification/data-engineer)
+- [ ] [Google Data and Machine Learning](https://cloud.google.com/training/data-ml)
+- [ ] [IBM Data Science Professional Certificate](https://www.edx.org/professional-certificate/ibm-data-science)
+- [ ] [Microsoft MCSE: Data Management and Analytics](https://www.microsoft.com/en-us/learning/mcse-data-management-analytics.aspx)
+- [ ] [Microsoft Certified Azure Data Scientist Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist)
+- [ ] [Open Certified Data Scientist](https://certification.opengroup.org/opencds)
+- [ ] [SAS Certified Advanced Analytics Professional](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/advanced-analytics-professional.html)
+- [ ] [SAS Certified Big Data Professional](https://www.sas.com/en_us/certification/credentials/data-management/big-data-professional.html)
+- [ ] [SAS Certified Data Scientist](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/data-scientist.html)
+
+## Online Conferences, Meetups, Data Summer Schools
+
+- Live Webinars & On-demand Recordings by [ODSC COMMUNITY](https://app.aiplus.training/bundles/odsc-webinars)
+- [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
+- [Webinars 2020, Computer Science UCU](https://www.youtube.com/playlist?list=PLr1w0qwTp9lDX4ZaS1iRvdWLJEzpBKjWz)
+- [Eastern European Machine Learning Summer School, 2020 (Deep Learning and Reinforcement Learning](https://www.eeml.eu/home)
+  - [Program](https://www.eeml.eu/program)
+  - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
+
+## Twitter
+
+- [Christopher Manning](https://twitter.com/chrmanning)
+- [Sebastian Ruder](https://twitter.com/seb_ruder)
+- [Prof. Sam Bowman](https://twitter.com/sleepinyourhat)
+
+## Podcasts
+
+- [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
+- [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
+
+## Blogs
+
+- [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
+
+## Articles
+
+- [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
+- [Data Science и Machine Learning: с чего начать и где учиться](https://dou.ua/lenta/columns/study-data-science-and-ml/?from=recent)
+
+## Communities 
+
+| Title | Description |
+| :---:         |          :--- |
+|Coursera Comminity [Data Science](https://coursera.community/data-science-8?utm_medium=email&utm_source=community&utm_campaign=Hw2psJDeEeqxW2EAYUwV1Q)| |
+|[Locally Optimistic](https://locallyoptimistic.com)|A community for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.|
+
+## Telegram Chanels
+
+- [DataScience Digest](https://t.me/DataScienceDigest)
+  - Collection of the top articles, videos, events, books and jobs on Machine Learning, Deep Learning, NLP, Computer Vision and other aspects of Data Science.
+
 ## Main skills required by the data scientists vacancies
 
 > The [research](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/data-scientists-skills-2020-1/) made by **Faculty of Applied Sciences at UCU**. Link on main [article](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/).
@@ -168,70 +252,3 @@
 
 - [Що має знати Data Scientist. Аналіз вакансій в Україні та Каліфорнії](https://dou.ua/lenta/articles/knowledge-for-data-scientist/?from=tg)
 
-  
-## Educational Platforms
-
-- [OpenEDU](https://openedu.ru)
-
-## Courses
-
-- [ ] [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
-
-## Certifications
-
-- [ ] [Certified Analytics Professional (CAP)](https://www.certifiedanalytics.org/)
-- [ ] [Cloudera Certified Associate: Data Analyst](https//www.cloudera.com/about/training/certification/cca-data-analyst.html)
-- [ ] [Cloudera Certified Professional: CCP Data Engineer](https://www.cloudera.com/about/training/certification/ccp-data-engineer.html)
-- [ ] [Data Science Council of America (DASCA) Senior Data Scientist (SDS)](https://www.dasca.org/data-science-certifications/senior-data-scientist)
-- [ ] [Data Science Council of America (DASCA) Principal Data Scientist (PDS)](https://www.dasca.org/data-science-certifications/principal-data-scientist)
-- [ ] [Dell EMC Data Science Track](https://education.dellemc.com/content/emc/en-us/home/certification-overview/find-exam/data-science-associate.html)
-- [ ] [Google Certified Professional Data Engineer](https://cloud.google.com/certification/data-engineer)
-- [ ] [Google Data and Machine Learning](https://cloud.google.com/training/data-ml)
-- [ ] [IBM Data Science Professional Certificate](https://www.edx.org/professional-certificate/ibm-data-science)
-- [ ] [Microsoft MCSE: Data Management and Analytics](https://www.microsoft.com/en-us/learning/mcse-data-management-analytics.aspx)
-- [ ] [Microsoft Certified Azure Data Scientist Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist)
-- [ ] [Open Certified Data Scientist](https://certification.opengroup.org/opencds)
-- [ ] [SAS Certified Advanced Analytics Professional](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/advanced-analytics-professional.html)
-- [ ] [SAS Certified Big Data Professional](https://www.sas.com/en_us/certification/credentials/data-management/big-data-professional.html)
-- [ ] [SAS Certified Data Scientist](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/data-scientist.html)
-
-## Online Conferences, Meetups, Data Summer Schools
-
-- Live Webinars & On-demand Recordings by [ODSC COMMUNITY](https://app.aiplus.training/bundles/odsc-webinars)
-- [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
-- [Webinars 2020, Computer Science UCU](https://www.youtube.com/playlist?list=PLr1w0qwTp9lDX4ZaS1iRvdWLJEzpBKjWz)
-- [Eastern European Machine Learning Summer School, 2020 (Deep Learning and Reinforcement Learning](https://www.eeml.eu/home)
-  - [Program](https://www.eeml.eu/program)
-  - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
-
-## Twitter
-
-- [Christopher Manning](https://twitter.com/chrmanning)
-- [Sebastian Ruder](https://twitter.com/seb_ruder)
-- [Prof. Sam Bowman](https://twitter.com/sleepinyourhat)
-
-## Podcasts
-
-- [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
-- [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
-
-## Blogs
-
-- [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
-
-## Articles
-
-- [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
-- [Data Science и Machine Learning: с чего начать и где учиться](https://dou.ua/lenta/columns/study-data-science-and-ml/?from=recent)
-
-## Communities 
-
-| Title | Description |
-| :---:         |          :--- |
-|Coursera Comminity [Data Science](https://coursera.community/data-science-8?utm_medium=email&utm_source=community&utm_campaign=Hw2psJDeEeqxW2EAYUwV1Q)| |
-|[Locally Optimistic](https://locallyoptimistic.com)|A community for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.|
-
-## Telegram Chanels
-
-- [DataScience Digest](https://t.me/DataScienceDigest)
-  - Collection of the top articles, videos, events, books and jobs on Machine Learning, Deep Learning, NLP, Computer Vision and other aspects of Data Science.
