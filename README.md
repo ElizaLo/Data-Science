@@ -125,6 +125,8 @@
 
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
 - [The Netflix Tech Blog](https://netflixtechblog.com)
+- [Uber Engineering](https://eng.uber.com)
+- [NVIDIA Developer](https://developer.nvidia.com)
 
 ### Other Blogs
 
