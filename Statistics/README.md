@@ -49,6 +49,7 @@
 |[Relative Standard Deviation (RSD) / Coefficient of Variation (CV)](https://en.wikipedia.org/wiki/Coefficient_of_variation)|<ul><li>The coefficient of variation (CV), also known as relative standard deviation (RSD), is a standardized measure of the dispersion of a probability distribution or frequency distribution. It helps us in understanding how the spread is the data in two different tests</li></ul>|
 |Relative Squared Error (RSE)|<ul><li>The relative squared error (RSE) is relative to what it would have been if a simple predictor had been used. More specifically, this simple predictor is just the average of the actual values. Thus, the relative squared error takes the total squared error and normalizes it by dividing by the total squared error of the simple predictor. It can be compared between models whose errors are measured in the different units.</li></ul>|
 |Relative Absolute Error (RAE)|<ul><li>Relative Absolute Error (RAE) is a way to measure the performance of a predictive model. RAE is not to be confused with relative error, which is a general measure of precision or accuracy for instruments like clocks, rulers, or scales. It is expressed as a ratio, comparing a mean error (residual) to errors produced by a trivial or naive model. A good forecasting model will produce a ratio close to zero; A poor model (one that’s worse than the naive model) will produce a ratio greater than one.</li><li>It is very similar to the relative squared error in the sense that it is also relative to a simple predictor, which is just the average of the actual values. In this case, though, the error is just the total absolute error instead of the total squared error. Thus, the relative absolute error takes the total absolute error and normalizes it by dividing by the total absolute error of the simple predictor.</li></ul>|
+|Weighted Mean Absolute Percentage Error (wMAPE)|<ul><li>[Calculating demand forecast accuracy](https://en.wikipedia.org/wiki/Demand_forecasting#Calculating_demand_forecast_accuracy)</li></ul>|
 
 #### Other Errors
 
@@ -56,6 +57,7 @@
 | :---:         |          :--- |
 |[Forecast Error (or Residual Forecast Error)](https://en.wikipedia.org/wiki/Forecast_error)|The forecast error is calculated as the expected value minus the predicted value. This is called the **residual error of the prediction**.|
 |Mean Forecast Error (or Forecast Bias) |Mean forecast error is calculated as the average of the forecast error values.|
+|[Tracking signal](https://en.wikipedia.org/wiki/Tracking_signal)|Monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts.|
 
 #### 📄 Articles
 
