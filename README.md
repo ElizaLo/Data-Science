@@ -76,6 +76,12 @@
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
 
 ### Courses
+
+| Title | Description|
+| :---:         |          :--- |
+|[Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners)|Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.|
+
+### Courses
 | Title | Description, Information |
 | :---:         |          :--- |
 |[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
@@ -133,7 +139,7 @@
 - [Towards AI](https://towardsai.net/p/category/editorial)
   - [Tutorials](https://github.com/towardsai/tutorials) 
     - > AI-related tutorials.
-- 
+- [Data Notes](https://data-notes.co)
 
 ## Articles
 
@@ -265,7 +271,15 @@
 
 - [Sample Quant Exam](https://www.gresearch.co.uk/wp-content/uploads/2019/12/Sample-Quant-Exa.pdf)
 
-## Interview Preparation (Useful Articles)
+# Interview Preparation
+
+## GitHub Repositories :octocat:
+
+| Title | Description|
+| :---:         |          :--- |
+|**[cracking-the-data-science-interview](https://github.com/khanhnamle1994/cracking-the-data-science-interview)**|A Collection of Cheatsheets, Books, Questions, and Portfolio For DS/ML Interview Prep|
+
+## Useful Articles
 
 ### English
 
