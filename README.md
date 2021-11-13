@@ -61,6 +61,15 @@
   > Machine Learning Foundations: Linear Algebra, Calculus, Statistics & Computer Science
 - 
 
+### GitHub Repositories :octocat:
+
+| Title | Description |
+| :---:         |          :--- |
+|[Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.|
+|[Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 12-week, 26-lesson curriculum all about Machine Learning. In this curriculum, you will learn about what is sometimes called classic machine learning, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in our forthcoming 'AI for Beginners' curriculum. |
+|[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
+
+
 ## Books
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
@@ -73,18 +82,9 @@
 
 | Title | Description, Information |
 | :---:         |          :--- |
+|[Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence)|A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.|
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
 
-### Courses
-
-| Title | Description|
-| :---:         |          :--- |
-|[Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners)|Azure Cloud Advocates at Microsoft are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.|
-
-### Courses
-| Title | Description, Information |
-| :---:         |          :--- |
-|[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
 
 ## Certifications
 
@@ -124,6 +124,7 @@
 
 - [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
 - [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
+- [Awesome Data Podcasts](https://github.com/DataTalksClub/awesome-data-podcasts)
 
 ## Blogs
 
@@ -140,6 +141,7 @@
   - [Tutorials](https://github.com/towardsai/tutorials) 
     - > AI-related tutorials.
 - [Data Notes](https://data-notes.co)
+
 
 ## Articles
 
@@ -277,7 +279,8 @@
 
 | Title | Description|
 | :---:         |          :--- |
-|**[cracking-the-data-science-interview](https://github.com/khanhnamle1994/cracking-the-data-science-interview)**|A Collection of Cheatsheets, Books, Questions, and Portfolio For DS/ML Interview Prep|
+|[cracking-the-data-science-interview](https://github.com/khanhnamle1994/cracking-the-data-science-interview)|A Collection of Cheatsheets, Books, Questions, and Portfolio For DS/ML Interview Prep|
+|[Cracking The Machine Learning Interview](https://github.com/rchavezj/Cracking_The_Machine_Learning_Interview)|I am currently writing a solution from the Medium article "Cracking the Machine Learning Interview," written by Subhrajit Roy. In the past year since the article went public, Subhrajit has only written down the questions with no update on the solutions. I plan on finishing the war. I may add more questions outside of the articles domain. Some of my solutions may contain code from the following following frameworks: Scikit-Learn, PyTorch, TensorFlow|
 
 ## Useful Articles
 
