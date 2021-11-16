@@ -48,6 +48,13 @@
 | :---:         |          :--- |
 |[MIT OpenCourseWare](https://ocw.mit.edu)|<ul><li>[MIT OpenCourseWare](https://www.youtube.com/c/mitocw) on YouTube</li></ul>|
 
+### Julia language
+
+| Title | Description |
+| :---:         |          :--- |
+|[Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)|<ul><li>[MIT 18.S191 aka 6.S083 aka 22.S092, Fall 2020](https://computationalthinking.mit.edu/Fall20/)</li><li>[Spring 2021 / MIT 18.S191/6.S083/22.S092](https://computationalthinking.mit.edu/Spring21/)</li></ul>|
+
+
 ### Time Series
 
 | Title | Description |
