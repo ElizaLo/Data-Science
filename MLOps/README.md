@@ -21,6 +21,7 @@
 
 | Title | Description|
 | :---: | :--- |
+|[MLOps-Basics](https://github.com/graviraja/MLOps-Basics)|The goal of the series is to understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc.|
 |[awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)|A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.|
 
 
