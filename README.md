@@ -280,29 +280,3 @@
 
 - [Sample Quant Exam](https://www.gresearch.co.uk/wp-content/uploads/2019/12/Sample-Quant-Exa.pdf)
 
-# Interview Preparation
-
-## GitHub Repositories :octocat:
-
-| Title | Description|
-| :---:         |          :--- |
-|[cracking-the-data-science-interview](https://github.com/khanhnamle1994/cracking-the-data-science-interview)|A Collection of Cheatsheets, Books, Questions, and Portfolio For DS/ML Interview Prep|
-|[Cracking The Machine Learning Interview](https://github.com/rchavezj/Cracking_The_Machine_Learning_Interview)|I am currently writing a solution from the Medium article "Cracking the Machine Learning Interview," written by Subhrajit Roy. In the past year since the article went public, Subhrajit has only written down the questions with no update on the solutions. I plan on finishing the war. I may add more questions outside of the articles domain. Some of my solutions may contain code from the following following frameworks: Scikit-Learn, PyTorch, TensorFlow|
-
-## Useful Articles
-
-### English
-
-- [Interview Strategies To Land A Data Science Job](https://analyticsindiamag.com/interview-strategies-to-land-a-data-science-job/)
-- [The Data Science Interview Blueprint](https://towardsdatascience.com/the-data-science-interview-blueprint-75d69c92516c)
-
-### Russian
-
-- [Собеседование по Data Science: что нужно знать и где это изучить](https://tproger.ru/translations/preparing-for-data-science-interview/)
-- [Советы сеньоров: как прокачать знания junior Data Scientist](https://dou.ua/lenta/articles/senior-data-science-tips/)
-- [Карьера в IT: должность Data Scientist / Machine Learning Engineer](https://dou.ua/lenta/articles/it-position-ds-ml/)
-
-### Ukrainian:
-
-- [Що має знати Data Scientist. Аналіз вакансій в Україні та Каліфорнії](https://dou.ua/lenta/articles/knowledge-for-data-scientist/?from=tg)
-
