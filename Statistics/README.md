@@ -17,6 +17,12 @@
 - [Statistics By Jim](https://statisticsbyjim.com)
 - [Statistics How To](https://www.statisticshowto.com)
 
+## :octocat: GitHub Repositories
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[Statistics/ Mathematical Computing Notebooks](https://github.com/tirthajyoti/Stats-Maths-with-Python)|General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python|
+
 ## Frameworks
 
 | Title | Description |
