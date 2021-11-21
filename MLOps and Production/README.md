@@ -17,12 +17,18 @@
 |[Comet.ml](https://www.comet.ml/site/data-scientists/)|<ul><p>Comet is doing for ML what Github did for code.</p><p>Track your datasets, code changes, experimentation history, and models. Comet provides insights and data to build better models, faster while improving productivity, collaboration and explainability.</p></ul>|
 |[DVC](https://dvc.org)|<ul><p>Data Version Control, or DVC, is a data and ML experiment management tool that takes advantage of the existing engineering toolset that you're already familiar with (Git, CI/CD, etc.).</p></ul>|
 
+## Tools
+
+| Title | Description|
+| :---: | :--- |
+|[Synapse Machine Learning](https://github.com/microsoft/SynapseML)|<ul><p>Simple and Distributed Machine Learning</p><p>SynapseML (previously MMLSpark) is an open source library to simplify the creation of scalable machine learning pipelines. SynapseML builds on Apache Spark and SparkML to enable new kinds of machine learning, analytics, and model deployment workflows. SynapseML adds many deep learning and data science tools to the Spark ecosystem, including seamless integration of Spark Machine Learning pipelines with the Open Neural Network Exchange (ONNX), LightGBM, The Cognitive Services, Vowpal Wabbit, and OpenCV. These tools enable powerful and highly-scalable predictive and analytical models for a variety of datasources.</p></ul>|
+
+
 ## :octocat: GitHub Repositories
 
 | Title | Description|
 | :---: | :--- |
 |[MLOps-Basics](https://github.com/graviraja/MLOps-Basics)|The goal of the series is to understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc.|
-|[awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)|A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.|
 
 
 ## AWS 
@@ -46,3 +52,12 @@
 
 - [Hardening Docker containers, images, and host - security toolkit](https://cloud.redhat.com/blog/hardening-docker-containers-images-and-host-security-toolkit) by Red Hat
 - 
+
+# Machine Learning in Production
+
+## GitHub Repositories :octocat:
+
+| Title | Description, Information|
+| :---:         |          :--- |
+|[applied-ml](https://github.com/eugeneyan/applied-ml#forecasting)|Papers & tech blogs by companies sharing their work on data science & machine learning in production.|
+|[awesome-production-machine-learning](https://github.com/EthicalML/awesome-production-machine-learning)|A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning.|
