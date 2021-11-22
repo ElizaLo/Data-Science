@@ -65,6 +65,17 @@
 |Mean Forecast Error (or Forecast Bias) |Mean forecast error is calculated as the average of the forecast error values.|
 |[Tracking signal](https://en.wikipedia.org/wiki/Tracking_signal)|Monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts.|
 
+### Confusion matrix
+
+- [Confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+
+#### Tools
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[Confusion Matrix in Python](https://github.com/wcipriano/pretty-print-confusion-matrix)|Confusion Matrix in Python: plot a pretty confusion matrix (like Matlab) in python using seaborn and matplotlib|
+
+
 #### 📄 Articles
 
 - [Ways to Evaluate Regression Models](https://towardsdatascience.com/ways-to-evaluate-regression-models-77a3ff45ba70)
