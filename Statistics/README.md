@@ -40,6 +40,8 @@
 
 - [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
 
+----------------------------
+
 ### Errors
 
 | Title | Description, Information |
@@ -65,17 +67,6 @@
 |Mean Forecast Error (or Forecast Bias) |Mean forecast error is calculated as the average of the forecast error values.|
 |[Tracking signal](https://en.wikipedia.org/wiki/Tracking_signal)|Monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts.|
 
-### Confusion matrix
-
-- [Confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
-
-#### Tools
-
-| Title | Description, Information |
-| :---:         |          :--- |
-|[Confusion Matrix in Python](https://github.com/wcipriano/pretty-print-confusion-matrix)|Confusion Matrix in Python: plot a pretty confusion matrix (like Matlab) in python using seaborn and matplotlib|
-
-
 #### 📄 Articles
 
 - [Ways to Evaluate Regression Models](https://towardsdatascience.com/ways-to-evaluate-regression-models-77a3ff45ba70)
@@ -89,10 +80,26 @@
 
 - [Another look at measures of forecast accuracy](https://robjhyndman.com/papers/mase.pdf) by Rob J Hyndman
 
+----------------------------
+
+### Confusion matrix
+
+- [Confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+
+#### Tools
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[Confusion Matrix in Python](https://github.com/wcipriano/pretty-print-confusion-matrix)|Confusion Matrix in Python: plot a pretty confusion matrix (like Matlab) in python using seaborn and matplotlib|
+
+----------------------------
+
 ### T-test
 
 - [Two Sample t Test: unequal variances](https://www.real-statistics.com/students-t-distribution/two-sample-t-test-uequal-variances/)
 - [Paired Sample T-Test](https://www.statisticssolutions.com/manova-analysis-paired-sample-t-test/?__cf_chl_jschl_tk__=7ce798a5221b0a7eb6119acd7006f1e2f0ea6e92-1614442595-0-Ace7FKLX7nRAMdKS3WD_p10PXYZDFsjL3E6A8v04mSXz_4kAm3WVSWTIzxDkNB_doIOT3tyjZtGm5xzCcO-3f_nOjrFHo-9tO_iOJdrmElBH3iIvume-oCCjIuCCzTs-NXNK1MWtdQll1vZh_GndYerOskzJFCl2uhb5qXFqLzFjPDJTZZ_HzAiEXWamrM2vf5vKYKryqJf7IMcFs9MJ1viq8NRpBQrsaLlKFRiawn8USDgFAMZ5pKdjPgPzIacGVMScGiVh8BlpYMt-2RqAPxTxI9YsQkIp-vsKfdaCuI99X_-gMb4BF98TS7kmqwNrnWsYKg1kqZYe1XNxTsZ67h_xds22jvzx9OOtTdE--gnT)
+
+----------------------------
 
 ### Estimation
 
@@ -100,6 +107,8 @@
 | :---: | :--- |
 |[Least squares (Метод найменших квадратів, МНК)](https://en.wikipedia.org/wiki/Least_squares)|<ul><p>The method of **least squares** is a standard approach in regression analysis to approximate the solution of overdetermined systems (sets of equations in which there are more equations than unknowns) by minimizing the sum of the squares of the residuals made in the results of every single equation.</p><p></p>The most important application is in **data fitting (curve fitting)**. The best fit in the least-squares sense minimizes the sum of squared residuals (a residual being: the difference between an observed value, and the fitted value provided by a model). When the problem has substantial uncertainties in the independent variable (the x variable), then simple regression and least-squares methods have problems; in such cases, the methodology required for fitting errors-in-variables models may be considered instead of that for least squares.</p><p> Least-squares problems fall into two categories: **linear or ordinary least squares** and **nonlinear least squares**, depending on whether or not the residuals are linear in all unknowns. The **linear least-squares** problem occurs in statistical regression analysis; it has a closed-form solution. The **nonlinear** problem is usually solved by iterative refinement; at each iteration the system is approximated by a linear one, and thus the core calculation is similar in both cases.</p></ul>|
 |[Least Absolute Deviations (LAD)](https://en.wikipedia.org/wiki/Least_absolute_deviations)|<ul><p>**Least absolute deviations (LAD)**, also known as **least absolute errors (LAE), least absolute value (LAV), least absolute residual (LAR), sum of absolute deviations,** or the **L1 norm** condition, is a statistical optimality criterion and the statistical optimization technique that relies on it. Similar to the least squares technique, it attempts to find a function which closely approximates a set of data.</p></ul>|
+
+----------------------------
 
 # Bayesian Statistics
   
