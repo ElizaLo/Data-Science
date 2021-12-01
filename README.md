@@ -92,6 +92,12 @@
 |[Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence)|A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.|
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
 
+## Papers 
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[2021: A Year Full of Amazing AI papers- A Review / 📌 [work in progress...]](https://github.com/louisfb01/best_AI_papers_2021)|A curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code. [work in progress]|
+
 
 ## Certifications
 
@@ -148,6 +154,7 @@
   - [Tutorials](https://github.com/towardsai/tutorials) 
     - > AI-related tutorials.
 - [Data Notes](https://data-notes.co)
+- [Louis Bouchard | @What's AI - Making AI Accessible](https://www.louisbouchard.ai)
 
 
 ## Articles
