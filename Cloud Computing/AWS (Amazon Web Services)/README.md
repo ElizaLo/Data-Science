@@ -25,6 +25,7 @@
 |**[Amazon Elastic File System](https://aws.amazon.com/ru/efs/)**|<ul><li>[Shared File System for Your Lambda Functions](https://aws.amazon.com/ru/blogs/aws/new-a-shared-file-system-for-your-lambda-functions/)</li></ul>|
 |**[Amazon Elastic Container Service](https://aws.amazon.com/ru/ecs/?nc1=h_ls&whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&ecs-blogs.sort-by=item.additionalFields.createdDate&ecs-blogs.sort-order=desc)**|<ul><li>[]()</li></ul>|
 |**[AWS DeepRacer](https://aws.amazon.com/ru/deepracer/)**|Developers of all skill levels can get hands on with machine learning through a cloud based 3D racing simulator, fully autonomous 1/18th scale race car driven by reinforcement learning, and global racing league.|
+|**[Amazon Mechanical Turk](https://www.mturk.com)**|Amazon Mechanical Turk (MTurk) is a crowdsourcing marketplace that makes it easier for individuals and businesses to outsource their processes and jobs to a distributed workforce who can perform these tasks virtually. This could include anything from conducting simple data validation and research to more subjective tasks like survey participation, content moderation, and more. MTurk enables companies to harness the collective intelligence, skills, and insights from a global workforce to streamline business processes, augment data collection and analysis, and accelerate machine learning development.|
 
 
 ## Examples
