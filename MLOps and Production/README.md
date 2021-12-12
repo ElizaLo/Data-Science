@@ -33,6 +33,10 @@
 
 ## AWS 
 
+| Title | Description|
+| :---: | :--- |
+|[Amazon SageMaker Safe Deployment Pipeline](https://github.com/aws-samples/amazon-sagemaker-safe-deployment-pipeline)|Safe blue/green deployment of Amazon SageMaker endpoints using AWS CodePipeline, CodeBuild and CodeDeploy.|
+
 ### Workshops
 
 :octocat:
@@ -41,11 +45,15 @@
 | :---: | :--- |
 |[Amazon Sagemaker MLops (with classic CI/CD tools) Workshop](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)| Machine Learning Ops Workshop with SageMaker: lab guides and materials.|
 |[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)|This repo contains example code for a (very basic) ML platform.|
+| | |
 
 ## Docker
 
 - [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 - [Docker Documentation](https://docs.docker.com)
+- [Awesome Compose](https://github.com/docker/awesome-compose)
+  > Awesome Docker Compose samples
+- 
 
 
 ### Articles 
