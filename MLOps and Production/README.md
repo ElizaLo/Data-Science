@@ -47,19 +47,45 @@
 |[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)|This repo contains example code for a (very basic) ML platform.|
 | | |
 
-## Docker
+## 🐳 Docker
+
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/docker_1.png" width="1050" height="150">
 
 - [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 - [Docker Documentation](https://docs.docker.com)
-- [Awesome Compose](https://github.com/docker/awesome-compose)
-  > Awesome Docker Compose samples
-- 
+- [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
+### Docker Documentation
+
+- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+- [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Container networking](https://docs.docker.com/config/containers/container-networking/)
+- 
 
 ### Articles 
 
+**Security:**
 - [Hardening Docker containers, images, and host - security toolkit](https://cloud.redhat.com/blog/hardening-docker-containers-images-and-host-security-toolkit) by Red Hat
-- 
+- [Docker Container Security 101: Risks and 33 Best Practices](https://www.stackrox.io/blog/docker-security-101/)
+
+
+### :octocat: GitHub Repositories 
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[Awesome Docker](https://github.com/veggiemonk/awesome-docker)|🐳 A curated list of Docker resources and projects|
+|[Awesome Compose](https://github.com/docker/awesome-compose)|Awesome Docker Compose samples|
+|[❄️ 🐳 Awesome AI, ML and Data Science on Kubernetes](https://github.com/CognonicLabs/awesome-AI-kubernetes)|❄️ 🐳 Awesome tools and libs for AI, Deep Learning, Machine Learning, Computer Vision, Data Science, Data Analytics and Cognitive Computing that are baked in the oven to be Native on Kubernetes and Docker with Python, R, Scala, Java, C#, Go, Julia, C++ etc|
+
+## Kubernetes
+
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/kubernetes.png" width="1050" height="150">
+
+### Communities
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[The StackRox Community](https://www.stackrox.io)|Security continues to be a critical need for the broader cloud-native ecosystem building and running Kubernetes applications. The StackRox community will work toward providing an open source Kubernetes-native security solution to protect Kubernetes environments.|
 
 # Machine Learning in Production
 
