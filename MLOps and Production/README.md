@@ -51,6 +51,7 @@
 
 <img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/docker_1.png" width="1050" height="150">
 
+- [Docker Hub](https://hub.docker.com)
 - [Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
 - [Docker Documentation](https://docs.docker.com)
 - [List of TCP and UDP port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
@@ -112,6 +113,25 @@
 - Login to DockerHub
 
       docker login
+      
+- Push a new image to this repository using the CLI
+
+      docker tag local-image:tagname new-repo:tagname
+      docker push new-repo:tagname
+      
+Make sure to change tagname with your desired image repository tag.
+
+- Add tag 
+
+      docker tag [image name] [user name]/[repo name]:[tag name]
+
+- To push a new tag to this repository
+
+      docker push user_name/repo_name:tagname
+      
+- Docker Pull Command
+
+      docker pull user_name/repo_name
 
 ### :octocat: GitHub Repositories 
 
@@ -120,6 +140,7 @@
 |[Awesome Docker](https://github.com/veggiemonk/awesome-docker)|🐳 A curated list of Docker resources and projects|
 |[Awesome Compose](https://github.com/docker/awesome-compose)|Awesome Docker Compose samples|
 |[❄️ 🐳 Awesome AI, ML and Data Science on Kubernetes](https://github.com/CognonicLabs/awesome-AI-kubernetes)|❄️ 🐳 Awesome tools and libs for AI, Deep Learning, Machine Learning, Computer Vision, Data Science, Data Analytics and Cognitive Computing that are baked in the oven to be Native on Kubernetes and Docker with Python, R, Scala, Java, C#, Go, Julia, C++ etc|
+|[CIS Docker Benchmark support](https://github.com/aquasecurity/docker-bench)|Checks whether Docker is deployed according to security best practices as defined in the CIS Docker Benchmark|
 
 ## Kubernetes
 
