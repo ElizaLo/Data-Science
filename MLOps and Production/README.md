@@ -67,7 +67,51 @@
 **Security:**
 - [Hardening Docker containers, images, and host - security toolkit](https://cloud.redhat.com/blog/hardening-docker-containers-images-and-host-security-toolkit) by Red Hat
 - [Docker Container Security 101: Risks and 33 Best Practices](https://www.stackrox.io/blog/docker-security-101/)
+- 
 
+### Docker Commands
+
+- Build **image**
+
+      docker build -t [testimage (name of image)] .
+
+- Build **container**
+
+      docker run --name [name of container] -p [ports] [name of image]
+      docker run --name testcontainer -p 8080:80 testimage
+
+- Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+
+      docker scan
+      
+- Show all images
+
+      docker images --all
+
+- Show all containers
+
+      docker ps
+
+- Exec
+
+      docker exec --help
+      
+- Logs
+
+      docker logs 
+      docker logs --help
+      
+- Remove container
+
+      docker rm
+
+- Remove image
+
+      docker rmi
+      
+- Login to DockerHub
+
+      docker login
 
 ### :octocat: GitHub Repositories 
 
