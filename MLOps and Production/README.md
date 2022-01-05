@@ -132,6 +132,18 @@ Make sure to change tagname with your desired image repository tag.
 - Docker Pull Command
 
       docker pull user_name/repo_name
+      
+- Create Volume
+
+      docker volume create volume_name
+      
+- Volume list
+
+    docker volume list
+    
+- Inspect volume
+
+    docker inspect volume
 
 ### :octocat: GitHub Repositories 
 
