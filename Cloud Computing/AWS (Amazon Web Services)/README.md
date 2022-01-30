@@ -98,6 +98,47 @@ wr.s3.to_csv(
   - [How to Build an AWS Lambda for Data Science](https://towardsdatascience.com/how-to-build-an-aws-lambda-for-data-science-cec62deaf0e9)
 - 
 
+### Doker and Lambda
+
+**To create an image from an AWS base image for Lambda**
+
+1. On your local machine, create a project directory for your new function.
+2. Create a directory named app in in the project directory, and then add your function handler code to the app directory.
+3. Use a text editor to create a new Dockerfile.
+4. Build your Docker image with the `docker build` command. Enter a name for the image. The following example names the image `hello-world`.
+
+        docker build -t hello-world .  
+        docker build -t hello-world:latest -f Dockerfile -m 12g .
+        
+5. Start the Docker image with the `docker run` command. For this example, enter `hello-world` as the image name.
+
+        docker run -p 9000:8080 hello-world
+
+6. _(Optional)_ Test your application locally using the runtime interface emulator. From a new terminal window, post an event to the following endpoint using a curl command:
+
+        curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
+        
+7. Authenticate the Docker CLI to your **Amazon ECR** registry.
+
+        aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
+        
+8. Create a repository in Amazon ECR using the create-repository command.
+
+        aws ecr create-repository --repository-name hello-world --image-scanning-configuration scanOnPush=true --image-tag-mutability MUTABLE
+        
+9. Tag your image to match your repository name.
+
+        docker tag  hello-world:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+
+10. Deploy the image to Amazon ECR using the `docker push` command. 
+
+        docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+
+#### 🔗 Links
+
+- [Creating Lambda container images](https://docs.aws.amazon.com/lambda/latest/dg/images-create.html)
+- Updating the function code (console) -> [Creating Lambda functions defined as container images](https://docs.aws.amazon.com/lambda/latest/dg/configuration-images.html)
+
 ## AWS
 
 - [SERVERLESS DATA PROCESSING ON AWS](https://data-processing.serverlessworkshops.io)
