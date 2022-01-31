@@ -139,11 +139,11 @@ Make sure to change tagname with your desired image repository tag.
       
 - Volume list
 
-    docker volume list
+      docker volume list
     
 - Inspect volume
 
-    docker inspect volume
+      docker inspect volume
 
 ### :octocat: GitHub Repositories 
 
