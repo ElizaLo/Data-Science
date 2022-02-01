@@ -168,6 +168,7 @@
 | :---:         |          :--- |
 |Coursera Comminity [Data Science](https://coursera.community/data-science-8?utm_medium=email&utm_source=community&utm_campaign=Hw2psJDeEeqxW2EAYUwV1Q)| |
 |[Locally Optimistic](https://locallyoptimistic.com)|A community for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.|
+|[Deepchecks Community](https://deepcheckscommunity.slack.com/join/shared_invite/zt-y28sjt1v-PBT50S3uoyWui_Deg5L_jg#/shared-invite/email)|A place to talk about MLOps news, articles, conferences, and really just anything in the MLOps space.|
 
 ## Telegram Chanels
 
