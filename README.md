@@ -75,6 +75,7 @@
 |[Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.|
 |[Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 12-week, 26-lesson curriculum all about Machine Learning. In this curriculum, you will learn about what is sometimes called classic machine learning, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in our forthcoming 'AI for Beginners' curriculum. |
 |[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
+|[Data Science Specialization | John Hopkins Coursera](https://github.com/mGalarnyk/datasciencecoursera)|Data Science Repo and blog for John Hopkins Coursera Courses. [Blog post - Blogging through the Data Science Specialization | John Hopkins Coursera](https://medium.com/@GalarnykMichael/blogging-through-the-data-science-specialization-john-hopkins-coursera-2ea63fb99ab5#.ckgc10iif)|
 
 
 ## Books
@@ -87,10 +88,19 @@
 
 ## GitHub Repositories :octocat:
 
-| Title | Description, Information |
+| Title | Description |
 | :---:         |          :--- |
 |[Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence)|A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.|
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
+|[awesome-analytics-engineering](https://github.com/Victoriapm/awesome-analytics-engineering)|Awesome list of resources for analytics engineers.|
+
+## Tools
+
+| Title | Description |
+| :---:         |          :--- |
+|[Weight Watcher](https://github.com/CalculatedContent/WeightWatcher)|WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.|
+
+
 
 ## Papers 
 
@@ -143,6 +153,8 @@
 
 ### Companies Blogs
 
+- - :octocat: [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
+  - > A curated list of engineering blogs
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
 - [The Netflix Tech Blog](https://netflixtechblog.com)
 - [Uber Engineering](https://eng.uber.com)
@@ -155,6 +167,7 @@
     - > AI-related tutorials.
 - [Data Notes](https://data-notes.co)
 - [Louis Bouchard | @What's AI - Making AI Accessible](https://www.louisbouchard.ai)
+- [Michael Galarnyk](https://medium.com/@GalarnykMichael)
 
 
 ## Articles
