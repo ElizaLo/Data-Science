@@ -47,6 +47,13 @@
 |[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)|This repo contains example code for a (very basic) ML platform.|
 | | |
 
+
+## Azure 
+
+| Title | Description|
+| :---: | :--- |
+|[MLOps with Azure ML](https://github.com/microsoft/MLOpsPython)|MLOps using Azure ML Services and Azure DevOps|
+
 ## 🐳 Docker
 
 <img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/docker_1.png" width="1050" height="150">
