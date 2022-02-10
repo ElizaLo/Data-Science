@@ -168,6 +168,7 @@
 - [Data Notes](https://data-notes.co)
 - [Louis Bouchard | @What's AI - Making AI Accessible](https://www.louisbouchard.ai)
 - [Michael Galarnyk](https://medium.com/@GalarnykMichael)
+- [Data Science Dojo](https://online.datasciencedojo.com)
 
 
 ## Articles
