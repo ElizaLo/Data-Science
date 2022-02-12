@@ -58,6 +58,13 @@
 | :---:         |          :--- |
 |[SQLModel](https://github.com/tiangolo/sqlmodel)|<ul><p>SQLModel is a library for interacting with SQL databases from Python code, with Python objects. It is designed to be intuitive, easy to use, highly compatible, and robust.</p><p>**SQLModel** is based on Python type annotations, and powered by [Pydantic](https://pydantic-docs.helpmanual.io/) and [SQLAlchemy](https://sqlalchemy.org/).</p></ul> |
 
+### Machine Learning 
+
+| Title | Description |
+| :---:         |          :--- |
+|[Machine Learning Things](https://github.com/gmihaila/ml_things#plot_array-source)|Machine Learning Things is a lightweight python library that contains functions and code snippets that I use in my everyday research with Machine Learning, Deep Learning, NLP.|
+|[Ivy](https://github.com/unifyai/ivy)|Ivy is a unified machine learning framework which maximizes the portability of machine learning codebases. Ivy wraps the functional APIs of existing frameworks. Framework-agnostic functions, libraries and layers can then be written using Ivy, with simultaneous support for all frameworks. Ivy currently supports Jax, TensorFlow, PyTorch, MXNet and Numpy. |
+
 
 ## Tools
 
