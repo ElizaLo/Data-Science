@@ -143,3 +143,10 @@ wr.s3.to_csv(
 
 - [SERVERLESS DATA PROCESSING ON AWS](https://data-processing.serverlessworkshops.io)
 - [Deploy your Machine Learning model as a REST API on AWS](https://levelup.gitconnected.com/deploy-your-machine-learning-model-as-a-rest-api-on-aws-english-dcb1a0db3110)
+
+
+## Libraries
+
+| Title | Description |
+| :---:         |          :--- |
+|[Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)|You use the AWS SDK for Python (Boto3) to create, configure, and manage AWS services, such as Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Simple Storage Service (Amazon S3). The SDK provides an object-oriented API as well as low-level access to AWS services.|
