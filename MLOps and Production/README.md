@@ -47,6 +47,9 @@
 |[ML Platform Workshop](https://github.com/aporia-ai/mlplatform-workshop)|This repo contains example code for a (very basic) ML platform.|
 | | |
 
+### Articles
+
+- [Deploying A Pre-Trained Sklearn Model on Amazon SageMaker](https://towardsdatascience.com/deploying-a-pre-trained-sklearn-model-on-amazon-sagemaker-826a2b5ac0b6)
 
 ## Azure 
 
