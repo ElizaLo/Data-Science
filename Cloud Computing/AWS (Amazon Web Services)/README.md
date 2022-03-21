@@ -64,6 +64,10 @@ wr.s3.to_csv(
 )
 ```
 
+### Articles
+
+- [Deploying A Pre-Trained Sklearn Model on Amazon SageMaker](https://towardsdatascience.com/deploying-a-pre-trained-sklearn-model-on-amazon-sagemaker-826a2b5ac0b6)
+
 ## AWS Lambda
 
 - **Building Scikit-Learn For AWS Lambda**
