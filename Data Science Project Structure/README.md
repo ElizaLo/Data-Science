@@ -27,6 +27,22 @@ Ever tried to reproduce an analysis that you did a few months ago or even a few 
 
 There is not a clear consensus in the data science community on best practices for organizing machine learning projects, but there is a tool called Cookiecutter Data Science which is a [standardized but flexible project structure for doing and sharing data science work. A few lines of code set up a whole series of subdirectories and make it easier to start, structure, and share analysis](https://github.com/drivendata/cookiecutter-data-science).
 
+### The modified Cookiecutter Data Science
+
+> Cookiecutter Data Science is a great template for data science projects out there, but it lacks some good practices such as testing, configuring, or formatting your code. That’s why we combine and supplement the standard template with a modified version of it by [khuyentran1401](https://github.com/khuyentran1401).
+
+``` Shell
+cookiecutter https://github.com/khuyentran1401/data-science-template
+```
+
+🧰 **The tools used in this template are:**
+
+- [Poetry](https://python-poetry.org): Dependency management - 📃 [article](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
+- [hydra](https://hydra.cc/): Manage configuration files - 📃 [article](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
+- [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting - 📃 [article](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5?sk=2388804fb174d667ee5b680be22b8b1f)
+- [DVC](https://dvc.org/): Data version control - 📃 [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
+- [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
+
 ## Data is immutable, add `.gitignore` file
 
 Don't ever edit your raw data, especially not manually, and especially not in Excel. Don't overwrite your raw data. Don't save multiple versions of the raw data. Treat the data (and its format) as immutable. The code you write should move the raw data through a pipeline to your final analysis. You shouldn't have to run all of the steps every time you want to make a new figure, but anyone should be able to reproduce the final products with only the code in src and the data.
@@ -52,6 +68,36 @@ One effective approach to this is to use [virtualenv](https://virtualenv.pypa.io
 
 If you have more complex requirements for recreating your environment, consider a virtual machine-based approach such as [Docker](https://www.docker.com/) or [Vagrant](https://www.vagrantup.com/). Both of these tools use text-based formats (Dockerfile and Vagrantfile respectively) you can easily add to source control to describe how to create a virtual machine with the requirements you need.
 
+### Install Dependencies
+
+This project uses  https://python-poetry.org  instead of pip to manage dependencies since Poetry allows you to:
+
+- Separate the main dependencies and the sub-dependencies into two separate files (instead of storing all dependencies in `requirements.txt`)
+- Create readable dependencies files
+- Remove all unused sub-dependencies when removing a library
+- Avoid installing new packages that are conflict with the existing packages
+- Package your project in several lines of code
+
+Find the instruction on how to install Poetry [here](https://python-poetry.org/docs/#installation). All main dependencies for this project are specified in `pyproject.toml` . 
+
+- To install all dependencies, run:
+
+``` Shell
+poetry install
+```
+
+- To add a new PyPI library, run:
+
+``` Shell
+poetry add <library-name>
+```
+
+- To remove a library, run:
+
+``` Shell
+poetry remove <library-name>
+```
+
 ## 🔐 Store your secrets and config variables in a special file
 
 You really don't want to leak your AWS secret key or Postgres username and password on  Git. Enough said — see the [Twelve Factor App](http://12factor.net/config) principles on this point. Here's one way to do this:
@@ -60,7 +106,7 @@ You really don't want to leak your AWS secret key or Postgres username and passw
 
 Create a `.env` file in the project root folder. Thanks to the `.gitignore`, this file should never get committed into the version control repository. Here's an example:
 
-```
+``` python
 # example .env file
 DATABASE_URL=postgres://username:password@localhost:5432/dbname
 AWS_ACCESS_KEY=myaccesskey
@@ -72,7 +118,7 @@ OTHER_VARIABLE=something
 
 If you look at the stub script in `src/data/make_dataset.py` from the project template created by Cookiecutter Data Science, it uses a package called [python-dotenv](https://github.com/theskumar/python-dotenv) to load up all the entries in this file as environment variables so they are accessible with os.environ.get. Here's an example snippet adapted from the python-dotenv documentation:
 
-```@python
+``` python
 # src/data/dotenv_example.py
 import os
 from dotenv import load_dotenv, find_dotenv
@@ -91,7 +137,7 @@ other_variable = os.environ.get("OTHER_VARIABLE")
 
 When using Amazon S3 to store data, a simple method of managing AWS access is to set your access keys to environment variables. However, managing mutiple sets of keys on a single machine (e.g. when working on multiple projects) it is best to use a [credentials file](https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html), typically located in `~/.aws/credentials`. A typical file might look like:
 
-```
+``` python
 [default]
 aws_access_key_id=myaccesskey
 aws_secret_access_key=mysecretkey
@@ -107,6 +153,11 @@ aws_secret_access_key=myprojectsecretkey
   - [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
   - :octocat:[cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
 - [readme.so](https://readme.so/)
+- [Poetry](https://python-poetry.org): Dependency management - 📃 [article](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
+- [hydra](https://hydra.cc/): Manage configuration files - 📃 [article](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
+- [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting - 📃 [article](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5?sk=2388804fb174d667ee5b680be22b8b1f)
+- [DVC](https://dvc.org/): Data version control - 📃 [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
+- [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
 
 ### Other tools
 
