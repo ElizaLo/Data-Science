@@ -53,6 +53,32 @@ Also, if data is immutable, it doesn't need source control in the same way that 
 
 Often in an analysis you have long-running steps that preprocess data or train models. If these steps have been run already (and you have stored the output somewhere like the data/interim directory), you don't want to wait to rerun them every time. We prefer make for managing steps that depend on each other, especially the long-running ones. Make is a common tool on Unix-based platforms (and is available for Windows). Following the [make documentation](https://www.gnu.org/software/make/), [Makefile conventions](https://www.gnu.org/prep/standards/html_node/Makefile-Conventions.html#Makefile-Conventions), and [portability guide](http://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/html_node/Portable-Make.html#Portable-Make) will help ensure your Makefiles work effectively across systems. Here are [some](http://zmjones.com/make/) [examples](http://blog.kaggle.com/2012/10/15/make-for-data-scientists/) to [get started](https://web.archive.org/web/20150206054212/http://www.bioinformaticszen.com/post/decomplected-workflows-makefiles/).
 
+Makefile allows you to create short and readable commands for a series of tasks. You can use Makefile to automate tasks such as setting up the environment:
+
+``` python
+install: 
+	@echo "Installing..."
+	poetry install
+	poetry run pre-commit install
+
+activate:
+	@echo "Activating virtual environment"
+	poetry shell
+
+initialize_git:
+  @echo "Initialize git"
+	git init 
+
+setup: initialize_git install
+```
+
+Now whenever others want to set up the environment for your projects, they just need to run:
+
+``` Shell
+make activate
+make setup
+```
+
 There are other tools for managing DAGs that are written in Python instead of a DSL (e.g., [Paver](http://paver.github.io/paver/#), [Luigi](http://luigi.readthedocs.org/en/stable/index.html), [Airflow](https://airflow.apache.org/index.html), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Ruffus](http://www.ruffus.org.uk/), or [Joblib](https://pythonhosted.org/joblib/memory.html)). Feel free to use these if they are more appropriate for your analysis.
 
 ## 🏗️ Build from the environment up
@@ -100,6 +126,8 @@ poetry remove <library-name>
 
 ## 🔐 Store your secrets and config variables in a special file
 
+A configuration file stores all of the values in one place, which helps to separate the values from the code and avoid hard coding. In this template, all configuration files are stored under the directory `config`.
+
 You really don't want to leak your AWS secret key or Postgres username and password on  Git. Enough said — see the [Twelve Factor App](http://12factor.net/config) principles on this point. Here's one way to do this:
 
 ### 🔑 Store your secrets and config variables in a special file
@@ -145,6 +173,46 @@ aws_secret_access_key=mysecretkey
 [another_project]
 aws_access_key_id=myprojectaccesskey
 aws_secret_access_key=myprojectsecretkey
+```
+
+### Manage Configuration Files with Hydra
+
+[Hydra](https://hydra.cc/) is a Python library that allows you to access parameters from a configuration file inside a Python script.
+
+**_For example,_** if our main.yaml file looks like below:
+``` python
+raw: 
+  path: data/raw/sample.csv
+
+processed:
+  path: data/processed/processed.csv
+
+final:
+  path: data/final/final.csv
+```
+
+…, then we can access the value inside the configuration file by adding the decorator `@hydra.main` on a specific function. Inside this function, we can access the value under `processed` and `path` by using a dot notation: `config.processed.path`.
+
+``` python
+"""
+This is the demo code that uses hydra to access the parameters in under the directory config.
+Author: Khuyen Tran
+"""
+
+import hydra
+from omegaconf import DictConfig
+from hydra.utils import to_absolute_path as abspath
+
+@hydra.main(config_path="../config", config_name='main')
+def process_data(config: DictConfig):
+    """Function to process the data"""
+
+    raw_path = abspath(config.raw.path)
+    print(f"Process data using {raw_path}")
+    print(f"Columns used: {config.process.use_columns}")
+
+if __name__ == '__main__':
+    process_data()
 ```
 
 ## 🔩 Tools
