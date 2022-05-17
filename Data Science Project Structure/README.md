@@ -1,6 +1,6 @@
 # Data Science Project Structure
 
-## Why use a specific project structure in Git?
+## :octocat: Why use a specific project structure in Git?
 
 ### Take care of teammates
 
@@ -80,6 +80,69 @@ make setup
 ```
 
 There are other tools for managing DAGs that are written in Python instead of a DSL (e.g., [Paver](http://paver.github.io/paver/#), [Luigi](http://luigi.readthedocs.org/en/stable/index.html), [Airflow](https://airflow.apache.org/index.html), [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Ruffus](http://www.ruffus.org.uk/), or [Joblib](https://pythonhosted.org/joblib/memory.html)). Feel free to use these if they are more appropriate for your analysis.
+
+## Manage Data and Models with DVC
+
+All data is stored under the subdirectories under `data`. Each subdirectory stores data from different stages.
+
+All models are stored under the directory `model`.
+
+Since Git is not ideal for version binary files, we use [DVC — Data Version Control](https://dvc.org) to version our data and models.
+
+We specify DVC stages in the `dvc.yaml` file. Each stage represents individual data processes, including their inputs (`deps`) and resulting output (`outs`).
+
+``` python
+stages:
+  process_data:
+    cmd: python src/process.py
+    deps:
+    - config/main.yaml
+    - config/process
+    - data/raw
+    - src/process.py
+    outs:
+    - data/processed:
+        persist: true
+  train_model:
+    cmd: python src/train_model.py
+    deps:
+    - config/main.yaml
+    - config/model
+    - data/processed
+    - src/train_model.py
+    outs:
+    - data/final:
+        persist: true
+    - models:
+        persist: true
+```
+
+All directories and files under `outs` will be automatically tracked by DVC.
+
+If you want to execute commands defined in their stages, run `dvc repro`. DVC will skip the stages that didn’t change.
+
+### Store Your Data Remotely
+
+The main benefit of using DVC is that it allows you to upload data tracked by DVC to remote storage. You can store your data on [DagsHub](https://towardsdatascience.com/dagshub-a-github-supplement-for-data-scientists-and-ml-engineers-9ecaf49cc505), Google Drive, Amazon S3, Azure Blob Storage, Google Cloud Storage, Aliyun OSS, SSH, HDFS, and HTTP.
+
+``` Shell
+dvc remote add -d remote <REMOTE-URL>
+```
+
+After adding data to your local project, you can push the data to remote storage:
+
+``` Shell
+dvc push
+```
+
+Add and push all changes to :octocat: Git:
+
+``` Shell
+git add .
+git commit -m 'commit-message'
+git push origin <branch>
+```
+
 
 ## 🏗️ Build from the environment up
 
@@ -214,6 +277,22 @@ def process_data(config: DictConfig):
 if __name__ == '__main__':
     process_data()
 ```
+
+## Check Issues in Your Code Before Committing
+
+When committing your Python code to  Git, you need to make sure your code:
+- looks nice
+- is organized
+- ‼️ conforms to the [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- ‼️ includes Docstrings
+
+However, it can be overwhelming to check all of these criteria before committing your code. Pre-commit is a framework that allows you to identify simple issues in your code before committing it.
+
+> [4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
+
+### Plugins  
+
+You can add different plugins to your pre-commit pipeline. Once your files are committed, they will be checked by these plugins. Unless all checks are passed, no code will be committed.
 
 ## 🔩 Tools
 
