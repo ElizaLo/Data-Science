@@ -143,7 +143,6 @@ git commit -m 'commit-message'
 git push origin <branch>
 ```
 
-
 ## 🏗️ Build from the environment up
 
 The first step in reproducing an analysis is always reproducing the computational environment it was run in. You need the same tools, the same libraries, and the same versions to make everything play nicely together.
@@ -290,6 +289,22 @@ However, it can be overwhelming to check all of these criteria before committing
 
 > [4 pre-commit Plugins to Automate Code Reviewing and Formatting in Python](https://towardsdatascience.com/4-pre-commit-plugins-to-automate-code-reviewing-and-formatting-in-python-c80c6d2e9f5)
 
+We use 5 different plugins that are specified in `.pre-commit-config.yaml`. They are:
+
+- [black](https://black.readthedocs.io/en/stable/) -  formats Python code
+- [flake8](https://flake8.pycqa.org/en/latest/) — checks the style and quality of your Python code
+- [isort](https://github.com/PyCQA/isort) - automatically sorts imported libraries alphabetically and separates them into sections and types.
+- [mypy](https://github.com/python/mypy) — checks static type
+- [nbstripout](https://github.com/kynan/nbstripout) — strips output from Jupyter notebooks
+
+To add pre-commit to git hooks, type:
+
+``` Shell
+pre-commit install
+```
+
+Now, whenever you run `git commit`, your code will be automatically checked and reformatted before being committed.
+
 ### Plugins  
 
 You can add different plugins to your pre-commit pipeline. Once your files are committed, they will be checked by these plugins. Unless all checks are passed, no code will be committed.
@@ -297,6 +312,7 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 ## 🔩 Tools
 
 - **Cookiecutter Data Science:**
+  - [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
   - [Cookiecutter Data Science](http://drivendata.github.io/cookiecutter-data-science/)
   - :octocat:[cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
 - [readme.so](https://readme.so/)
