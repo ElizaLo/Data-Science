@@ -339,3 +339,26 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 - [How to Structure a Data Science Project for Readability and Transparency](https://towardsdatascience.com/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800)
   - [Data Science Cookie Cutter](https://github.com/khuyentran1401/data-science-template)
 - [How to Create a Professional Github Data Science Repository](https://towardsdatascience.com/how-to-create-a-professional-github-data-science-repository-84e9607644a2)
+
+
+--- 
+
+# `.gitignore`
+
+## 🧰 Tools
+
+- [gitignore.io](https://www.gitignore.io/)
+
+## 🔗 Reference to articles to read
+
+- [`.gitignore`](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#global-git-ignore-rules)
+	- [.gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore) Russian
+- [Git - `.gitignore` Documentation](https://git-scm.com/docs/gitignore)
+- 
+
+## Useful tools and articles
+
+- :octocat: [A collection of `.gitignore` templates](https://github.com/github/gitignore)
+	- [Some common `.gitignore` configurations](https://gist.github.com/octocat/9257657)
+	- [Python `.gitignore`](https://github.com/github/gitignore/blob/main/Python.gitignore)
+- 
