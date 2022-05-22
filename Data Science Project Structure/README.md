@@ -291,6 +291,10 @@ However, it can be overwhelming to check all of these criteria before committing
 
 We use 5 different plugins that are specified in `.pre-commit-config.yaml`. They are:
 
+- [PEP257](https://peps.python.org/pep-0257/) for docstring conventions
+	- [Example Numpy Style Python Docstring](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html)
+	- [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+- [PEP484](https://peps.python.org/pep-0484/) for type hints
 - [black](https://black.readthedocs.io/en/stable/) -  formats Python code
 - [flake8](https://flake8.pycqa.org/en/latest/) — checks the style and quality of your Python code
 - [isort](https://github.com/PyCQA/isort) - automatically sorts imported libraries alphabetically and separates them into sections and types.
@@ -349,14 +353,12 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 - [gitignore.io](https://www.gitignore.io/)
 	- [toptal/gitignore](https://github.com/toptal/gitignore) - The largest collection of useful `.gitignore` templates
-- 
 
 ## 🔗 Reference to articles to read
 
 - [`.gitignore`](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#global-git-ignore-rules)
 	- [.gitignore](https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore) Russian
 - [Git - `.gitignore` Documentation](https://git-scm.com/docs/gitignore)
-- 
 
 ## Useful tools and articles
 
@@ -364,3 +366,17 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 	- [Some common `.gitignore` configurations](https://gist.github.com/octocat/9257657)
 	- [Python `.gitignore`](https://github.com/github/gitignore/blob/main/Python.gitignore)
 - :octocat:[data-science-template/.gitignore](https://github.com/equinor/data-science-template/blob/master/.gitignore)
+
+---
+
+# 🪐 Jupiter Notebook Best Practices
+
+## 🧰 Tools
+
+- [awswrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
+- [Watermark](https://github.com/rasbt/watermark)
+	- > An IPython magic extension for printing date and time stamps, version numbers, and hardware information
+- 
+
+## Articles
+
