@@ -348,6 +348,8 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 ## 🧰 Tools
 
 - [gitignore.io](https://www.gitignore.io/)
+	- [toptal/gitignore](https://github.com/toptal/gitignore) - The largest collection of useful `.gitignore` templates
+- 
 
 ## 🔗 Reference to articles to read
 
@@ -361,4 +363,4 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 - :octocat: [A collection of `.gitignore` templates](https://github.com/github/gitignore)
 	- [Some common `.gitignore` configurations](https://gist.github.com/octocat/9257657)
 	- [Python `.gitignore`](https://github.com/github/gitignore/blob/main/Python.gitignore)
-- 
+- :octocat:[data-science-template/.gitignore](https://github.com/equinor/data-science-template/blob/master/.gitignore)
