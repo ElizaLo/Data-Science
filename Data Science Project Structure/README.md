@@ -378,5 +378,12 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 	- > An IPython magic extension for printing date and time stamps, version numbers, and hardware information
 - 
 
+### Formatting Jupiter Notebook
+
+- [CSS: color property](https://www.techonthenet.com/css/properties/color.php)
+- [Coolors](https://coolors.co)
+- [Bootstrap Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
+
 ## Articles
 
+- [](https://towardsdatascience.com/enrich-your-jupyter-notebook-with-these-tips-55c8ead25255)
