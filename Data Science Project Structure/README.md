@@ -383,7 +383,9 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 - [CSS: color property](https://www.techonthenet.com/css/properties/color.php)
 - [Coolors](https://coolors.co)
 - [Bootstrap Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
+- [Online Unicode Text Editor and Converter](https://texteditor.com/characters/arrows/)
+- [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 ## Articles
 
-- [](https://towardsdatascience.com/enrich-your-jupyter-notebook-with-these-tips-55c8ead25255)
+- [Enrich your Jupyter Notebook with these tips](https://towardsdatascience.com/enrich-your-jupyter-notebook-with-these-tips-55c8ead25255)
