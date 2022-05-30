@@ -371,6 +371,17 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 # 🪐 Jupiter Notebook Best Practices
 
+## Magic Commands
+
+There are two kinds of magic commands:
+
+- line magic commands (start with `%`)
+- cell magic commands (start with `%%`)
+
+For a line magic command, inputs are provided following the command in the same line. 
+
+For a cell magic command, contents in the entire cell become its inputs.
+
 ## 🧰 Tools
 
 - [awswrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
