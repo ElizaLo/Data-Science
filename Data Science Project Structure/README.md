@@ -382,6 +382,11 @@ For a line magic command, inputs are provided following the command in the same 
 
 For a cell magic command, contents in the entire cell become its inputs.
 
+## Embedded documentation
+
+One of the very simple but effective features of Jupyter Notebook is its simple **documentation pop-up**. Once you have a function and open the parenthesis, hitting `Shift + Tab` simply opens a popup that displays the documentation of the function.
+
+
 ## 🧰 Tools
 
 - [awswrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
@@ -396,6 +401,8 @@ For a cell magic command, contents in the entire cell become its inputs.
 - [Bootstrap Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
 - [Online Unicode Text Editor and Converter](https://texteditor.com/characters/arrows/)
 - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+
 
 ## Articles
 
