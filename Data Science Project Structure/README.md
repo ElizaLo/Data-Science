@@ -474,9 +474,8 @@ Output shows mean and standard deviation of the speed across multiple runs & loo
 
 Now let’s understand the difference between `%timeit` and `%%timeit `(the following guideline is true for most line and cell magic commands):
 
-◼ ️️To use %timeit, a line magic command, the code you want to time should consist of a single line and be written in the same line following the magic command. Although this is a good general rule, multiple lines is possible with tweaks according to the documentation (see documentation for details). 
-
-◼ To use %%timeit, a cell magic command, the code you want to time can consist of any number of lines and written in the next line(s) following the magic command.
+- To use %timeit, a line magic command, the code you want to time should consist of a single line and be written in the same line following the magic command. Although this is a good general rule, multiple lines is possible with tweaks according to the documentation (see documentation for details). 
+- To use %%timeit, a cell magic command, the code you want to time can consist of any number of lines and written in the next line(s) following the magic command.
 
 Here’s the equivalent of the previous code using `%%timeit`:
 
@@ -524,9 +523,9 @@ The code above inserts first two commands from history into the next cell.
 
 ### Other magic commands
 
-◼️ To see all available magic commands, run `%lsmagic`. 
-◼️ To access documentation for all commands, either check the documentation page or run `%magic`. 
-◼️ To access documentation of a magic command, you can run the magic command followed by `?`. For example: `%load?`.
+- To see all available magic commands, run `%lsmagic`. 
+- To access documentation for all commands, either check the documentation page or run `%magic`. 
+- To access documentation of a magic command, you can run the magic command followed by `?`. For example: `%load?`.
 
 
 ## Embedded documentation
