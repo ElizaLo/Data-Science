@@ -382,6 +382,153 @@ For a line magic command, inputs are provided following the command in the same 
 
 For a cell magic command, contents in the entire cell become its inputs.
 
+### `%load`
+
+We can load code from an external source into a cell in Jupyter Notebook using this magic command.
+
+Imagine that we are working in `magic_commands.ipynb` that is located in project1 folder and `setup.py` contained the following setup script:
+
+``` python
+# Contents in setup.py
+# Data manipulation
+import numpy as np
+import pandas as pd
+
+pd.options.display.max_columns=None
+pd.options.display.float_format='{:.2f}'.format
+
+
+# Visualisation
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(style='whitegrid', context='talk', palette='rainbow')
+```
+
+We could import the contents in `setup.py` with the following one liner without leaving the notebook:
+
+``` python
+%load setup.py
+```
+
+It inserts the code from `setup.py` and comments itself.
+
+If we wanted to load `setup.py` from the parent folder in the same notebook, we can update the file path to reflect the change:
+
+``` python
+%load ..\setup.py
+```
+
+Although this example case may seem trivial, it is a small change you could start practicing and it will hopefully inspire other applications.
+
+Before we move on to the next command, it’s worth mentioning that while importing code from `.py` file is common, you can also import content from other files such as `.txt` and `.md`. In addition, you can also import code from URL like this:
+
+``` python
+%load https://gist.githubusercontent.com/zluvsand/74a6d88e401c4e3f76c2ae783a18689b/raw/5c9fd80a7bed839ba555bf4636e47572bd5c7e6d/pickle.py
+```
+
+### Save code with `%%writefile`
+
+This command lets us do the opposite of the previous command. We can save code to an external source from a cell in Jupyter Notebook using this magic command. If we imagine ourselves still being inside magic_commands.ipynb, this is how we would create setup.py to Desktop without leaving the notebook:
+
+``` python
+%%writefile ..\setup.py
+
+# Data manipulation
+import numpy as np
+import pandas as pd
+
+pd.options.display.max_columns=None
+pd.options.display.float_format='{:.2f}'.format
+
+
+# Visualisation
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(style='whitegrid', context='talk', palette='rainbow')
+```
+
+This will create a `setup.py` file if doesn’t exist. Otherwise, it will overwrite the contents in the existing file.
+
+### Time code with `%timeit` or `%%timeit`
+
+There are often multiple ways to accomplish the same task. One important consideration when choosing between the options is speed. Or sometimes you just want to time your code to understand its performance. Whatever your use case might be, it’s useful to know how to time your code. Fortunately, timing code is easy with `%[%]timeit`.
+
+Firstly, we will prepare some dummy data:
+
+``` python
+import numpy as np
+
+np.random.seed(seed=123)
+numbers = np.random.randint(100, size=1000000)
+```
+
+Let’s imagine we wanted to time this code: `mean = np.mean(numbers)`. We can do so with the following one liner:
+
+``` python
+%timeit mean = np.mean(numbers)
+```
+
+Output shows mean and standard deviation of the speed across multiple runs & loops. This is more rigorous way to time your code compared to timing based on a single run.
+
+Now let’s understand the difference between `%timeit` and `%%timeit `(the following guideline is true for most line and cell magic commands):
+
+◼ ️️To use %timeit, a line magic command, the code you want to time should consist of a single line and be written in the same line following the magic command. Although this is a good general rule, multiple lines is possible with tweaks according to the documentation (see documentation for details). 
+
+◼ To use %%timeit, a cell magic command, the code you want to time can consist of any number of lines and written in the next line(s) following the magic command.
+
+Here’s the equivalent of the previous code using `%%timeit`:
+
+``` python
+%%timeit
+mean = np.mean(numbers)
+```
+
+### Check session history with `%history`, `%notebook`, `%recall`
+
+These sets of commands are very useful if you experimented with a bunch of things and it’s already starting to get messy so it’s hard to remember exactly what you did. We can check the history of commands we ran in the current session with `%history`. Of note, `%hist` can be used instead of `%history`.
+Let’s imagine we started a new session in section 3. We can see session history with:
+
+``` python
+%history
+```
+
+This is great but a little hard to see where one command ends and the other starts. Here’s how to check the history with each command numbered:
+
+``` python
+%history -n
+```
+
+This is easier to work with. Now, let’s learn how to export the history. If we want to write the history to a file named history.py in the same directory as the notebook, then we could use:
+
+``` python
+%history -f history.py
+```
+
+If we want to write the history to a Jupyter Notebook called `history.ipynb` in the same directory as the current notebook, then we use `%notebook`:
+
+``` python
+%notebook history.ipynb
+```
+
+This will insert each command into a separate cell. 
+
+Sometimes, we may want to recall a section of commands from the history to tweak it or rerun it. In this case, we can use `%recall`. When using `%recall`, we need to pass the corresponding numbers for the section of commands from history like this example:
+
+``` python
+%recall 1-2
+```
+
+The code above inserts first two commands from history into the next cell.
+
+### Other magic commands
+
+◼️ To see all available magic commands, run `%lsmagic`. 
+◼️ To access documentation for all commands, either check the documentation page or run `%magic`. 
+◼️ To access documentation of a magic command, you can run the magic command followed by `?`. For example: `%load?`.
+
+
 ## Embedded documentation
 
 One of the very simple but effective features of Jupyter Notebook is its simple **documentation pop-up**. Once you have a function and open the parenthesis, hitting `Shift + Tab` simply opens a popup that displays the documentation of the function.
