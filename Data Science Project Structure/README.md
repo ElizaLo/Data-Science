@@ -532,6 +532,28 @@ The code above inserts first two commands from history into the next cell.
 
 One of the very simple but effective features of Jupyter Notebook is its simple **documentation pop-up**. Once you have a function and open the parenthesis, hitting `Shift + Tab` simply opens a popup that displays the documentation of the function.
 
+## Extensions
+
+### Table of Contents
+
+The (Table of Contents)[https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html] enables the collection of all running headers and displays them in a floating window, as a sidebar or with a navigation menu. The extension is also draggable, resizable, collapsable, dockable and features automatic numeration with unique links ids, and an optional toc cell. Sections of currently selected/edited or running cells are highlighted in the toc. Some minor display tweaks are also available (moving header tile/menus, widening cells). Finally, the toc can be preserved when exporting to HTML. The highlighting indicates your current position in the document — this will help you keep oriented in long notebooks.
+
+### Collapsible Headings
+
+The [Collapsible Headings](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/collapsible_headings/readme.html) extension allows you to hide entire sections of code, thereby letting you focus on your current workflow stage.
+
+### Default Template Extension
+
+This [default template](https://github.com/WillKoehrsen/Data-Analysis/tree/master/setup) extension causes notebooks to not be created empty, but with a default structure and common imports. Also, it will repeatedly ask you to change the name from `Untitled.ipynb` to something meaningful.
+
+- [Set Your Jupyter Notebook up Right with this Extension](https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332)
+- :octocat: [Data-Analysis](https://github.com/WillKoehrsen/Data-Analysis/tree/master/setup)
+
+### Snippets
+
+The Jupyter [snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/snippets/README.html) extension allows you to conveniently insert often needed code blocks, e.g. your typical import statements.
+
+- [Snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/snippets/README.html)
 
 ## 🧰 Tools
 
@@ -539,6 +561,11 @@ One of the very simple but effective features of Jupyter Notebook is its simple 
 - [Watermark](https://github.com/rasbt/watermark)
 	- > An IPython magic extension for printing date and time stamps, version numbers, and hardware information
 - 
+
+### Extentios for Jupiter Notebook
+
+- The [jupyter_contrib_nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/index.html) package contains a collection of community-contributed unofficial extensions that add functionality to the Jupyter notebook. These extensions are mostly written in Javascript and will be loaded locally in your browser.
+- [Table of Contents](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html)
 
 ### Formatting Jupiter Notebook
 
@@ -553,3 +580,5 @@ One of the very simple but effective features of Jupyter Notebook is its simple 
 ## Articles
 
 - [Enrich your Jupyter Notebook with these tips](https://towardsdatascience.com/enrich-your-jupyter-notebook-with-these-tips-55c8ead25255)
+- [Jupyter Notebook Best Practices](https://towardsdatascience.com/jupyter-notebook-best-practices-f430a6ba8c69)
+- [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
