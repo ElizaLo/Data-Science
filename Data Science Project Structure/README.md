@@ -386,6 +386,35 @@ For a line magic command, inputs are provided following the command in the same 
 
 For a cell magic command, contents in the entire cell become its inputs.
 
+Check available **magic commands**:
+
+``` python
+# list available python magics
+%lsmagic
+```
+
+**_Output_**:
+
+``` python
+Available line magics:
+%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cat  %cd  %clear  %colors  %config  %connect_info  %cp  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %hist  %history  %killbgscripts  %ldir  %less  %lf  %lk  %ll  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %ls  %lsmagic  %lx  %macro  %magic  %man  %matplotlib  %mkdir  %more  %mv  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %rm  %rmdir  %run  %save  %sc  %set_env  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+
+Available cell magics:
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%js  %%latex  %%perl  %%prun  %%pypy  %%python  %%python2  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+Automagic is ON, % prefix IS NOT needed for line magics.
+```
+
+### %env
+
+You can manage the environment variables of your notebook without restarting the Jupyter server process. Some libraries (like theano) use environment variables to control behaviour, `%env` is the most convenient way.
+
+``` python
+# %env - without arguments lists environmental variables
+
+%env OMP_NUM_THREADS=4
+env: OMP_NUM_THREADS=4
+```
+
 ### `%load`
 
 We can load code from an external source into a cell in Jupyter Notebook using this magic command.
@@ -525,6 +554,21 @@ Sometimes, we may want to recall a section of commands from the history to tweak
 
 The code above inserts first two commands from history into the next cell.
 
+### Suppress output of the last line
+
+Sometimes the output isn’t needed, so we can either use pass instruction on a new line or semicolon at the end.
+
+``` python
+%matplotlib inline
+from matplotlib import pyplot as plt
+import numpy
+```
+
+``` python
+# If you don't put a semicolon at the end, you'll have the output of the function printed
+plt.hist(numpy.linspace(0, 1, 1000)**1.5);
+```
+
 ### Other magic commands
 
 - To see all available magic commands, run `%lsmagic`. 
@@ -638,6 +682,35 @@ conda config --add channels conda-forge
 conda install qgrid
 ```
 
+## Embedding URLs, PDFs, and Youtube Videos
+
+Why go with mere links when you can easily embed an URL, pdf, and videos into your Jupyter Notebooks using [IPython’s display](https://ipython.org/ipython-doc/3/api/generated/IPython.display.html) module.
+
+### URLs
+
+``` python
+# Note that http urls will not be displayed. Only https are allowed inside the Iframe
+
+from IPython.display import IFrame
+IFrame('https://en.wikipedia.org/wiki/HTTPS', width=800, height=450)
+```
+
+### PDFs
+
+``` python
+from IPython.display import IFrame
+
+IFrame('https://arxiv.org/pdf/1406.2661.pdf', width=800, height=450)
+```
+
+### Youtube Videos
+
+``` python
+from IPython.display import YouTubeVideo
+
+YouTubeVideo('mJeNghZXtMo', width=800, height=300)
+```
+
 
 ## 🧰 Tools
 
@@ -660,7 +733,7 @@ conda install qgrid
 - [Online Unicode Text Editor and Converter](https://texteditor.com/characters/arrows/)
 - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 - **Widgets:**
-	-  
+	- [IPython’s display](https://ipython.org/ipython-doc/3/api/generated/IPython.display.html)
 
 ## Articles
 
@@ -669,3 +742,4 @@ conda install qgrid
 - [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 - [Working efficiently with JupyterLab Notebooks](https://florianwilhelm.info/2018/11/working_efficiently_with_jupyter_lab/)
 - [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
+- [Boosting Your Jupyter Notebook Productivity](https://towardsdatascience.com/jupyter-notebook-hints-1f26b08429ad)
