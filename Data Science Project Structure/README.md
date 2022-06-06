@@ -371,6 +371,10 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 # 🪐 Jupiter Notebook Best Practices
 
+## Autopep8
+
+Autopep8 helps to reformat/prettify the contents of code cells with just a click. If you are tired of hitting the spacebar again and again to format the code, autopep8 is your savior.
+
 ## Magic Commands
 
 There are two kinds of magic commands:
@@ -534,9 +538,35 @@ One of the very simple but effective features of Jupyter Notebook is its simple 
 
 ## Extensions
 
+Notebook extensions let you move beyond the general vanilla way of using the Jupyter Notebooks. Notebook extensions (or `nbextensions`) are JavaScript modules that you can load on most of the views in your Notebook’s frontend. These extensions modify the user experience and interface.
+
+### Installation
+
+Installation with conda:
+
+``` python
+conda install -c conda-forge jupyter_nbextensions_configurator
+```
+
+Or with pip:
+
+``` python
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install
+
+#incase you get permission errors on MacOS
+
+pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install --user
+```
+
+Start a Jupyter notebook now, and you should be able to see an NBextensions Tab with a lot of options. Click the ones you want and see the magic happen.
+
 ### Table of Contents
 
 The (Table of Contents)[https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html] enables the collection of all running headers and displays them in a floating window, as a sidebar or with a navigation menu. The extension is also draggable, resizable, collapsable, dockable and features automatic numeration with unique links ids, and an optional toc cell. Sections of currently selected/edited or running cells are highlighted in the toc. Some minor display tweaks are also available (moving header tile/menus, widening cells). Finally, the toc can be preserved when exporting to HTML. The highlighting indicates your current position in the document — this will help you keep oriented in long notebooks.
+
+### Hinterland
+
+Hinterland enables code autocompletion menu for every keypress in a code cell, instead of only calling it with the tab. This makes Jupyter notebook’s autocompletion behave like other popular IDEs such as PyCharm.
 
 ### Collapsible Headings
 
@@ -555,6 +585,60 @@ The Jupyter [snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/la
 
 - [Snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/snippets/README.html)
 
+## Productivity Hacks
+
+- Learn the [Jupyter Keyboard Shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook). Print the list and hang it on the wall next to your screen.
+- Get to know Jupyter extensions: [Codefolding](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/codefolding/readme.html), [Hide input all](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/hide_input_all/readme.html), [Variable Inspector](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/varInspector/README.html), [Split Cells Notebook](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/splitcell/readme.html) and [many more](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html).
+- [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Basics.html) (sliders, buttons, dropdown-menus, …) allow you to build interactive GUIs.
+- The :octocat: [tqdm](https://github.com/tqdm/tqdm#ipython-jupyter-integration) library provides a convenient progress bar.
+
+## Widgets
+
+> Make notebooks interactive
+
+[Widgets](https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Basics.html#What-are-widgets?) are eventful python objects that have a representation in the browser, often as a control like a slider, textbox, etc. Widgets can be used to build interactive GUIs for the notebooks.
+
+### Installation
+
+``` python
+# pip
+pip install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+
+# Conda
+conda install -c conda-forge ipywidgets
+
+#Installing ipywidgets with conda automatically enables the extension
+```
+
+Let us have a look at some of the widgets. For complete details, you can visit their :octocat: [Github repository](https://github.com/jupyter-widgets/ipywidgets/blob/1223d4128aebe6c8831a034a73d1546a91f5138a/docs/source/examples/Using%20Interact.ipynb).
+
+## Qgrid
+
+> Make Data frames intuitive
+
+Qgrid is also a Jupyter notebook widget but mainly focussed at dataframes. It uses :octocat:[SlickGrid](https://github.com/mleibman/SlickGrid) to render pandas DataFrames within a Jupyter notebook. This allows you to explore your DataFrames with intuitive scrolling, sorting and filtering controls, as well as edit your DataFrames by double-clicking cells. The :octocat:[Github Repository](https://github.com/quantopian/qgrid) contains more details and examples.
+
+### Installation
+
+- Installing with pip:
+
+``` python
+pip install qgrid
+jupyter nbextension enable --py --sys-prefix qgrid
+# only required if you have not enabled the ipywidgets nbextension yet
+jupyter nbextension enable --py --sys-prefix widgetsnbextension
+```
+
+- Installing with conda:
+
+``` python
+# only required if you have not added conda-forge to your channels yet
+conda config --add channels conda-forge
+conda install qgrid
+```
+
+
 ## 🧰 Tools
 
 - [awswrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
@@ -565,6 +649,7 @@ The Jupyter [snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/la
 ### Extentios for Jupiter Notebook
 
 - The [jupyter_contrib_nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/index.html) package contains a collection of community-contributed unofficial extensions that add functionality to the Jupyter notebook. These extensions are mostly written in Javascript and will be loaded locally in your browser.
+	- :octocat: [Jupyter Nbextensions Configurator](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator) 
 - [Table of Contents](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions/toc2/README.html)
 
 ### Formatting Jupiter Notebook
@@ -574,11 +659,13 @@ The Jupyter [snippets](https://jupyter-contrib-nbextensions.readthedocs.io/en/la
 - [Bootstrap Alerts](https://www.w3schools.com/bootstrap/bootstrap_alerts.asp)
 - [Online Unicode Text Editor and Converter](https://texteditor.com/characters/arrows/)
 - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-
-
+- **Widgets:**
+	-  
 
 ## Articles
 
 - [Enrich your Jupyter Notebook with these tips](https://towardsdatascience.com/enrich-your-jupyter-notebook-with-these-tips-55c8ead25255)
 - [Jupyter Notebook Best Practices](https://towardsdatascience.com/jupyter-notebook-best-practices-f430a6ba8c69)
 - [Jupyter Notebook Extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+- [Working efficiently with JupyterLab Notebooks](https://florianwilhelm.info/2018/11/working_efficiently_with_jupyter_lab/)
+- [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
