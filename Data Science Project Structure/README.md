@@ -743,3 +743,4 @@ YouTubeVideo('mJeNghZXtMo', width=800, height=300)
 - [Working efficiently with JupyterLab Notebooks](https://florianwilhelm.info/2018/11/working_efficiently_with_jupyter_lab/)
 - [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
 - [Boosting Your Jupyter Notebook Productivity](https://towardsdatascience.com/jupyter-notebook-hints-1f26b08429ad)
+- [Jupyter Notebook Manifesto: Best practices that can improve the life of any developer using Jupyter notebooks](https://cloud.google.com/blog/products/ai-machine-learning/best-practices-that-can-improve-the-life-of-any-developer-using-jupyter-notebooks) by Google Cloud
