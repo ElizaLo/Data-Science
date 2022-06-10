@@ -744,3 +744,11 @@ YouTubeVideo('mJeNghZXtMo', width=800, height=300)
 - [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
 - [Boosting Your Jupyter Notebook Productivity](https://towardsdatascience.com/jupyter-notebook-hints-1f26b08429ad)
 - [Jupyter Notebook Manifesto: Best practices that can improve the life of any developer using Jupyter notebooks](https://cloud.google.com/blog/products/ai-machine-learning/best-practices-that-can-improve-the-life-of-any-developer-using-jupyter-notebooks) by Google Cloud
+
+---------------
+
+## pepermill
+
+- :octocat:[papermill](https://github.com/nteract/papermill)
+- [papermill](https://papermill.readthedocs.io/en/latest/usage-workflow.html#using-papermill) Documentation
+- 
