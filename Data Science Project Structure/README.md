@@ -371,6 +371,8 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 # 🪐 Jupiter Notebook Best Practices
 
+- [Jupyter Discourse Forum](https://discourse.jupyter.org)
+
 ## Jupyter kernels
 
 Although Jupyter Notebooks are famous for running Python, we can use pretty much any programming language by [installing different kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
