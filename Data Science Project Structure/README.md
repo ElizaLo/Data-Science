@@ -762,4 +762,4 @@ YouTubeVideo('mJeNghZXtMo', width=800, height=300)
 - [Introduction to Papermill](https://towardsdatascience.com/introduction-to-papermill-2c61f66bea30)
 - [Parameterizing and automating Jupyter notebooks with papermill](https://www.wrighters.io/parameters-jupyter-notebooks-with-papermill/)
 	- :octocat:[Introduction to Papermill (Towards Data Science)](https://github.com/GabrielSGoncalves/papermill_medium) 
-- 
+- [Slack Nteract](https://slack.nteract.io/)
