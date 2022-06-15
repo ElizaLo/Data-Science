@@ -371,6 +371,12 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 # 🪐 Jupiter Notebook Best Practices
 
+## Jupyter kernels
+
+Although Jupyter Notebooks are famous for running Python, we can use pretty much any programming language by [installing different kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels).
+
+Kernel Zero is [IPython](https://ipython.org/), which you can get through [ipykernel](https://pypi.python.org/pypi/ipykernel), and is still a dependency of [jupyter](https://jupyter.org/). The IPython kernel can be thought of as a reference implementation, as CPython is for Python.
+
 ## Autopep8
 
 Autopep8 helps to reformat/prettify the contents of code cells with just a click. If you are tired of hitting the spacebar again and again to format the code, autopep8 is your savior.
@@ -717,7 +723,7 @@ YouTubeVideo('mJeNghZXtMo', width=800, height=300)
 - [awswrangler](https://aws-data-wrangler.readthedocs.io/en/stable/)
 - [Watermark](https://github.com/rasbt/watermark)
 	- > An IPython magic extension for printing date and time stamps, version numbers, and hardware information
-- 
+- [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
 
 ### Extentios for Jupiter Notebook
 
@@ -751,4 +757,7 @@ YouTubeVideo('mJeNghZXtMo', width=800, height=300)
 
 - :octocat:[papermill](https://github.com/nteract/papermill)
 - [papermill](https://papermill.readthedocs.io/en/latest/usage-workflow.html#using-papermill) Documentation
+- [Introduction to Papermill](https://towardsdatascience.com/introduction-to-papermill-2c61f66bea30)
+- [Parameterizing and automating Jupyter notebooks with papermill](https://www.wrighters.io/parameters-jupyter-notebooks-with-papermill/)
+	- :octocat:[Introduction to Papermill (Towards Data Science)](https://github.com/GabrielSGoncalves/papermill_medium) 
 - 
