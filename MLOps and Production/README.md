@@ -29,6 +29,7 @@
 | Title | Description|
 | :---: | :--- |
 |[MLOps-Basics](https://github.com/graviraja/MLOps-Basics)|The goal of the series is to understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc.|
+|[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)|Free MLOps course from DataTalks.Club|
 
 
 ## AWS 
