@@ -1,5 +1,7 @@
 # Automated Machine Learning | AutoML
 
+- [PyCaret](https://pycaret.gitbook.io/docs/)
+
 ## Related articles
 
 - [AutoML](https://www.automl.org/automl/)
