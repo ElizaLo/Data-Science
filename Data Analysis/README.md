@@ -37,3 +37,9 @@ df.filter(regex='1957$',axis=1).head()
 #### Article
 
 - [How To Select Columns Using Prefix/Suffix of Column Names in Pandas?](https://cmdlinetips.com/2019/04/how-to-select-columns-using-prefix-suffix-of-column-names-in-pandas/)
+
+## Missing Values
+
+### Atricles
+
+- []()
