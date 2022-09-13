@@ -155,6 +155,7 @@
 
 - - :octocat: [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
   - > A curated list of engineering blogs
+- [Amazon | Science](https://www.amazon.science)
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
 - [The Netflix Tech Blog](https://netflixtechblog.com)
 - [Uber Engineering](https://eng.uber.com)
