@@ -16,6 +16,7 @@
 - [Statology](https://www.statology.org)
 - [Statistics By Jim](https://statisticsbyjim.com)
 - [Statistics How To](https://www.statisticshowto.com)
+- [Learn Math and Stats with Dr. G](https://www.mathandstatistics.com)
 
 ## :octocat: GitHub Repositories
 
@@ -58,6 +59,7 @@
 |Relative Squared Error (RSE)|<ul><li>The relative squared error (RSE) is relative to what it would have been if a simple predictor had been used. More specifically, this simple predictor is just the average of the actual values. Thus, the relative squared error takes the total squared error and normalizes it by dividing by the total squared error of the simple predictor. It can be compared between models whose errors are measured in the different units.</li></ul>|
 |Relative Absolute Error (RAE)|<ul><li>Relative Absolute Error (RAE) is a way to measure the performance of a predictive model. RAE is not to be confused with relative error, which is a general measure of precision or accuracy for instruments like clocks, rulers, or scales. It is expressed as a ratio, comparing a mean error (residual) to errors produced by a trivial or naive model. A good forecasting model will produce a ratio close to zero; A poor model (one that’s worse than the naive model) will produce a ratio greater than one.</li><li>It is very similar to the relative squared error in the sense that it is also relative to a simple predictor, which is just the average of the actual values. In this case, though, the error is just the total absolute error instead of the total squared error. Thus, the relative absolute error takes the total absolute error and normalizes it by dividing by the total absolute error of the simple predictor.</li></ul>|
 |Weighted Mean Absolute Percentage Error (wMAPE)|<ul><li>[Calculating demand forecast accuracy](https://en.wikipedia.org/wiki/Demand_forecasting#Calculating_demand_forecast_accuracy)</li></ul>|
+|[Approximation error](https://en.wikipedia.org/wiki/Approximation_error)|<ul><li>The approximation error in a data value is the discrepancy between an exact value and some approximation to it. This error can be expressed as an absolute error (the numerical amount of the discrepancy) or as a relative error (the absolute error divided by the data value).</li></ul>|
 
 #### Other Errors
 
@@ -70,7 +72,8 @@
 #### 📄 Articles
 
 - [Ways to Evaluate Regression Models](https://towardsdatascience.com/ways-to-evaluate-regression-models-77a3ff45ba70)
-
+- [Choosing the correct error metric: MAPE vs. sMAPE](https://towardsdatascience.com/choosing-the-correct-error-metric-mape-vs-smape-5328dec53fac)
+- [Time Series Forecast Error Metrics You Should Know](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
 
 #### :octocat: GitHub
 
@@ -80,7 +83,57 @@
 
 - [Another look at measures of forecast accuracy](https://robjhyndman.com/papers/mase.pdf) by Rob J Hyndman
 
-----------------------------
+### Metric/Error choice
+
+#### 📄 Articles
+
+- [Metric choice](https://stephenallwright.com/metric-choice/)
+- [Understanding metric values](https://stephenallwright.com/metric-values/)
+
+### Accuracy (Error) Rate
+
+#### 📄 Articles
+
+- [What is Accuracy Rate?](https://kimola.com/support/cognitive/what-is-accuracy-rate)
+- [Accuracy (error rate)](https://deepai.org/machine-learning-glossary-and-terms/accuracy-error-rate)
+
+### Margin of Error
+
+A statistical value that determines, with a certain degree of probability, the maximum value by which the results of the sample differ from the results of the general population. It is half the length of the confidence interval.
+
+> **Предельная ошибка выборки** (также _предельная погрешность выборки_) — статистическая величина, определяющая, с определенной степенью вероятности, максимальное значение, на которое результаты выборки отличаются от результатов генеральной совокупности. Составляет половину длины доверительного интервала.
+
+#### Articles
+
+- [Margin of error](https://en.wikipedia.org/wiki/Margin_of_error), Wikipedia
+
+### Confidence interval
+
+#### Confidence limits
+
+- [Confidence Limits: Definition](https://www.statisticshowto.com/confidence-limits-definition/)
+- [Confidence Limits for the Mean](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm)
+
+#### Using the Empirical Rule (95-68-34 or (50-34-14)
+
+#### 📄 Articles
+
+- [Confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
+- [Confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
+- [Understanding Confidence Intervals](https://www.scribbr.com/statistics/confidence-interval/)
+- [Using the Empirical Rule (95-68-34 or (50-34-14)](https://www.mathandstatistics.com/learn-stats/probability-and-percentage/using-the-empirical-rule-95-68-34-or-50-34-14)
+- [The Empirical Rule](https://online.stat.psu.edu/stat200/lesson/2/2.2/2.2.7)
+
+-----
+
+### Standard score
+
+#### 📄 Articles
+
+- [Standard score](https://en.wikipedia.org/wiki/Standard_score)
+
+-----
+
 
 ### Confusion matrix
 
@@ -110,6 +163,16 @@
 
 ----------------------------
 
+# Models
+
+## Generalized additive model
+
+### 📄 Articles
+
+- [Generalized additive model](https://en.wikipedia.org/wiki/Generalized_additive_model)
+
+------
+
 # Bayesian Statistics
   
 ## **Bayesian modeling and related books**:
@@ -125,6 +188,9 @@
 - [Mathematical Statistics](https://books.google.cz/books/about/Mathematical_Statistics.html?id=_bEPBwAAQBAJ&source=kp_cover&redir_esc=y)
 - [Think Stats 2e](https://greenteapress.com/wp/think-stats-2e/)
 
+### 📄 Articles
+
+- [Variational Bayesian methods](https://en.wikipedia.org/wiki/Variational_Bayesian_methods)
 
 # Causal Inference
 
