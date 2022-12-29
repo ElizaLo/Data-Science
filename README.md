@@ -12,7 +12,7 @@
 
 > - [ ] For **Computer Vision** please check [Computer Vision](https://github.com/ElizaLo/Computer-Vision) repository.
 
-## Data Science Tasks 
+## 💠 Data Science Tasks 
 
 > Folders with all materials for specific task/domain
 
@@ -38,11 +38,11 @@
 - [Statistics](https://github.com/ElizaLo/Data-Science/tree/master/Statistics)
 - [Tools and Tips](https://github.com/ElizaLo/Data-Science/tree/master/Tools%20and%20Tips)
 
-## Educational Platforms
+## 👩🏻‍🏫 Educational Platforms
 
 - [OpenEDU](https://openedu.ru)
 
-## University courses 👩‍🎓
+## 🎓 University Courses
 
 | Title | Description |
 | :---:         |          :--- |
@@ -55,30 +55,30 @@
 |[Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)|<ul><li>[MIT 18.S191 aka 6.S083 aka 22.S092, Fall 2020](https://computationalthinking.mit.edu/Fall20/)</li><li>[Spring 2021 / MIT 18.S191/6.S083/22.S092](https://computationalthinking.mit.edu/Spring21/)</li></ul>|
 
 
-### Time Series
+### 🔢 Time Series
 
 | Title | Description |
 | :---:         |          :--- |
 |[MIT 18.S096 Topics in Mathematics w Applications in Finance](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)|<ul><p>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</p><li>[Video lectures](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)</li></ul>|
 
-## Online courses
+## 👩🏻‍🏫 Online Courses
 
 - [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
 - [Machine Learning Foundations](https://github.com/jonkrohn/ML-foundations)
   > Machine Learning Foundations: Linear Algebra, Calculus, Statistics & Computer Science
 - 
 
-### GitHub Repositories :octocat:
+### :octocat: GitHub Repositories
 
 | Title | Description |
 | :---:         |          :--- |
 |[Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 10-week, 20-lesson curriculum all about Data Science. Each lesson includes pre-lesson and post-lesson quizzes, written instructions to complete the lesson, a solution, and an assignment. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.|
 |[Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners)|Azure Cloud Advocates at **Microsoft** are pleased to offer a 12-week, 26-lesson curriculum all about Machine Learning. In this curriculum, you will learn about what is sometimes called classic machine learning, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in our forthcoming 'AI for Beginners' curriculum. |
 |[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
-|[Data Science Specialization | John Hopkins Coursera](https://github.com/mGalarnyk/datasciencecoursera)|Data Science Repo and blog for John Hopkins Coursera Courses. [Blog post - Blogging through the Data Science Specialization | John Hopkins Coursera](https://medium.com/@GalarnykMichael/blogging-through-the-data-science-specialization-john-hopkins-coursera-2ea63fb99ab5#.ckgc10iif)|
+|[Data Science Specialization, John Hopkins Coursera](https://github.com/mGalarnyk/datasciencecoursera)|Data Science Repo and blog for John Hopkins Coursera Courses. [Blog post - Blogging through the Data Science Specialization, John Hopkins Coursera](https://medium.com/@GalarnykMichael/blogging-through-the-data-science-specialization-john-hopkins-coursera-2ea63fb99ab5#.ckgc10iif)|
 
 
-## Books
+## 📚 Books
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
@@ -86,7 +86,7 @@
     - > A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.
 - 
 
-## GitHub Repositories :octocat:
+## :octocat: GitHub Repositories
 
 | Title | Description |
 | :---:         |          :--- |
@@ -94,22 +94,20 @@
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
 |[awesome-analytics-engineering](https://github.com/Victoriapm/awesome-analytics-engineering)|Awesome list of resources for analytics engineers.|
 
-## Tools
+## ⚙️ Tools
 
 | Title | Description |
 | :---:         |          :--- |
 |[Weight Watcher](https://github.com/CalculatedContent/WeightWatcher)|WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.|
 
-
-
-## Papers 
+## 📄 Papers 
 
 | Title | Description, Information |
 | :---:         |          :--- |
 |[2021: A Year Full of Amazing AI papers- A Review / 📌 [work in progress...]](https://github.com/louisfb01/best_AI_papers_2021)|A curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code. [work in progress]|
 
 
-## Certifications
+## 📜 Certifications
 
 - [ ] [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate?hl=en)
 - [ ] [Certified Analytics Professional (CAP)](https://www.certifiedanalytics.org/)
@@ -128,7 +126,7 @@
 - [ ] [SAS Certified Big Data Professional](https://www.sas.com/en_us/certification/credentials/data-management/big-data-professional.html)
 - [ ] [SAS Certified Data Scientist](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/data-scientist.html)
 
-## Online Conferences, Meetups, Data Summer Schools
+## 🗣️ Online Conferences, Meetups, Data Summer Schools
 
 - Live Webinars & On-demand Recordings by [ODSC COMMUNITY](https://app.aiplus.training/bundles/odsc-webinars)
 - [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
@@ -137,19 +135,19 @@
   - [Program](https://www.eeml.eu/program)
   - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
 
-## Twitter
+## 🐦 Twitter
 
 - [Christopher Manning](https://twitter.com/chrmanning)
 - [Sebastian Ruder](https://twitter.com/seb_ruder)
 - [Prof. Sam Bowman](https://twitter.com/sleepinyourhat)
 
-## Podcasts
+## 🎧 Podcasts
 
 - [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
 - [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
 - [Awesome Data Podcasts](https://github.com/DataTalksClub/awesome-data-podcasts)
 
-## Blogs
+## 🗞️ Blogs
 
 ### Companies Blogs
 
@@ -171,13 +169,12 @@
 - [Michael Galarnyk](https://medium.com/@GalarnykMichael)
 - [Data Science Dojo](https://online.datasciencedojo.com)
 
-
-## Articles
+## 📰 Articles
 
 - [AI & ML дайджест от DOU](https://dou.ua/lenta/digests/ai-ml-digest-18/?from=tg-tech)
 - [Data Science и Machine Learning: с чего начать и где учиться](https://dou.ua/lenta/columns/study-data-science-and-ml/?from=recent)
 
-## Communities 
+## 🫂 Communities 
 
 | Title | Description |
 | :---:         |          :--- |
@@ -185,10 +182,12 @@
 |[Locally Optimistic](https://locallyoptimistic.com)|A community for current and aspiring data analytics leaders. Started in NYC in early 2018 as an outgrowth of a slack channel / extremely informal meetup group, we hope to share our thoughts / opinions / experiences / trials / tribulations with others in the community.|
 |[Deepchecks Community](https://deepcheckscommunity.slack.com/join/shared_invite/zt-y28sjt1v-PBT50S3uoyWui_Deg5L_jg#/shared-invite/email)|A place to talk about MLOps news, articles, conferences, and really just anything in the MLOps space.|
 
-## Telegram Chanels
+## 🔹 Telegram Chanels
 
 - [DataScience Digest](https://t.me/DataScienceDigest)
   - Collection of the top articles, videos, events, books and jobs on Machine Learning, Deep Learning, NLP, Computer Vision and other aspects of Data Science.
+  
+------
 
 ## Main skills required by the data scientists vacancies
 
@@ -280,6 +279,8 @@
 4. Deep learning architectures: VGG, ResNet, Inception, MobileNet.
 5. Deepnets, hyperparameter optimization, visualization, interpretation.
 6. Machine learning models.
+
+-----
 
 ## The Data Science Interview Preparation 
 
