@@ -93,6 +93,7 @@
 |[Awesome Artificial Intelligence (AI)](https://github.com/owainlewis/awesome-artificial-intelligence)|A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.|
 |[ml-surveys](https://github.com/eugeneyan/ml-surveys)|Survey papers summarizing advances in deep learning, NLP, CV, graphs, reinforcement learning, recommendations, graphs, etc.|
 |[awesome-analytics-engineering](https://github.com/Victoriapm/awesome-analytics-engineering)|Awesome list of resources for analytics engineers.|
+|[Complete-Life-Cycle-of-a-Data-Science-Project](https://github.com/achuthasubhash/Complete-Life-Cycle-of-a-Data-Science-Project)| |
 
 ## ⚙️ Tools
 
