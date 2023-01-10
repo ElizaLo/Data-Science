@@ -1,5 +1,9 @@
 <img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/MLOps.png" width="1050" height="150">
 
+## Courses
+
+- ["Deployment of Machine Learning Models"](https://www.udemy.com/course/deployment-of-machine-learning-models/?referralCode=D4FE5EA129FFD203CFF4) by Udemy
+
 ## Articles, Blogs
 
 - [A Brief Guide to Running ML Systems in Production](https://www.oreilly.com/content/a-brief-guide-to-running-ml-systems-in-production/) by O'Reilly 
@@ -30,6 +34,7 @@
 | :---: | :--- |
 |[MLOps-Basics](https://github.com/graviraja/MLOps-Basics)|The goal of the series is to understand the basics of MLOps like model building, monitoring, configurations, testing, packaging, deployment, cicd, etc.|
 |[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)|Free MLOps course from DataTalks.Club|
+|[Deployment of Machine Learning Models](https://github.com/trainindata/deploying-machine-learning-models)|Code for the online course ["Deployment of Machine Learning Models"](https://www.udemy.com/course/deployment-of-machine-learning-models/?referralCode=D4FE5EA129FFD203CFF4)|
 
 
 ## AWS 
