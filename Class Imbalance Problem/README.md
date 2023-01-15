@@ -18,3 +18,7 @@ In signal processing, **downsampling** is the process of reducing the sampling r
   - [imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)
   - [imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
 - 
+
+## :newspaper: Articles
+
+- [Text Classification 1: Imbalanced Data](http://michael-harmon.com/blog/NLP1.html)
