@@ -371,6 +371,7 @@ You can add different plugins to your pre-commit pipeline. Once your files are c
 
 # 🪐 Jupiter Notebook Best Practices
 
+- [Cookiecutter Jupyter Book]() - A cookiecutter template for creating a simple [Jupyter Book](https://jupyterbook.org/intro.html). See the rendered version of this cookiecutter template [here](https://executablebooks.github.io/cookiecutter-jupyter-book/).
 - [Jupyter Discourse Forum](https://discourse.jupyter.org)
 
 ## Jupyter kernels
