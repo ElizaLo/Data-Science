@@ -1,4 +1,4 @@
-# Data Science Project Structure
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Science_Project_Structure.png" width="1050" height="150"/>
 
 ## :octocat: Why use a specific project structure in Git?
 
