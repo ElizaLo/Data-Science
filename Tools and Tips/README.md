@@ -1,4 +1,4 @@
-# Tools and Tips
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Tools_and_Tips.png" width="1050" height="150"/>
 
 - Install specific version of module in current folder:
 
