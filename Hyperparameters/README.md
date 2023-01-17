@@ -1,4 +1,4 @@
-# Hyperparameters
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Hyperparameters.png" width="1050" height="150"/>
 
 ## ⚙️ Hyperparameters tuning
 
