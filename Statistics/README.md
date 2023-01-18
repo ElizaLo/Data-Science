@@ -1,17 +1,17 @@
 <img src="https://github.com/ElizaLo/Data-Science/blob/master/img/Statistics.png" width="900" height="150">
 
-## Courses
+## 🎓 Courses
 
 - **Udacity**:
   - [Intro to Descriptive Statistics](https://www.udacity.com/course/ud827) (Mathematics for Understanding Data) by Kaggle
   - [Intro to Inferential Statistics](https://www.udacity.com/course/ud201) (Making Predictions from Data) by Facebook Blueprint
 
-## YouTube
+## 🔴 YouTube
 
 - [Statistics Playlist 1](https://www.youtube.com/playlist?list=PL5901C68C96DFCAD1) by Professor Leonard
 - [Statistics](https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV) by The Organic Chemistry
 
-## Web Sites
+## 💻 Web Sites
 
 - [Statology](https://www.statology.org)
 - [Statistics By Jim](https://statisticsbyjim.com)
@@ -24,7 +24,7 @@
 | :---:         |          :--- |
 |[Statistics/ Mathematical Computing Notebooks](https://github.com/tirthajyoti/Stats-Maths-with-Python)|General statistics, mathematical programming, and numerical/scientific computing scripts and notebooks in Python|
 
-## Frameworks
+## 🛠️ Frameworks
 
 | Title | Description |
 | :---:         |          :--- |
@@ -33,17 +33,17 @@
 |[ArviZ: Exploratory analysis of Bayesian models](https://arviz-devs.github.io/arviz/#)|ArviZ is a Python package for exploratory analysis of Bayesian models. Includes functions for posterior analysis, data storage, sample diagnostics, model checking, and comparison.|
 |[PyStan](https://pystan.readthedocs.io/en/latest/)|PyStan is a Python interface to Stan, a package for Bayesian inference.|
 
+-------
 
+# 💠 Terminology and Methods
 
-## Terminology and Methods
-
-### Sampling
+## 🔹 Sampling
 
 - [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
 
 ----------------------------
 
-### Errors
+## 🔹 Errors
 
 | Title | Description, Information |
 | :---:         |          :--- |
@@ -61,62 +61,72 @@
 |Weighted Mean Absolute Percentage Error (wMAPE)|<ul><li>[Calculating demand forecast accuracy](https://en.wikipedia.org/wiki/Demand_forecasting#Calculating_demand_forecast_accuracy)</li></ul>|
 |[Approximation error](https://en.wikipedia.org/wiki/Approximation_error)|<ul><li>The approximation error in a data value is the discrepancy between an exact value and some approximation to it. This error can be expressed as an absolute error (the numerical amount of the discrepancy) or as a relative error (the absolute error divided by the data value).</li></ul>|
 
-#### Other Errors
+
+### 🟦 Other Errors
 
 | Title | Description, Information |
 | :---:         |          :--- |
 |[Forecast Error (or Residual Forecast Error)](https://en.wikipedia.org/wiki/Forecast_error)|The forecast error is calculated as the expected value minus the predicted value. This is called the **residual error of the prediction**.|
 |Mean Forecast Error (or Forecast Bias) |Mean forecast error is calculated as the average of the forecast error values.|
 |[Tracking signal](https://en.wikipedia.org/wiki/Tracking_signal)|Monitors any forecasts that have been made in comparison with actuals, and warns when there are unexpected departures of the outcomes from the forecasts.|
+|Compounding Error|<p>Compounding error is when deviation of one feature, or the process used to measure that feature, directly affects the measurement of another feature.</p><p>In the training process, there’s never a chance to see compounding errors. The model is trained to predict the next token based on a human-generated context. If it gets one token wrong by generating a bad distribution, the next token uses the “correct” human generated context independent of the last prediction. During generation it is forced to complete its own automatically-generated context, a setting it has not considered during training.</p><ul><li>[The Affects of Compounding Error](https://www.havenmetrology.com/the-power-of-compounding-error/#:~:text=Compounding%20error%20is%20when%20deviation,the%20measurement%20of%20another%20feature.)</li><li>[What are Compounding Errors and How are They Affecting Your Business?](https://www.quadient.com/en-int/blog/what-are-compounding-errors-and-how-are-they-affecting-your-business)</li></ul>|
 
-#### 📄 Articles
+----
+
+## 🔹 Metrics
+
+| Title | Description, Information |
+| :---:         |          :--- |
+|[Mean Reciprocal Rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)|<p>The mean reciprocal rank is a statistic measure for evaluating any process that produces a list of possible responses to a sample of queries, ordered by probability of correctness.</p><p>This metric can help distinguish between answers that were close to being right or far from being right (e.g., a score of 1 if the correct document is rank 1, a score of ½ if rank 2, a score of ⅓ if rank 3, etc.)</p>|
+
+### 📰 Articles
 
 - [Ways to Evaluate Regression Models](https://towardsdatascience.com/ways-to-evaluate-regression-models-77a3ff45ba70)
 - [Choosing the correct error metric: MAPE vs. sMAPE](https://towardsdatascience.com/choosing-the-correct-error-metric-mape-vs-smape-5328dec53fac)
 - [Time Series Forecast Error Metrics You Should Know](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
 
-#### :octocat: GitHub
+### :octocat: GitHub
 
 - [Regression Metrics Python](https://github.com/mtortora-ai/Regression-Metrics-Python)
 
-#### 📃 Papers
+### 📄 Papers
 
 - [Another look at measures of forecast accuracy](https://robjhyndman.com/papers/mase.pdf) by Rob J Hyndman
 
-### Metric/Error choice
+## 🔹 Metric/Error choice
 
-#### 📄 Articles
+### 📰 Articles
 
 - [Metric choice](https://stephenallwright.com/metric-choice/)
 - [Understanding metric values](https://stephenallwright.com/metric-values/)
 
-### Accuracy (Error) Rate
+## 🔹 Accuracy (Error) Rate
 
-#### 📄 Articles
+### 📰 Articles
 
 - [What is Accuracy Rate?](https://kimola.com/support/cognitive/what-is-accuracy-rate)
 - [Accuracy (error rate)](https://deepai.org/machine-learning-glossary-and-terms/accuracy-error-rate)
 
-### Margin of Error
+## 🔹 Margin of Error
 
 A statistical value that determines, with a certain degree of probability, the maximum value by which the results of the sample differ from the results of the general population. It is half the length of the confidence interval.
 
 > **Предельная ошибка выборки** (также _предельная погрешность выборки_) — статистическая величина, определяющая, с определенной степенью вероятности, максимальное значение, на которое результаты выборки отличаются от результатов генеральной совокупности. Составляет половину длины доверительного интервала.
 
-#### Articles
+### 📰 Articles
 
 - [Margin of error](https://en.wikipedia.org/wiki/Margin_of_error), Wikipedia
 
-### Confidence interval
+## 🔹 Confidence interval
 
-#### Confidence limits
+### 🔺 Confidence limits
 
 - [Confidence Limits: Definition](https://www.statisticshowto.com/confidence-limits-definition/)
 - [Confidence Limits for the Mean](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm)
 
-#### Using the Empirical Rule (95-68-34 or (50-34-14)
+### 🔺 Using the Empirical Rule (95-68-34 or (50-34-14)
 
-#### 📄 Articles
+#### 📰 Articles
 
 - [Confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
 - [Confidence interval](https://en.wikipedia.org/wiki/Confidence_interval)
@@ -126,20 +136,20 @@ A statistical value that determines, with a certain degree of probability, the m
 
 -----
 
-### Standard score
+## 🔹 Standard score
 
-#### 📄 Articles
+### 📰 Articles
 
 - [Standard score](https://en.wikipedia.org/wiki/Standard_score)
 
 -----
 
 
-### Confusion matrix
+## 🔹 Confusion matrix
 
 - [Confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
 
-#### Tools
+### 🛠️ Tools
 
 | Title | Description, Information |
 | :---:         |          :--- |
@@ -147,14 +157,14 @@ A statistical value that determines, with a certain degree of probability, the m
 
 ----------------------------
 
-### T-test
+## 🔹 T-test
 
 - [Two Sample t Test: unequal variances](https://www.real-statistics.com/students-t-distribution/two-sample-t-test-uequal-variances/)
 - [Paired Sample T-Test](https://www.statisticssolutions.com/manova-analysis-paired-sample-t-test/?__cf_chl_jschl_tk__=7ce798a5221b0a7eb6119acd7006f1e2f0ea6e92-1614442595-0-Ace7FKLX7nRAMdKS3WD_p10PXYZDFsjL3E6A8v04mSXz_4kAm3WVSWTIzxDkNB_doIOT3tyjZtGm5xzCcO-3f_nOjrFHo-9tO_iOJdrmElBH3iIvume-oCCjIuCCzTs-NXNK1MWtdQll1vZh_GndYerOskzJFCl2uhb5qXFqLzFjPDJTZZ_HzAiEXWamrM2vf5vKYKryqJf7IMcFs9MJ1viq8NRpBQrsaLlKFRiawn8USDgFAMZ5pKdjPgPzIacGVMScGiVh8BlpYMt-2RqAPxTxI9YsQkIp-vsKfdaCuI99X_-gMb4BF98TS7kmqwNrnWsYKg1kqZYe1XNxTsZ67h_xds22jvzx9OOtTdE--gnT)
 
 ----------------------------
 
-### Estimation
+## 🔹 Estimation
 
 | Title | Description |
 | :---: | :--- |
@@ -163,19 +173,19 @@ A statistical value that determines, with a certain degree of probability, the m
 
 ----------------------------
 
-# Models
+# 💠 Models
 
-## Generalized additive model
+## 🔹 Generalized additive model
 
-### 📄 Articles
+### 📰 Articles
 
 - [Generalized additive model](https://en.wikipedia.org/wiki/Generalized_additive_model)
 
 ------
 
-# Bayesian Statistics
+# 💠 Bayesian Statistics
   
-## **Bayesian modeling and related books**:
+## 📚 Bayesian modeling and related books:
 
 - [The Elements of Statistical Learning: Data Mining, Inference, and Prediction.](https://web.stanford.edu/~hastie/ElemStatLearn/)
 - C.P. Robert: The Bayesian choice (advanced)
@@ -188,15 +198,17 @@ A statistical value that determines, with a certain degree of probability, the m
 - [Mathematical Statistics](https://books.google.cz/books/about/Mathematical_Statistics.html?id=_bEPBwAAQBAJ&source=kp_cover&redir_esc=y)
 - [Think Stats 2e](https://greenteapress.com/wp/think-stats-2e/)
 
-### 📄 Articles
+### 📰 Articles
 
 - [Variational Bayesian methods](https://en.wikipedia.org/wiki/Variational_Bayesian_methods)
 
-# Causal Inference
+----
+
+# 💠 Causal Inference
 
 > Correlation does not imply causation
 
-## More online lectures, courses, papers, books, etc. on Causality:
+## 🎓 More online lectures, courses, papers, books, etc. on Causality:
 
 - **Coursera:**
   - [A Crash Course in Causality: Inferring Causal Effects from Observational Data](https://www.coursera.org/learn/crash-course-in-causality)
@@ -222,13 +234,13 @@ A statistical value that determines, with a certain degree of probability, the m
 - [Greedy Fast Causal Inference (GFCI) Algorithm for Continuous Variables](https://www.ccd.pitt.edu/wiki/index.php/Greedy_Fast_Causal_Inference_(GFCI)_Algorithm_for_Continuous_Variables)
 - [awesome-causality-algorithms](https://github.com/rguo12/awesome-causality-algorithms)
 
-## Casual Machine Learning (Papers)
+## 📄 Casual Machine Learning (Papers)
 
 - [Causal Decision Trees](https://arxiv.org/pdf/1508.03812.pdf), Jiuyong Li, Saisai Ma, Thuc Duy Le, Lin Liu and Jixue Liu, 2015
 - [Discovery of Causal Rules Using Partial Association](https://ieeexplore.ieee.org/document/6413892), 2012
 - [Causal Inference in Data Science From Prediction to Causation](https://www.datacouncil.ai/talks/causal-inference-in-data-science-from-prediction-to-causation), 2016
 
-## Experimental designs for casual learning:
+## 🔹 Experimental designs for casual learning:
 
 - Matching
 - Incident user design
