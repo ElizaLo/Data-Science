@@ -1,4 +1,4 @@
-# Data Science Interview
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Science_Interview.png" width="1050" height="150"/>
 
 ## 📚 Books
 
@@ -13,11 +13,11 @@
 
 -----
 
-## Main skills required by the data scientists vacancies
+# 💠 Main skills required by the data scientists vacancies
 
 > The [research](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/data-scientists-skills-2020-1/) made by **Faculty of Applied Sciences at UCU**. Link on main [article](https://apps.ucu.edu.ua/en/articles-and-research/data-science-job-market-2020-1/).
 
-### Big Data Software Engineer  /  Data Engineer
+## 🔹 Big Data Software Engineer  /  Data Engineer
 
 1. Linear algebra. Calculus. Statistics and Probability Theory.
 2. Machine Learning Algorithms: regression, simulation, scenario analysis, modeling, clustering, decision trees, etc.
@@ -36,7 +36,7 @@
 15. Processing frameworks: Apache Spark (Pyspark/SparkR/sparklyr), Flink, Beam, Kafka streams
 16. Data pipeline and workflow management tools: Azkaban, Luigi, Airflow, etc.
 
-### Data Scientist
+## 🔹 Data Scientist
 
 1. Python (PyCharm, Pandas, NumPy, bs4, sklearn, scipy). R.
 2. Linear algebra. Calculus. Statistics.
@@ -49,7 +49,7 @@
 9. Processing frameworks: Hadoop, Spark.
 10. Business Intelligence Software (Power BI, Tableau, Qlik, Cognos Analytics).
 
-### Machine Learning Engineer
+## 🔹 Machine Learning Engineer
 
 1. Computer science fundamentals, algorithms, mathematics, linear algebra, probability, and statistics.
 2. Python (Pandas, Numpy, Scikit-Learn, Tensorflow, Keras).
@@ -61,7 +61,7 @@
 8. Processing frameworks: Apache Spark (Pyspark/SparkR/sparklyr)
 9. Cloud platforms (GCP, AWS).
 
-### Data Analyst 
+## 🔹 Data Analyst 
 
 1. Math, Statistics (regression, properties of distributions, statistical tests, and proper usage, etc.) and Probability Theory.
 2. Statistical programming software (R, Python, SAS, Matlab).
@@ -71,7 +71,7 @@
 6. MS Excel.
 7. A/B  testing.
 
-### NLP Engineer / NLP Data Scientist 
+## 🔹 NLP Engineer / NLP Data Scientist 
 
 1. Python (sklearn, nltk, gensim, spacy, Tensor Flow, PyTorch, Keras) and Python Data Science toolkit: Jupyter Notebook, Pandas, Numpy, Matplotlib/Seaborn, Scipy.
 2. Databases: SQL and NoSQL (MySQL, MongoDB, PostgreSQL ) .
@@ -81,7 +81,7 @@
 6. Machine Learning techniques and concepts (regression, trees, SVM, ensembles) for NLP tasks.
 
 
-### CV Engineer
+## 🔹 CV Engineer
 
 1. Linear Algebra. Geometry. Calculus. Statistics and Probability theory.
 2. Python3, numpy, pandas, seaborn, scipy.
@@ -95,7 +95,7 @@
 10. Big Data (Hadoop, Spark, Hive).
 
 
-### Deep Learning Engineer  / Deep Learning Research Engineer
+## 🔹 Deep Learning Engineer  / Deep Learning Research Engineer
 
 1. Python3: numpy, scikit-learn, pandas, scipy.
 2. Statistics (regression, properties of distributions, statistical tests, and proper usage, etc.) and probability theory.
@@ -106,16 +106,16 @@
 
 -----
 
-## The Data Science Interview Preparation 
+# 💠 The Data Science Interview Preparation 
 
-### Typical interview construction
+## 🔹 Typical interview construction
 
 1. Software Engineering (for more visit [Interview Preparation](https://github.com/ElizaLo/Interview-Preparation) Repository)
 2. Applied Statistics
 3. Machine Learning
 4. Data Wrangling, Manipulation and Visualisation
 
-### 2. Applied Statistics
+## 🔸 2. Applied Statistics
 
 - **Descriptive statistics** (What distribution does my data follow, what are the modes of the distribution, the expectation, the variance)
 - **Probability theory** (Given my data follows a Binomial distribution, what is the probability of observing 5 paying customers in 10 click-through events)
