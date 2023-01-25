@@ -1,10 +1,10 @@
-# Data Analysis
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Analysis.png" width="1050" height="150"/>
 
-## To check:
+# ✅ To check:
 
 - Is the data  **Independent and Identically Distributed** (i.i.d.)?
 
-## Tools
+# 🛠️ Tools
 
 | Title | Description |
 | :---:         |          :--- |
@@ -12,15 +12,15 @@
 |[pandas_profiling](https://pandas-profiling.github.io/pandas-profiling/docs/master/rtd/index.html)|Generates profile reports from a pandas `DataFrame`.|
 |[Great Expectations](https://github.com/great-expectations/great_expectations)|Great Expectations helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.|
 
-### Visualization
+## 📈 Visualization
 
 | Title | Description |
 | :---:         |          :--- |
 |[Vega-Altair: Declarative Visualization in Python](https://altair-viz.github.io)|With Vega-Altair, you can spend more time understanding your data and its meaning. Altair’s API is simple, friendly and consistent and built on top of the powerful Vega-Lite visualization grammar. This elegant simplicity produces beautiful and effective visualizations with a minimal amount of code.|
 
-## How To Select Columns Using Prefix/Suffix of Column Names in Pandas?
+# ❓ How To Select Columns Using Prefix/Suffix of Column Names in Pandas?
 
-### Select Columns with a Prefix using Pandas filter
+## 🔹 Select Columns with a Prefix using Pandas filter
 
 For example, if we are interested in selecting columns starting with `“lifeExp”`, the regular expression for the pattern is `“^lifeExp”`. In the regular expression `“^”` represents we are interested in patterns that starts with. So our argument for `“regexp”` will be `regexp=’^lifeExp’`.
 
@@ -28,7 +28,7 @@ For example, if we are interested in selecting columns starting with `“lifeExp
 df.filter(regex='^lifeExp',axis=1).head()
 ```
 
-### Select Columns with a suffix using Pandas filter
+## 🔹 Select Columns with a suffix using Pandas filter
 
 Let us select columns with names ending with a suffix in Pandas dataframe using filter function. As before, we need to come up with regular expression for the pattern we are interested in. Here our pattern is column names ending with a suffix.
 
@@ -40,12 +40,12 @@ We use `regex=’1957$’` as argument to the Pandas’ filter function and addi
 df.filter(regex='1957$',axis=1).head()
 ```
 
-#### Article
+### 📰 Articles
 
 - [How To Select Columns Using Prefix/Suffix of Column Names in Pandas?](https://cmdlinetips.com/2019/04/how-to-select-columns-using-prefix-suffix-of-column-names-in-pandas/)
 
-## Missing Values
+# 💠 Missing Values
 
-### Atricles
+## 📰 Atricles
 
 - []()
