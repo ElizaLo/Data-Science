@@ -1,6 +1,6 @@
-# Data Warehouse
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Warehouse.png" width="1050" height="150"/>
 
-## ETL 
+# 🗄️ ETL 
 
 | Title | Description |
 | :---         |          :--- |
