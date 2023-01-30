@@ -1,6 +1,6 @@
-# Data Science Projects
+<img src="https://raw.githubusercontent.com/ElizaLo/Data-Science/master/img/Data_Science%20_Projects.png" width="1050" height="150"/>
 
-## :octocat: GitHub Repositories
+# :octocat: GitHub Repositories
 
 | Title | Description, Information |
 | :---:         |          :--- |
