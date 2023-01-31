@@ -39,3 +39,4 @@ Synthetic data is information that's artificially generated rather than produced
 | Title | Description, Information |
 | :---:         |          :--- |
 |[static-frame](https://github.com/InvestmentSystems/static-frame)|Immutable and grow-only Pandas-like DataFrames with a more explicit and consistent interface.|
+|[Snorkel](https://github.com/snorkel-team/snorkel)|A system for quickly generating training data with weak supervision|
