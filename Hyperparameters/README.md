@@ -2,7 +2,9 @@
 
 # ⚙️ Hyperparameters tuning
 
+## 📰 Articles
 
+- [Hyperparameter Tuning in Python: a Complete Guide](https://neptune.ai/blog/hyperparameter-tuning-in-python-complete-guide)
 
 ## 🛠️ Tools
 
