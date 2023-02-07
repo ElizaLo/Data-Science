@@ -160,6 +160,7 @@
 - [The Netflix Tech Blog](https://netflixtechblog.com)
 - [Uber Engineering](https://eng.uber.com)
 - [NVIDIA Developer](https://developer.nvidia.com)
+- [The Stanford AI Lab Blog](https://ai.stanford.edu/blog/)
 
 ### Other Blogs
 
