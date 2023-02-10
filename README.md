@@ -157,6 +157,7 @@
   - > A curated list of engineering blogs
 - [Amazon | Science](https://www.amazon.science)
 - [AWS Machine Learning Blog](https://aws.amazon.com/ru/blogs/machine-learning/)
+- [Meta AI](https://ai.facebook.com)
 - [The Netflix Tech Blog](https://netflixtechblog.com)
 - [Uber Engineering](https://eng.uber.com)
 - [NVIDIA Developer](https://developer.nvidia.com)
