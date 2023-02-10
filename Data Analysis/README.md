@@ -4,6 +4,10 @@
 
 - Is the data  **Independent and Identically Distributed** (i.i.d.)?
 
+# :books: Books
+
+- [Hands on Exploratory Data analysis with Python](https://github.com/PacktPublishing/Hands-on-Exploratory-Data-Analysis-with-Python), published by Packt
+
 # 🛠️ Tools
 
 | Title | Description |
