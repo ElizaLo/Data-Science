@@ -101,9 +101,11 @@
 
 | Title | Description |
 | :---:         |          :--- |
-|[Weight Watcher](https://github.com/CalculatedContent/WeightWatcher)|WeightWatcher (WW): is an open-source, diagnostic tool for analyzing Deep Neural Networks (DNN), without needing access to training or even test data.|
+|||
 
 ## 📄 Papers 
+
+- :octocat: [papers-with-video](https://github.com/amitness/papers-with-video)
 
 | Title | Description, Information |
 | :---:         |          :--- |
