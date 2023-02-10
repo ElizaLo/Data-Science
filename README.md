@@ -95,6 +95,7 @@
 |[awesome-analytics-engineering](https://github.com/Victoriapm/awesome-analytics-engineering)|Awesome list of resources for analytics engineers.|
 |[Complete-Life-Cycle-of-a-Data-Science-Project](https://github.com/achuthasubhash/Complete-Life-Cycle-of-a-Data-Science-Project)| |
 |[Data Science Learning Path](https://github.com/data-folks/data-science-learning-path)|A complete guide to learn data science for beginners|
+|[Project Based Learning](https://github.com/practical-tutorials/project-based-learning/blob/master/README.md)|A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.|
 
 ## ⚙️ Tools
 
