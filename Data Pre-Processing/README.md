@@ -9,6 +9,9 @@
   - Outlier Detection with Standard Deviation
   - Outlier Detection with Percentiles
 - Binning
+- Data Manipulations
+  - Add String to Each Value in Column
+  - Drop Rows that Contain a Specific Value
 
 # 🔹 Cleaning Data
 
@@ -177,6 +180,29 @@ However, for categorical columns, the labels with low frequencies probably affec
   - [pandas.DataFrame.drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html)
 - [Dropping Rows And Columns In pandas Dataframe](https://chrisalbon.com/python/data_wrangling/pandas_dropping_column_and_rows/)
 - 
+
+# 🔹 Data Manipulations
+
+## 🔸 Add String to Each Value in Column
+
+```python
+df['my_column'] = 'some_string' + df['my_column'].astype(str)
+```
+
+📰 **Articles:**
+
+- [Pandas: How to Add String to Each Value in Column](https://www.statology.org/pandas-add-string-to-column/)
+
+## 🔸 Drop Rows that Contain a Specific Value
+
+```python
+#drop rows that contain specific 'value' in 'column_name'
+df = df[df.column_name != value]
+```
+
+📰 **Articles:**
+
+- [Pandas: How to Drop Rows that Contain a Specific Value](https://www.statology.org/pandas-drop-rows-with-value/)
 
 ------------------------------------
 
