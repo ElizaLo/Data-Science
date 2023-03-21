@@ -9,6 +9,7 @@
   - Outlier Detection with Standard Deviation
   - Outlier Detection with Percentiles
 - Binning
+- Drop Duplicates
 - Data Manipulations
   - Add String to Each Value in Column
   - Drop Rows that Contain a Specific Value
