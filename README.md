@@ -12,7 +12,7 @@
 
 > - [ ] For **Computer Vision** please check [Computer Vision](https://github.com/ElizaLo/Computer-Vision) repository.
 
-## 💠 Data Science Tasks 
+# 💠 Data Science Tasks 
 
 > Folders with all materials for specific task/domain
 
@@ -38,37 +38,39 @@
 - [Statistics](https://github.com/ElizaLo/Data-Science/tree/master/Statistics)
 - [Tools and Tips](https://github.com/ElizaLo/Data-Science/tree/master/Tools%20and%20Tips)
 
-## 👩🏻‍🏫 Educational Platforms
+# 👩🏻‍🏫 Educational Platforms
 
 - [OpenEDU](https://openedu.ru)
 
-## 🎓 University Courses
+# 🎓 University Courses
 
 | Title | Description |
 | :---:         |          :--- |
 |[MIT OpenCourseWare](https://ocw.mit.edu)|<ul><li>[MIT OpenCourseWare](https://www.youtube.com/c/mitocw) on YouTube</li></ul>|
 
-### Julia language
+# Julia language
 
 | Title | Description |
 | :---:         |          :--- |
 |[Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)|<ul><li>[MIT 18.S191 aka 6.S083 aka 22.S092, Fall 2020](https://computationalthinking.mit.edu/Fall20/)</li><li>[Spring 2021 / MIT 18.S191/6.S083/22.S092](https://computationalthinking.mit.edu/Spring21/)</li></ul>|
 
 
-### 🔢 Time Series
+## 🔢 Time Series
 
 | Title | Description |
 | :---:         |          :--- |
 |[MIT 18.S096 Topics in Mathematics w Applications in Finance](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/)|<ul><p>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</p><li>[Video lectures](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)</li></ul>|
 
-## 👩🏻‍🏫 Online Courses
+# 👩🏻‍🏫 Online Courses
 
 - [Специализация Наука о данных для руководителей](https://www.coursera.org/specializations/executive-data-science)
 - [Machine Learning Foundations](https://github.com/jonkrohn/ML-foundations)
   > Machine Learning Foundations: Linear Algebra, Calculus, Statistics & Computer Science
-- 
+- [DeepLearning.AI](https://www.deeplearning.ai)
+  - 📹 [DeepLearning.AI](https://www.youtube.com/@Deeplearningai/playlists) YouTube channel
+  - 📰 [DeepLearning.AI](https://www.deeplearning.ai/blog/)
 
-### :octocat: GitHub Repositories
+## :octocat: GitHub Repositories
 
 | Title | Description |
 | :---:         |          :--- |
@@ -77,8 +79,7 @@
 |[start-machine-learning](https://github.com/louisfb01/start-machine-learning)|A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2021 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques|
 |[Data Science Specialization, John Hopkins Coursera](https://github.com/mGalarnyk/datasciencecoursera)|Data Science Repo and blog for John Hopkins Coursera Courses. [Blog post - Blogging through the Data Science Specialization, John Hopkins Coursera](https://medium.com/@GalarnykMichael/blogging-through-the-data-science-specialization-john-hopkins-coursera-2ea63fb99ab5#.ckgc10iif)|
 
-
-## 📚 Books
+# 📚 Books
 
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781491962282/)
@@ -86,7 +87,7 @@
     - > A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.
 - 
 
-## :octocat: GitHub Repositories
+# :octocat: GitHub Repositories
 
 | Title | Description |
 | :---:         |          :--- |
@@ -97,13 +98,13 @@
 |[Data Science Learning Path](https://github.com/data-folks/data-science-learning-path)|A complete guide to learn data science for beginners|
 |[Project Based Learning](https://github.com/practical-tutorials/project-based-learning/blob/master/README.md)|A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.|
 
-## ⚙️ Tools
+# ⚙️ Tools
 
 | Title | Description |
 | :---:         |          :--- |
 |||
 
-## 📄 Papers 
+# 📄 Papers 
 
 - :octocat: [papers-with-video](https://github.com/amitness/papers-with-video)
 
@@ -112,7 +113,7 @@
 |[2021: A Year Full of Amazing AI papers- A Review / 📌 [work in progress...]](https://github.com/louisfb01/best_AI_papers_2021)|A curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code. [work in progress]|
 
 
-## 📜 Certifications
+# 📜 Certifications
 
 - [ ] [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate?hl=en)
 - [ ] [Certified Analytics Professional (CAP)](https://www.certifiedanalytics.org/)
@@ -131,7 +132,7 @@
 - [ ] [SAS Certified Big Data Professional](https://www.sas.com/en_us/certification/credentials/data-management/big-data-professional.html)
 - [ ] [SAS Certified Data Scientist](https://www.sas.com/ru_ua/certification/credentials/advanced-analytics/data-scientist.html)
 
-## 🗣️ Online Conferences, Meetups, Data Summer Schools
+# 🗣️ Online Conferences, Meetups, Data Summer Schools
 
 - Live Webinars & On-demand Recordings by [ODSC COMMUNITY](https://app.aiplus.training/bundles/odsc-webinars)
 - [Data Science fwdays'19](https://www.youtube.com/playlist?list=PLPcgQFk9n9y8CCapH9u99Va7Ufs5bVZZn&utm_source=medium_gid_ds20&utm_medium=youtube_video_ds19&utm_campaign=ds20_online) (playlist)
@@ -140,21 +141,21 @@
   - [Program](https://www.eeml.eu/program)
   - [Practical Sessions 2020](https://github.com/eemlcommunity/PracticalSessions2020), GitHub Repository
 
-## 🐦 Twitter
+# 🐦 Twitter
 
 - [Christopher Manning](https://twitter.com/chrmanning)
 - [Sebastian Ruder](https://twitter.com/seb_ruder)
 - [Prof. Sam Bowman](https://twitter.com/sleepinyourhat)
 
-## 🎧 Podcasts
+# 🎧 Podcasts
 
 - [Lex Fridman Podcast | Artificial Intelligence (AI)](https://podcasts.apple.com/ua/podcast/lex-fridman-podcast-artificial-intelligence-ai/id690305972?l)
 - [Machine Learning, Andrew Ng, Stanford](https://podcasts.apple.com/ua/podcast/machine-learning/id384233048?l)
 - [Awesome Data Podcasts](https://github.com/DataTalksClub/awesome-data-podcasts)
 
-## 🗞️ Blogs
+# 🗞️ Blogs
 
-### Companies Blogs
+## Companies Blogs
 
 - - :octocat: [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
   - > A curated list of engineering blogs
@@ -166,7 +167,7 @@
 - [NVIDIA Developer](https://developer.nvidia.com)
 - [The Stanford AI Lab Blog](https://ai.stanford.edu/blog/)
 
-### Other Blogs
+## Other Blogs
 
 - [Towards AI](https://towardsai.net/p/category/editorial)
   - [Tutorials](https://github.com/towardsai/tutorials) 
@@ -175,6 +176,7 @@
 - [Louis Bouchard | @What's AI - Making AI Accessible](https://www.louisbouchard.ai)
 - [Michael Galarnyk](https://medium.com/@GalarnykMichael)
 - [Data Science Dojo](https://online.datasciencedojo.com)
+- [DeepLearning.AI](https://www.deeplearning.ai/blog/)
 
 ## 📰 Articles
 
