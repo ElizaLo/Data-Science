@@ -205,6 +205,14 @@ df = df[df.column_name != value]
 
 - [Pandas: How to Drop Rows that Contain a Specific Value](https://www.statology.org/pandas-drop-rows-with-value/)
 
+## 🔸 Making a Subset
+
+- Choose specific rows and columns
+
+```python
+subset_df = df.iloc[[0,5,7],[1,2,3,4,5]]
+```
+
 ------------------------------------
 
 # 📰 Articles
