@@ -45,6 +45,10 @@
 
 ## 🔹 Errors
 
+Before we start, please keep in mind that **there is no silver bullet, no single best error metric**. The fundamental challenge is, that every statistical measure condenses a large number of data into a single value, so it only provides one projection of the model errors emphasizing a certain aspect of the error characteristics of the model performance _(Chai and Draxler 2014)_.
+
+Therefore it is better to have a more practical and pragmatic view and work with a selection of metrics that fit for your use case or project.
+
 | Title | Description, Information |
 | :---:         |          :--- |
 |[Standard deviation](https://en.wikipedia.org/wiki/Standard_deviation)|<ul><li>The standard deviation (SD) is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set,. In contrast, a high standard deviation indicates that the values are spread out over a broader range. The SD of predicted values helps in understanding the dispersion of values in different models.</li></ul>|
