@@ -110,7 +110,7 @@ The main advantage of scale dependent metrics is that they are usually **easy to
 
 ### 🔸 Mean Absolute Error (MAE)
 
-<img src="" width="1050" height="150"/>
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/MAE.png" width="304" height="105"/>
 
 The **Mean Absolute Error (MAE)** is calculated by taking the mean of the **absolute differences between the actual values** (also called _y_) **and the predicted values** (_y_hat_).
 
@@ -140,16 +140,46 @@ def mse(y, y_hat):
     return np.mean(np.square(y - y_hat))
 ```
 
-## 🔸 Root Mean Squared Error (RMSE)
+### 🔸 Root Mean Squared Error (RMSE)
 
-<img src="" width="1050" height="150"/>
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/RMSE.png" width="326" height="119"/>
 
-To avoid the MSE’s loss of its unit we can take the square root of it. The outcome is then a new error metric called the Root Mean Squared Error (RMSE).
-It comes with the same advantages as its siblings MAE and MSE. However, like MSE, it is also sensitive to outliers.
+To **avoid the MSE’s loss of its unit** we can take the square root of it. The outcome is then a new error metric called the Root Mean Squared Error (RMSE).
 
-Some authors like Willmott and Matsuura (2005) argue that the RMSE is an inappropriate and misinterpreted measure of an average error and recommend MAE over RMSE.
+It comes with the same **advantages** as its siblings MAE and MSE. However, like MSE, it is also **sensitive to outliers**.
 
-However, Chai and Drexler (2014) partially refuted their arguments and recommend RMSE over MAE for your model optimization as well as for evaluating different models where the error distribution is expected to be Gaussian.
+Some authors like _Willmott and Matsuura (2005)_ argue that the RMSE is an inappropriate and misinterpreted measure of an average error and recommend MAE over RMSE.
+
+However, Chai and Drexler (2014) partially refuted their arguments and **recommend RMSE over MAE for your model optimization** as well as for **evaluating different models where the error distribution is expected to be Gaussian**.
+
+## 🔹 Percentage Error Metrics
+
+As we know from the previous chapter, **scale dependent metrics are not suitable for comparing different time series**.
+
+Percentage Error Metrics solve this problem. They are **scale independent** and **used to compare forecast performance between different time series**. However, their **weak spots are zero values in a time series**. Then they become **infinite or undefined** which makes them not interpretable _(Hyndman 2006)_.
+
+### 🔸 Mean Absolute Percentage Error (MAPE)
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/MAPE.png" width="355" height="119"/>
+
+The mean absolute percentage error (MAPE) is one of the **most popular used error metrics** in time series forecasting. It is calculated by taking the average (mean) of the absolute difference between actuals and predicted values divided by the actuals.
+
+> _Please note, some MAPE formulas do not multiply the result(s) with 100. However, the MAPE is presented as a percentage unit so I added the multiplication._
+
+MAPE’s **advantages** are it’s **scale-independency** and **easy interpretability**. As said at the beginning, percentage error metrics can be used to compare the outcome of multiple time series models with different scales.
+
+However, MAPE also comes with some **disadvantages**. First, **it generates infinite or undefined values for zero or close-to-zero actual values** _(Kim and Kim 2016)_.
+
+Second, it also puts a **heavier penalty on negative than on positive errors** which leads to an **asymmetry** _(Hyndman 2014)_.
+
+And last but not least, MAPE **can not be used when using percentages make no sense**. This is for example the case when measuring temperatures. The units Fahrenheit or Celsius scales have relatively arbitrary zero points, and it makes no sense to talk about percentages _(Hyndman and Koehler, 2006)_.
+
+```python
+import numpy as np
+
+def mape(y, y_hat):
+    return np.mean(np.abs((y - y_hat)/y)*100)
+```
 
 ## 🔹 Metric/Error choice
 
