@@ -181,12 +181,69 @@ def mape(y, y_hat):
     return np.mean(np.abs((y - y_hat)/y)*100)
 ```
 
+### 🔸 Symmetric Mean Absolute Percentage Error (sMAPE)
+
+To **avoid the asymmetry** of the MAPE a new error metric was proposed. The **Symmetric Mean Absolute Percentage Error (sMAPE)**. The sMAPE is probably one of the **most controversial** error metrics, since not only different definitions or formulas exist but also critics claim that this metric **is not symmetric** as the name suggests _(Goodwin and Lawton, 1999)_.
+
+The original idea of an **“adjusted MAPE”** was proposed by _Armstrong (1985)_. However by his definition the **error metric can be negative or infinite** since the values in the denominator **are not set absolute** (which is then correctly mentioned as a disadvantage in some articles that follow his definition).
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/MAPE_formula.png" width="458" height="71"/>
+
+_Makridakis (1993)_ proposed a similar metric and called it SMAPE. His formula which can be seen below **avoids the problems Armstrong’s formula** had by setting the values in the denominator to absolute _(Hyndman, 2014)_.
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/sMAPE_%20Makridakis_formula.png" width="385" height="94"/>
+
+> _**Note:** Makridakis (1993) proposed the formula above in his paper “Accuracy measures: theoretical and practical concerns’’. Later in his publication (Makridakis and Hibbon, 2000) “The M3-Competition: results, conclusions and implications’’ he used Armstrong’s formula (Hyndman, 2014). This fact has probably also contributed to the confusion about SMAPE’s different definitions._
+
+The sAMPE is the average across all forecasts made for a given horizon. It’s **advantages** are that it **avoids MAPE’s problem of large errors** when y-values are close to zero and the large difference between the absolute percentage errors when y is greater than y-hat and vice versa. Unlike MAPE which has no limits, **it fluctuates between 0% and 200%** _(Makridakis and Hibon, 2000)_.
+
+For the **sake of interpretation** there is also a **slightly modified version of SMAPE** that ensures that the metric’s results **will be always between 0% and 100%**:
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/sMAPE_%20modified.png" width="385" height="94"/>
+
+The following code snippet contains the sMAPE metric proposed by _Makridakis (1993)_ and the modified version.
+
+```python
+import numpy as np
+
+# SMAPE proposed by Makridakis (1993): 0%-200%
+def smape_original(a, f):
+    return 1/len(a) * np.sum(2 * np.abs(f-a) / (np.abs(a) + np.abs(f))*100)
+
+
+# adjusted SMAPE version to scale metric from 0%-100%
+def smape_adjusted(a, f):
+    return (1/a.size * np.sum(np.abs(f-a) / (np.abs(a) + np.abs(f))*100))
+```
+
+As mentioned at the beginning, there are **controversies around the sMAPE**. And they are true. _Goodwin and Lawton (1999)_ pointed out that sMAPE **gives more penalties to under-estimates more than to over-estimates** _(Chen et al., 2017)_. _Cánovas (2009)_ proofs this fact with an easy example.
+
+- **_Table 1:_** Example with a **symmetric sMAPE**:
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/symmetric_sMAPE.png" width="632" height="127"/>
+
+- **_Table 2:_** Example with an **asymmetric sMAPE**:
+
+<img src="https://github.com/ElizaLo/Data-Science/blob/master/Statistics/img/asymmetric_sMAPE.png" width="632" height="127"/>
+
+Starting with **_Table 1_** we have two cases. In **case 1** our actual value **_y_** is **100** and the prediction **_y_hat_** **150**. This leads to a sMAPE value of 20 %. **Case 2** is the opposite. Here we have an actual value _**y**_ of **150** and a prediction **_y_hat_** of **100**. This also leads to a sMAPE of 20 %. 
+
+Let us now have a look at **_Table 2_**. We also have here two cases and as you can already see the sMAPE values **are not the same anymore**. The second case **leads to a different SMAPE value** of 33 %.
+
+**Modifying the forecast while holding fixed actual values and absolute deviation do not produce the same sMAPE’s value. Simply biasing the model without improving its accuracy should never produce different error values _(Cánovas, 2009)_.**
+
 ## 🔹 Metric/Error choice
+
+- As you have seen there is **no silver bullet, no single best error metric**. Each category or metric has its **advantages** and **weaknesses**. So it **always depends on your individual use case** or **purpose and your underlying data**. It is important **not to just look at one single error metric** when evaluating your model’s performance. It is necessary to measure several of the main metrics described above in order to analyze several parameters such as deviation, symmetrical deviation and largest outliers.
+- If all series **are on the same scale**, the **data preprocessing procedures** were performed (data cleaning, anomaly detection) and the task is **to evaluate the forecast performance** then the **MAE can be preferred** because it is simpler to explain _(Hyndman and Koehler, 2006; Shcherbakov et al., 2013)_.
+- _Chai and Draxler (2014)_ recommend to **prefer RMSE over MAE** when the error distribution is **expected to be Gaussian**.
+- In case the data **contain outliers** it is advisable to apply scaled measures like **MASE**. In this situation the **horizon should be large enough, no identical values should be**, the normalized factor **should be not equal to zero** _(Shcherbakov et al., 2013)_.
 
 ### 📰 Articles
 
 - [Metric choice](https://stephenallwright.com/metric-choice/)
 - [Understanding metric values](https://stephenallwright.com/metric-values/)
+- [Time Series Forecast Error Metrics You Should Know](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
 
 ## 🔹 Accuracy (Error) Rate
 
