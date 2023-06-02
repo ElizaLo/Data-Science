@@ -277,13 +277,85 @@ Let us now have a look at **_Table 2_**. We also have here two cases and as you 
 
 ## 🔹 Margin of Error
 
+The **margin of error** is defined a the [range](https://www.statisticshowto.com/types-of-functions/domain-and-range-of-a-function/) of values below and above the [sample statistic](https://www.statisticshowto.com/sample-statistic-definition-examples/) in a [confidence interval](https://www.statisticshowto.com/probability-and-statistics/confidence-interval/). The confidence interval is a way to show what the [**uncertainty**](https://www.statisticshowto.com/uncertainty-in-statistics/) is with a certain [statistic](https://www.statisticshowto.com/statistic/) _(i.e. from a poll or survey)_.
+
 A statistical value that determines, with a certain degree of probability, the maximum value by which the results of the sample differ from the results of the general population. It is half the length of the confidence interval.
 
 > **Предельная ошибка выборки** (также _предельная погрешность выборки_) — статистическая величина, определяющая, с определенной степенью вероятности, максимальное значение, на которое результаты выборки отличаются от результатов генеральной совокупности. Составляет половину длины доверительного интервала.
 
+**_Examples:_**
+
+- _For example,_ a survey indicates that 72% of respondents favor Brand A over Brand B with a 3% margin of error. In this case, the actual population percentage that prefers Brand A likely falls within the range of 72% ± 3%, or 69 – 75%.
+- A margin of error tells you how many percentage points your results will differ from the real population value. For example, a 95% confidence interval with a 4 percent margin of error means that your statistic will be within 4 percentage points of the real population value 95% of the time.
+
+A **smaller margin of error** suggests that **the survey’s results will tend to be close to the correct values**. Conversely, **larger MOEs** indicate that **the survey’s estimates can be further away from the population values**.
+
+The margin of error is influenced by several factors, including the sample size, variability in the data, and the desired level of confidence. A larger sample size generally results in a smaller margin of error, indicating a more precise estimate. Similarly, a higher level of confidence requires a larger margin of error to account for the increased certainty.
+
+The margin of error provides a measure of the precision and reliability of a sample-based estimate. It helps researchers and analysts interpret and communicate the level of confidence and uncertainty associated with the estimated values.
+
+The code calculates the error (residual) between the actual and predicted values and adds it as a new column 'Error' in the DataFrame. Then, it calculates the mean and standard deviation of the error.
+
+Next, you specify the desired confidence level _(e.g., 95% confidence level)_ and use the `stats.norm.ppf` function from the `scipy.stats` module to calculate the critical value based on the confidence level. Finally, the margin of error is computed by multiplying the critical value by the standard error, which is the standard deviation divided by the square root of the number of observations.
+
+```python
+import numpy as np
+import pandas as pd
+import scipy.stats as stats
+
+# Example DataFrame with actual and predicted values
+df = pd.DataFrame({'Actual': [10, 15, 20, 25, 30],
+                   'Predicted': [12, 18, 22, 28, 32]})
+
+# Calculate the error (residual) between actual and predicted values
+df['Error'] = df['Actual'] - df['Predicted']
+
+# Calculate the mean and standard deviation of the error
+error_mean = df['Error'].mean()
+error_std = df['Error'].std()
+
+# Define the desired confidence level (e.g., 95%)
+confidence_level = 0.95
+
+# Calculate the critical value based on the confidence level
+z_score = stats.norm.ppf((1 + confidence_level) / 2)
+
+# Calculate the margin of error
+margin_of_error = z_score * (error_std / np.sqrt(len(df)))
+
+print('Margin of Error:', margin_of_error)
+```
+The formula to calculate the margin of error is: **Margin of Error = Critical Value * Standard Error**
+
+Here's an example code that calculates the margin of error given a sample size, standard deviation, and confidence level:
+
+```python
+import scipy.stats as stats
+import math
+
+# Example variables
+sample_size = 500
+standard_deviation = 0.05
+confidence_level = 0.95
+
+# Calculate critical value
+z_score = stats.norm.ppf((1 + confidence_level) / 2)  # For a two-tailed test
+critical_value = z_score * standard_deviation / math.sqrt(sample_size)
+
+# Calculate margin of error
+margin_of_error = critical_value * standard_deviation
+
+print('Margin of Error:', margin_of_error)
+```
+
+In this example, `sample_size` represents the size of the sample, `standard_deviation` represents the standard deviation of the population (or an estimate if it is unknown), and `confidence_level` represents the desired level of confidence _(e.g., 0.95 for 95% confidence)_. The code uses the `stats.norm.ppf` function from the `scipy.stats` module to calculate the critical value based on the confidence level. It then multiplies the critical value by the standard deviation divided by the square root of the sample size to calculate the margin of error.
+
 ### 📰 Articles
 
 - [Margin of error](https://en.wikipedia.org/wiki/Margin_of_error), Wikipedia
+- [Margin of Error: Formula and Interpreting](https://statisticsbyjim.com/hypothesis-testing/margin-of-error/)
+- [Margin of Error: Definition, Calculate in Easy Steps](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/)
+- [Margin of Error: Definition + Easy Calculation with Examples](https://www.questionpro.com/blog/margin-of-error/)
 
 ## 🔹 Confidence interval
 
